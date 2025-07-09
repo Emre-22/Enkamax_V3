@@ -8,8 +8,8 @@ import { Menu,X } from "lucide-react";
 const navItems = [
     {name: "Home", href:"#home"},
     {name: "About", href:"#about"},
-    {name: "Industries", href:"#Industries"},
-    {name: "Services", href:"#Services"},
+    {name: "Industries", href:"#industries"},
+    {name: "Services", href:"#services"},
     {name: "Contact", href:"#contact"},
 ]
 
@@ -26,8 +26,8 @@ export const Navbar = () =>{
     },[])
 
     return (
-    <nav className={cn("fixed w-full h-[72px] z-40 transition-[padding,background-color]  duration-300 bg-white flex items-center",
-        isScrolled ? "h-[72px] bg-white/80 shadow-xs" : "h-[72px]",
+    <nav className={cn("fixed w-full z-40 transition-[padding,background-color]  duration-300 bg-white  flex items-center",
+        isScrolled ? "py-5 bg-white/80 shadow-xs" : "py-8",
         isMenuOpen ? "" : "backdrop-blur-md" )}
     >
         <div className = "container mx-auto px-4 flex items-center justify-between" >
@@ -39,7 +39,7 @@ export const Navbar = () =>{
             {/* desktop nav */}
             <div className="hidden md:flex space-x-8">
                 {navItems.map((item,key)=>(
-                    <a key={key} href={item.href} className="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300 border-b-2 border-transparent hover:border-amber-200">{item.name}</a>
+                    <a key={key} href={item.href} className="text-gray-600 hover:text-teal-600 font-medium transition-colors duration-300 border-b-2 border-transparent hover:border-amber-200">{item.name}</a>
                 ))}
             </div>
             {/* mobile nav */}
@@ -50,7 +50,7 @@ export const Navbar = () =>{
                     : <Menu className="h-10 w-10" />}
                 </button>
 
-            <div className={cn("fixed inset-0 bg-blue-950/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-none  md:hidden",
+            <div className={cn("fixed inset-0 bg-teal-900/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-none  md:hidden",
                             isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none")}>
                 <div className="flex flex-col space-y-8 text-xl">
                     {navItems.map((item,key)=>(

@@ -1,6 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { NotFound } from "./pages/NotFound"
+import { RealEstate } from "./pages/RealEstate";
+import { Hospitality } from "./pages/Hospitality";
+import { UHNW } from "./pages/UHNW";
+import { FamilyOffices } from "./pages/FamilyOffices";
+import { Tourism } from "./pages/Tourism";
+
 
 function App() {
   return (
@@ -8,6 +14,13 @@ function App() {
       <BrowserRouter basename="/Enkamax_V3"> 
         <Routes>
           <Route index element = {<Home />}/>
+          
+          <Route path="/Industries/RealEstate" element={<RealEstate />} />
+          <Route path="/Industries/Hospitality" element={<Hospitality />} />
+          <Route path="/Industries/UHNW" element={<UHNW />} />
+          <Route path="/Industries/FamilyOffices" element={<FamilyOffices />} />
+          <Route path="/Industries/Tourism" element={<Tourism />} />
+          
           <Route path = "*" element = {<NotFound />}/>
         </Routes>
       </BrowserRouter>
