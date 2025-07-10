@@ -2,7 +2,7 @@ import RealEstate from "@/assets/RealEstate.jpg"
 import LargeHouse from "@/assets/LargeHouse.jpg"
 import Pattern from "@/assets/Pattern.jpg"
 import { ArrowRight } from 'lucide-react';
-
+import { Link } from "react-router-dom";
 const statistics = [
     {
         title:"Candidates still working at where they started",
@@ -36,14 +36,14 @@ export const AboutSection = () =>{
 
             </div>
 
-            <div className=" w-full h-140 flex   lg:flex-row flex-col lg:h-70 items-center justify-center shadow-2xl">
+            <div className=" w-full h-140 flex   lg:flex-row flex-col lg:h-70 items-center justify-center shadow-md">
                 <a href="#services" className="w-full flex flex-col  bg h-full ">
                     <div style={{ backgroundImage: `url(${LargeHouse})`, }} className="bg-amber-400 hover:brightness-110 transition-all duration-300 bg-cover bg-no-repeat bg-center w-full h-full"></div>
-                    <div className="bg-yellow-400  flex items-center w-full h-15"><h  className="text-bold decoration-transparent  hover:decoration-white duration-300 underline underline-offset-4 transition-colors text-white text-lg lg:text-2xl px-10 ">Explore the industries we are in!</h><ArrowRight size={34} className="text-white absolute right-5"/></div>
+                    <div className="bg-yellow-400  flex items-center w-full h-15"><h1  className="text-bold decoration-transparent  hover:decoration-white duration-300 underline underline-offset-4 transition-colors text-white text-lg lg:text-2xl px-10 ">Explore the industries we are in!</h1><ArrowRight size={34} className="text-white absolute right-5"/></div>
                 </a>
                 <a href="#services" className="w-full flex flex-col    h-full">
                     <div style={{ backgroundImage: `url(${RealEstate})` }} className="bg-amber-400 hover:brightness-110 transition-all duration-300  bg-cover bg-no-repeat bg-center w-full h-full"></div>
-                    <div className="bg-gray-500 flex items-center w-full h-15"><h  className="text-bold decoration-transparent  hover:decoration-white duration-300  underline underline-offset-4 transition-colors text-white text-lg lg:text-2xl px-10 ">Learn more about our services!</h><ArrowRight size={34} className="text-white absolute right-5" /></div>
+                    <div className="bg-gray-500 flex items-center w-full h-15"><h1  className="text-bold decoration-transparent  hover:decoration-white duration-300  underline underline-offset-4 transition-colors text-white text-lg lg:text-2xl px-10 ">Learn more about our services!</h1><ArrowRight size={34} className="text-white absolute right-5" /></div>
                 </a>
             </div>
 
@@ -57,7 +57,32 @@ export const AboutSection = () =>{
             </div>
 
 
-            
+
+
+            <div className=" justify-center items-center text-center container">
+                <h1 className="text-3xl mask-radial-from-75 text-teal-900 font-medium">What Drives Us: The Core Values of Enkamax</h1>
+                <div className="flex justify-between flex-col xl:flex-row py-24 gap-16">
+                    <div className="flex shadow-center flex-col gap-5 rounded-4xl p-16">
+                        <h1 className="text-2xl text-gray-700 font-medium">Bespoke</h1>
+                        <p className="text-lg text-gray-700 font-medium">We understand that one size does not fit all when it comes to recruitment and that’s why we offer a bespoke service, tailoring all of our partners specific needs. We have a passionate and experienced team that set out to achieve excellence in all of the services we provide.</p>
+                    </div>
+                    <div className="flex shadow-center flex-col gap-5 rounded-4xl p-16">
+                        <h1 className="text-2xl text-gray-700 font-medium">Bespoke</h1>
+                        <p className="text-lg text-gray-700 font-medium">We understand that one size does not fit all when it comes to recruitment and that’s why we offer a bespoke service, tailoring all of our partners specific needs. We have a passionate and experienced team that set out to achieve excellence in all of the services we provide.</p>
+                    </div>
+                    <div className="flex shadow-center flex-col gap-5 rounded-4xl p-16">
+                        <h1 className="text-2xl text-gray-700 font-medium">Bespoke</h1>
+                        <p className="text-lg text-gray-700 font-medium">We understand that one size does not fit all when it comes to recruitment and that’s why we offer a bespoke service, tailoring all of our partners specific needs. We have a passionate and experienced team that set out to achieve excellence in all of the services we provide.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+       
+
+
+
             <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
                 <div className="container  flex flex-col gap-16 p-16">
 
@@ -93,21 +118,22 @@ export const AboutSection = () =>{
                 </div>
             </div>
 
-            <div id="contact" className="flex flex-col md:flex-row container scroll-m-80 my-40">
-                <div  className="h-50 w-full  flex flex-col gap-4 items-center justify-center">
+            <div id="contact" className="flex flex-col  md:flex-row container scroll-m-80 my-40">
+                <div  className="h-50 w-full  flex flex-col gap-4 items-center py-4 justify-center">
                     <h1 className="text-3xl  font-medium">Let's talk through the details together!</h1>
                     <p className="text-xl text-gray-500 font-medium">Contact us if you still have any questions or feedback.</p>
                 </div>
-                <div className="border-t-5   md:border-l-5 md:border-t-0 border-amber-400 w-full  items-start md:items-center flex flex-col gap-4 justify-center pt-16 md:pt-0 ">
+                <div className="border-t-5   md:border-l-5 md:border-t-0 border-amber-400 w-full  items-end  flex flex-col gap-4 justify-center pt-8 md:pt-0 ">
                     <div >
-                        <span className="text-2xl text-gray-500">Mail us from </span>
+                        <span className="text-2xl text-gray-500">Mail us:  </span>
                         <span className="text-2xl text-gray-600 font-medium">ee@enkamax.com </span>
                     </div>
                     <div>
-                        <span className="text-2xl text-gray-500">Whatsapp </span>
+                        <span className="text-2xl text-gray-500">Whatsapp: </span>
                         <span className="text-2xl text-gray-600 font-medium">+90 555 333 22 11 </span>
                     </div>
                 </div>
+                <div className="absolute  left-1/2 -translate-x-1/2 translate-y-1/2  flex w-full h-50  justify-center  items-center"><Link to="/contact" ><h1 className=" sticky bottom-10 bg-white hover:bg-yellow-400 transition-colors duration-300 font-medium border-yellow-400 border-2 rounded-xl  p-2">Contact Now</h1></Link></div>
             </div>
             
         </section>

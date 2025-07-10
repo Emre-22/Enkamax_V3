@@ -6,6 +6,10 @@ import { Hospitality } from "./pages/Hospitality";
 import { UHNW } from "./pages/UHNW";
 import { FamilyOffices } from "./pages/FamilyOffices";
 import { Tourism } from "./pages/Tourism";
+import { Contact } from "./pages/Contact";
+import { About } from "./pages/About";
+import { Industries } from "./pages/Industries";
+import { Services } from "./pages/Services";
 
 
 function App() {
@@ -15,11 +19,17 @@ function App() {
         <Routes>
           <Route index element = {<Home />}/>
           
-          <Route path="/Industries/RealEstate" element={<RealEstate />} />
-          <Route path="/Industries/Hospitality" element={<Hospitality />} />
-          <Route path="/Industries/UHNW" element={<UHNW />} />
-          <Route path="/Industries/FamilyOffices" element={<FamilyOffices />} />
-          <Route path="/Industries/Tourism" element={<Tourism />} />
+          <Route path="/industries/realestate" element={<RealEstate />} />
+          <Route path="/industries/Hospitality" element={<Hospitality />} />
+          <Route path="/industries/uhnw" element={<UHNW />} />
+          <Route path="/industries/familyoffices" element={<FamilyOffices />} />
+          <Route path="/industries/tourism" element={<Tourism />} />
+
+          <Route path="/home" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/services" element={<Services />} />
           
           <Route path = "*" element = {<NotFound />}/>
         </Routes>

@@ -1,9 +1,9 @@
 import { Navbar } from "../Components/Navbar";
+import { Footer } from "../Components/Footer";
 import { HeroSection } from "../Components/HeroSection";
 import BgImg from "@/assets/BG.jpg"
 import { Cards } from "../Components/Cards";
 import { AboutSection } from "../Components/AboutSection";
-import { Footer } from "../Components/Footer";
 export const Home = () =>{
     return <>
         <Navbar />

@@ -11,34 +11,34 @@ const cardinfo =[
         title:"Real Estate",
         paragraph:"Find your ideal estate effortlessly. With Enkamax",
         icon:Building2,
-        href:"Industries/RealEstate",
+        href:"/Industries/RealEstate",
     },
     {
         title:"Hospitality",
         paragraph:"Find your ideal estate effortlessly. With Enkamax",
         icon:HandPlatter,
-        href:"Industries/Hospitality",
+        href:"/Industries/Hospitality",
 
     },
     {
         title:"UHNW",
         paragraph:"We provide you the best hospitality with best teams.",
         icon:Gem,
-        href:"Industries/UHNW",
+        href:"/Industries/UHNW",
 
     },
     {
         title:"Tourism",
         paragraph:"We provide you the best hospitality with best teams",
         icon:TreePalm,
-        href:"Industries/Tourism",
+        href:"/Industries/Tourism",
 
     },
     {
         title:"Family Offices",
         paragraph:"We provide you the best hospitality with best teams",
         icon:LampDesk,
-        href:"Industries/FamilyOffices",
+        href:"/Industries/FamilyOffices",
     }
 ]
 
