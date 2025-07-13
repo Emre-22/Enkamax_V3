@@ -5,55 +5,74 @@ import { TreePalm } from 'lucide-react';
 import { LampDesk } from 'lucide-react';
 
 import { Link } from "react-router-dom";
+import { cn } from "@/lib/utils";
+import { ScrollLink } from "../lib/ScrollLink";
 
-const cardinfo =[
+import RealEstate from "@/assets/IndustryRealEstate.jpg"
+import Hospitality from "@/assets/IndustryHospitality.jpeg"
+import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
+import  UHNW  from "@/assets/IndustryRealEstate.jpg"
+import  Tourism  from "@/assets/IndustryHospitality.jpeg"
+
+{"Industries"}
+export const cardinfo =[ 
     {
         title:"Real Estate",
         paragraph:"Find your ideal estate effortlessly. With Enkamax",
+        paragraph2:"Find your ideal estate effortlessly. With Enkamax Find your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With Enkamax Find your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With Enkamax Find your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With Enkamax",
         icon:Building2,
+        img:RealEstate,
         href:"/Industries/RealEstate",
     },
     {
         title:"Hospitality",
         paragraph:"Find your ideal estate effortlessly. With Enkamax",
+        paragraph2:"Find your ideal estate effortlessly. With Enkamax Find your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With Enkamax Find your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With Enkamax Find your ideal estate effortlessly. With EnkamaxFind your ideal estate effortlessly. With Enkamax",
         icon:HandPlatter,
+        img:Hospitality,
         href:"/Industries/Hospitality",
 
     },
     {
         title:"UHNW",
         paragraph:"We provide you the best hospitality with best teams.",
+        paragraph2:"We provide you the best hospitality with best teams. ovide you the best hospitality with best teams.ovide you the best hospitality with best teams.We provide you the best hospitality with best teams. ovide you the best hospitality with best teams.ovide you the best hospitality with best teams.We provide you the best hospitality with best teams. ovide you the best hospitality with best teams.ovide you the best hospitality with best teams.",
         icon:Gem,
+        img:UHNW,
         href:"/Industries/UHNW",
 
     },
     {
         title:"Tourism",
         paragraph:"We provide you the best hospitality with best teams",
+        paragraph2:"We provide you the best hospitality with best teams  provide you the best hospitality with best teams provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide you the best hospitality with best teams provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide you the best hospitality with best teams provide you the best hospitality with best teams",
         icon:TreePalm,
+        img:Tourism,
         href:"/Industries/Tourism",
 
     },
     {
         title:"Family Offices",
         paragraph:"We provide you the best hospitality with best teams",
+        paragraph2:"We provide you the best hospitality with best teams  provide you the best hospitality with best teams provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide you the best hospitality with best teams provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide you the best hospitality with best teams provide you the best hospitality with best teams",
         icon:LampDesk,
+        img:FamilyOffice,
         href:"/Industries/FamilyOffices",
     }
 ]
 
 
-export const Cards = () => {
-    return <div className="container relative lg:h-32 w-full z-11  -mt-15 lg:-mt-24 flex flex-col lg:flex-row gap-8 justify-between ">
+export const Cards = ({animate=true}) => {
+    return <div className="container relative lg:h-32 w-full z-30  -mt-15 lg:-mt-24 flex flex-col lg:flex-row gap-8 justify-between ">
             {cardinfo.map((item,key)=>{
                 const Icon=item.icon;
-                return <Link to={item.href} key={key} style={{ animationDelay: `${key * 0.2}s` }} className="px-2 fade-in-up bg-white lg:h-48 lg:w-48 rounded-4xl shadow-center flex flex-col items-center text-center hover:inner-shadow-center transition-shadow duration-300">
+                return <ScrollLink to={item.href} key={key} style={{ animationDelay: `${key * 0.2}s` }} className={cn(animate ? "fade-in-up" : "","px-2  bg-white/60 hover:bg-amber-100/60  backdrop-blur-lg lg:h-48 lg:w-48 rounded-4xl shadow-center flex flex-col items-center text-center hover:inner-shadow-center transition-colors duration-300")}>
                         <div className='flex mt-6 gap-2'> 
-                            <Icon size={24}/>
+                            <Icon className='text-teal-800' size={24}/>
                             <h1  className="text-gray-700 font-bold text-xl ">{item.title}</h1>
                         </div>
                         <p className="text-gray-700 font-medium mt-4 mb-6">{item.paragraph}</p>
-                    </Link>
+                    </ScrollLink>
 
             })}
                         

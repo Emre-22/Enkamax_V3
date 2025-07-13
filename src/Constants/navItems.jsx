@@ -15,11 +15,10 @@ export const navItems = [
     {
         name: "Services", href:"/services",
         subMenu:[
-            {name : "a",href:"/a"},
-            {name : "b",href:"/b"},
-            {name : "c",href:"/c"},
-            {name : "d",href:"/d"},
-            {name : "e",href:"/e"},
+            {name : "Recruitment Solutions",href:"/a"},
+            {name : "Real Estate Management",href:"/b"},
+            {name : "Consultancy",href:"/c"},
+
     ]},
 
     {name: "Contact", href:"/contact"},

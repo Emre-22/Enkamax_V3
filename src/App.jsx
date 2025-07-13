@@ -12,10 +12,14 @@ import { Industries } from "./pages/Industries";
 import { Services } from "./pages/Services";
 
 
+
+
+
 function App() {
   return (
     <>
       <BrowserRouter basename="/Enkamax_V3"> 
+
         <Routes>
           <Route index element = {<Home />}/>
           
