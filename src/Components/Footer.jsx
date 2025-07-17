@@ -20,7 +20,7 @@ export const Footer = () => {
                 
                 <div className="flex w-full md:border-l-2 md:border-r-2 border-gray-400 border-t-2 md:border-t-0 border-b-2 md:border-b-0 flex-col items-center pb-4 gap-4 ">
                     <div className="flex pl-10  w-40 flex-col gap-4">
-                    <ScrollLink to="/industries" className="text-2xl py-5 text-white font-light  hover:text-teal-400 ">Industries</ScrollLink>
+                    <ScrollLink to="/industries" className="text-2xl py-5 text-white font-light  hover:text-teal-400 underline underline-offset-8 decoration-gray-400 ">Industries</ScrollLink>
                     {navItems[2]?.subMenu?.map((sub,subkey)=>(
                         <div key={subkey}>
                             <ScrollLink  to={sub.href} className="text-white hover:text-teal-400 hover:underline underline-offset-4 decoration-yellow-400 font-medium">  
@@ -33,7 +33,7 @@ export const Footer = () => {
 
                 <div className="flex w-full flex-col items-center pb-4 gap-4 ">
                     <div className="flex flex-col pl-10 w-40  gap-4">
-                    <ScrollLink to="/services" className="text-2xl py-5 text-white font-light  hover:text-teal-400 ">Services</ScrollLink>
+                    <ScrollLink to="/services" className="text-2xl py-5 text-white font-light  hover:text-teal-400 underline underline-offset-8 decoration-gray-400">Services</ScrollLink>
                     {navItems[3]?.subMenu?.map((sub,subkey)=>(
                         <div key={subkey}>
                             <ScrollLink  to={sub.href} className="text-white hover:text-teal-400 hover:underline underline-offset-4 decoration-yellow-400 font-medium">  
@@ -46,10 +46,10 @@ export const Footer = () => {
              
             
         </div>
-        <div className="flex justify-center items-end ">
-        
-            <p className="text-white  pb-5 border-t-2 border-gray-400 bg-teal-950 pt-5 w-full h-full text-center">  
-                &copy;{new Date().getFullYear()} Enkamax, All rights reserved.  
+        <div className="text-white pb-5 border-t-2 border-gray-400 bg-teal-950 pt-5 w-full h-full text-center">
+            &copy; {new Date().getFullYear()} Enkamax, All rights reserved.  
+            <p className="text-xs text-gray-400">
+                Last updated: {new Date(__BUILD_TIME__).toLocaleString()}
             </p>
         </div>
     </div>

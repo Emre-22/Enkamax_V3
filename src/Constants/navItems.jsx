@@ -9,15 +9,15 @@ export const navItems = [
             {name : "UHNW",href:"/industries/uhnw"},
             {name : "Family Offices",href:"/industries/familyoffices"},
             {name : "Hospitality",href:"/industries/hospitality"},
-            {name : "Tourism",href:"/industries/tourism"},
+
     ]},
 
     {
         name: "Services", href:"/services",
         subMenu:[
-            {name : "Recruitment Solutions",href:"/a"},
-            {name : "Real Estate Management",href:"/b"},
-            {name : "Consultancy",href:"/c"},
+            {name : "Recruitment Solutions",href:"/services/recruitmentsolutions"},
+            {name : "Real Estate Management",href:"/services/realestatemanagement"},
+            {name : "Consultancy",href:"/services/consultancy"},
 
     ]},
 

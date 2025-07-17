@@ -38,7 +38,7 @@ export const About = () => {
         <div className="absolute  min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
       <div className="relative container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
         <h1 className="text-white/90 -translate-y-30 mask-radial-from-75 text-center text-3xl font-bold">Enkamax: Where Talent Meets Vision, and Opportunity Finds Home.</h1>
-            <div className="flex flex-col gap-8 w-auto  bg-teal-800/80 backdrop-blur-2xl p-10 text-white ">
+            <div className="flex flex-col gap-8 w-auto rounded-[5px] bg-gray-800/40 backdrop-blur-2xl p-10 text-white ">
               <h1 className="text-xl md:text-3xl font-bold  text-white">Your Trusted Partner in Luxury Hospitality Recruitment</h1>
               <p className=" text-lg">As specialists in Enkamax recruitment, we understand that finding exceptional talent requires more than matching CVs to job descriptions. We’ve built our reputation sourcing outstanding professionals for the UK’s finest hotels, restaurants, and private estates. Our experienced team brings deep industry knowledge and a carefully curated network, ensuring we connect you with candidates who not only meet your requirements but elevate your service standards. Together, we’ll strengthen your team with professionals who share your commitment to excellence.        </p>
             </div>
@@ -64,7 +64,7 @@ Through our philosophy and actions in accordance with these values, we prove to 
                       <div className="flex justify-between  flex-col xl:flex-row pt-24 gap-16">
                           {Values.map((item,key)=>{
                             
-                            return <div key={key} className="flex border-2 shadow-center border-gray-300 w-full  bg-gradient-to-tr from-amber-700/15 to-teal-900/20  flex-col gap-2 md:gap-5 rounded-4xl hover:inner-shadow-center transition-all duration-300 p-4 md:p-16">
+                            return <div key={key} className="flex border-2  border-gray-200 w-full  bg-gradient-to-tr  to-teal-100/10  flex-col gap-2 md:gap-5 rounded-4xl  transition-all duration-300 p-4 md:p-16">
                                 <div className="flex items-center  text-gray-700 gap-8 justify-center">
                                 <Home/>
                                 <h1 className="text-lg md:text-2xl  font-medium">{item.title}</h1>
