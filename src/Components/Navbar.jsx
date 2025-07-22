@@ -25,14 +25,14 @@ export const Navbar = () =>{
         isScrolled ? "py-5 bg-white/80 shadow-xs" : "py-8",
         isMenuOpen ? "" : "backdrop-blur-md" )}
     >
-        <div className = "container mx-auto px-4 flex items-center justify-between" >
+        <div className = "my-container mx-auto px-4 flex items-center justify-between" >
             <ScrollLink to = "/">
                <img src={EnkamaxLogo} alt = "Enkamax Logo" className="h-10 w-auto "></img>
             </ScrollLink>
 
 
             {/* desktop nav */}
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden lg:flex space-x-8">
                 {navItems.map((item,dkey)=>(
                     <div key={dkey} className="relative group">
                         <ScrollLink to={item.href} className={
@@ -60,13 +60,13 @@ export const Navbar = () =>{
             </div>
             {/* mobile nav */}
             <button onClick={()=>setisMenuOpen((prev) => !prev)} 
-                className={cn("md:hidden p-2 z-50  text-gray-500")}> 
+                className={cn("lg:hidden p-2 z-50  text-gray-500")}> 
                 {isMenuOpen
                     ? <X className="h-10 w-10" />
                     : <Menu className="h-10 w-10" />}
                 </button>
 
-                <div className={cn("fixed inset-0 overflow-y-scroll w-full bg-teal-900 backdrop-blur-md z-40 flex flex-col items-center text-center py-30   transition-none  md:hidden",
+                <div className={cn("fixed inset-0 overflow-y-scroll w-full bg-teal-900 backdrop-blur-md z-40 flex flex-col items-center text-center py-30   transition-none  lg:hidden",
                                 isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none")}>
                     <div className="flex flex-col w-full text-center items-center  justify-center space-y-8 text-xl">
                         {navItems.map((item, mkey) => (

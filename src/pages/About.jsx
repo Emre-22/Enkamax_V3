@@ -36,7 +36,7 @@ export const About = () => {
       <div className="relative bg-black bg-cover  min-h-170 w-auto bg-center bg-no-repeat mb-60 " 
               style={{ backgroundImage: `url(${BgImg})` }}>
         <div className="absolute  min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
-      <div className="relative container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
+      <div className="relative my-container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
         <h1 className="text-white/90 -translate-y-30 mask-radial-from-75 text-center text-3xl font-bold">Enkamax: Where Talent Meets Vision, and Opportunity Finds Home.</h1>
             <div className="flex flex-col gap-8 w-auto rounded-[5px] bg-gray-800/40 backdrop-blur-2xl p-10 text-white ">
               <h1 className="text-xl md:text-3xl font-bold  text-white">Your Trusted Partner in Luxury Hospitality Recruitment</h1>
@@ -47,7 +47,7 @@ export const About = () => {
 
 
 
-    <div className="container"> 
+    <div className="my-container"> 
 
       <div className="flex md:flex-row flex-col font-medium gap-8  w-full text-gray-600">
         <p className="text-lg w-full">Our vision is to be the world´s leading recruitment partner for our customers. We strive to provide excellent consultancy services to every client and candidate and to exceed their expectations. As one of the world’s leading recruitment consultancies for the hotel, catering and tourism industry, we have been building values since the foundation in 1997.
@@ -57,11 +57,12 @@ Through our philosophy and actions in accordance with these values, we prove to 
     </div>
 
     <Statistics/>
+    </div>
 
 
-      <div className=" justify-center items-center text-center container pt-20">
+      <div className=" justify-center items-center text-center my-container  w-full pt-20">
                       <h1 className="text-3xl font-bold mask-radial-from-75 text-teal-900">What Drives Us: The Core Values of Enkamax</h1>
-                      <div className="flex justify-between  flex-col xl:flex-row pt-24 gap-16">
+                      <div className="flex justify-between  w-full  flex-col xl:flex-row pt-24 gap-16">
                           {Values.map((item,key)=>{
                             
                             return <div key={key} className="flex border-2  border-gray-200 w-full  bg-gradient-to-tr  to-teal-100/10  flex-col gap-2 md:gap-5 rounded-4xl  transition-all duration-300 p-4 md:p-16">
@@ -76,7 +77,6 @@ Through our philosophy and actions in accordance with these values, we prove to 
                       </div>
                   </div>
       
-    </div>
     <ContactUs/>
     <Footer/>
     </div>;

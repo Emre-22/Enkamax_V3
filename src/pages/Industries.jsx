@@ -40,8 +40,8 @@ export const Industries = () => {
       <div className="relative bg-gray-100 bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${Pattern})`}} >
         <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
 
-        <div className="container flex  flex-col gap-4">
-           <div className="relative flex flex-col gap-4 container pt-40 pb-10 max-w-200  z-10"> 
+        <div className="my-container flex  flex-col gap-4">
+           <div className="relative flex flex-col gap-4 my-container pt-40 pb-10 max-w-200  z-10"> 
             <h1 className="text-white/90 pt-30 mask-radial-from-75 text-center text-2xl md:text-3xl font-bold">Achieving Excellence Through First-Rate Recruitment</h1>
             <p className="text-lg text-center font-medium  pb-15">With specialist recruitment consultants covering our core divisions, Enkamax combines the Private Household, Luxury Hospitality and Luxury Retail & Fashion recruitment industry and market expertise of a niche agency with the capacity and resources of a national agency to deliver the right talent for the right role.</p>
           </div>
@@ -60,6 +60,7 @@ export const Industries = () => {
               <ScrollLink to={item.href} 
               className={cn(`flex group  border-r-2 border-l-2  flex-col md:flex-row ${key % 2 !== 0 ? "md:flex-row-reverse border-l-teal-400" : "border-r-teal-400"}
               md:saturate-0 hover:saturate-100  border-transparent  transition-all  duration-300`,isResizing?"transition-none":"")}>
+
               <div className={cn(key%2==1 ? "mask-l-from-0 to-100% md:-translate-x-1/2 transition-all  md:group-hover:translate-x-0":"mask-r-from-0 to-100% md:translate-x-1/2 transition-all  md:group-hover:translate-x-0",
                  "relative  bg-cover duration-600 min-h-100 w-full bg-center bg-no-repeat ",isResizing?"transition-none":"")} style={{ backgroundImage: `url(${item.img})` }}></div>
 

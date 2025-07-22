@@ -10,7 +10,7 @@ export const Contact = () => {
   return <div className="">
     <Navbar/>
     <div className="h-[100vh] w-full py-20 md:py-50 ">
-     <div id="contact" className="flex flex-col  md:flex-row container  scroll-m-80 my-40">
+     <div id="contact" className="flex flex-col  md:flex-row my-container  scroll-m-80 my-40">
      
                      <div  className=" w-full flex flex-col gap-4 pb-4 ">
                          <h1 className="text-3xl font-medium">Let's talk through the details together!</h1>

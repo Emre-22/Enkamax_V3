@@ -10,7 +10,7 @@ import { ScrollLink } from "../lib/ScrollLink";
 export const AboutSection = () =>{
     return(
         <section className="overflow-x-hidden">
-            <div id="about" className="py-40 container flex flex-col gap-16  items-center align-center ">
+            <div id="about" className="py-40 my-container flex flex-col gap-16  items-center align-center ">
                 <h1 className="text-3xl font-bold mask-radial-from-75 text-teal-900">
                     Bespoke recruitment services for luxury sectors  </h1>
                 <p className="text-lg ">
@@ -39,7 +39,7 @@ export const AboutSection = () =>{
 
 
             <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
-                <div className="container  flex flex-col gap-16 p-16">
+                <div className="my-container  flex flex-col gap-16 p-16">
 
                     <h1 className="text-white font-bold text-3xl">Achieve your long-term goals</h1>
                     <p className="text-white text-wrap w-full text-xl ">As a specialist Private Household recruitment and Luxury Hospitality recruitment consultancy, finding a job through Achieve Hospitality has a lot of advantages. Firstly, we have built up good relationships with a lot of top employers, giving you exclusive access to their jobs. You’ll also get put forward for positions that you wouldn’t otherwise have heard about. We have a range of candidate services that help you with finding your next career move with Achieve Hospitality, a leader in Private Household recruitment and Luxury Hospitality recruitment.</p>
