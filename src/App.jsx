@@ -6,10 +6,10 @@ import { NotFound } from "./pages/NotFound"
 import { RealEstate } from "./pages/Industries/RealEstate";
 import { Hospitality } from "./pages/Industries/Hospitality";
 import { Privatehouseholds } from "./pages/Industries/privatehouseholds";
-import { FamilyOffices } from "./pages/Industries/FamilyOffices";
-import { FamilyOffices } from "./pages/Industries/FamilyOffices";
-import { FamilyOffices } from "./pages/Industries/FamilyOffices";
-import { FamilyOffices } from "./pages/Industries/FamilyOffices";
+import { Chalets } from "./pages/Industries/chaletvilla";
+import { Yachting } from "./pages/Industries/yachting";
+import { Privatejets } from "./pages/Industries/privatejets";
+import { FamilyOffices } from "./pages/Industries/familyoffices";
 
 
 import { Contact } from "./pages/Contact";

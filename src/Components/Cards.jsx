@@ -82,13 +82,29 @@ export const Cards = ({animate=true}) => {
             {cardinfo.map((item,key)=>{
                 const Icon=item.icon;
                 return <ScrollLink to={item.href} key={key} style={{ animationDelay: `${key * 0.2}s` }} className={cn("relative group",animate ? "fade-in-up" : "",
-                " bg-white/60 group-hover:bg-amber-100/60    backdrop-blur-lg lg:w-72 rounded-4xl shadow-center flex flex-col items-center text-center hover:inner-shadow-center transition-colors duration-300")}>
-                        <div className=' flex w-full gap-4 px-4 items-center border-b-1 bg-gray-500/10 rounded-4xl border-gray-500/40 p-4'> 
-                            <Icon className=' text-teal-800 w-5 h-5 stroke-1 shrink-0 ' />
-                            <h1  className="text-gray-700  text-left  font-bold text-xl   ">{item.title}</h1>
+                " bg-white/60 group-hover:bg-amber-100/60    backdrop-blur-lg lg:w-72 rounded-md shadow-center flex flex-col items-center text-center hover:inner-shadow-center transition-colors duration-300")}>
+                        <div className="relative w-full h-full group overflow-hidden rounded-md">
+                            {/* Background Image (bottom layer) */}
+                            <img
+                                src={item.img}
+                                className="absolute inset-0 object-cover w-full h-full z-0 transition-all duration-300"
+                                alt=""
+                            />
+
+                            {/* Gradient overlay (middle layer) */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+
+                            {/* Text content (top layer) */}
+                            <div className="relative overflow-clip flex flex-col  transition-all duration-600 z-20">
+                                <div className="flex w-full  translate-y-full group-hover:translate-y-0 gap-4 px-4 relative h-50 group-hover:h-30 transition-all duration-600  items-center  bg-gray-800/30 border-b-1 border-gray-500/80 p-4">
+                                    <Icon className="text-teal-800 w-5 h-5 stroke-1 shrink-0" />
+                                    <h1 className="text-white text-left font-bold text-xl">{item.title}</h1>
+                                </div>
+                                <div className='relative top-100 group-hover:top-0 opacity-0 group-hover:opacity-100 transition-all duration-600'>
+                                    <p className="text-white  text-left font-medium p-6">{item.paragraph}</p>
+                                </div>
+                            </div>
                         </div>
-                        <p className="text-gray-700 text-left  font-medium p-6">{item.paragraph}</p>
-                        <img src={item.img} className='absolute  inset-0 object-cover h-full  -z-10  rounded-4xl  transition-all duration-300 '></img>
                     </ScrollLink>
 
             })}
