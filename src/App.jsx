@@ -22,6 +22,8 @@ import { Services } from "./pages/Services";
 import { Consultancy } from "./pages/Services/consultancy";
 import { Realestatemanagement } from "./pages/Services/realestatemanagement";
 import { Recruitmentsolutions } from "./pages/Services/recruitmentsolutions";
+import { Candidates } from "./pages/Candidates";
+import { Clients } from "./pages/Clients";
 
 
 
@@ -57,6 +59,10 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/services" element={<Services />} />
           
+          <Route path="/clients" element={<Clients/>} />
+          <Route path="/candidates" element={<Candidates />} />
+
+
           <Route path = "*" element = {<NotFound />}/>
         </Routes>
       </BrowserRouter>

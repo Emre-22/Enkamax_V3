@@ -11,6 +11,7 @@ export const Navbar = () =>{
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setisMenuOpen] = useState(false);
     const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);
+    const [openSubSubMenuIndex, setOpenSubSubMenuIndex] = useState(null);
 
     useEffect(() => {
         const handleScroll=()=>{
@@ -27,17 +28,17 @@ export const Navbar = () =>{
     >
         <div className = "my-container mx-auto px-4 flex items-center justify-between" >
             <ScrollLink to = "/">
-               <img src={EnkamaxLogo} alt = "Enkamax Logo" className="h-10 w-auto "></img>
+               <img src={EnkamaxLogo} alt = "Enkamax Logo" className="h-10  w-auto "></img>
             </ScrollLink>
 
 
             {/* desktop nav */}
-            <div className="hidden lg:flex space-x-8">
+            <div className="hidden lg:flex space-x-8 pl-20">
                 {navItems.map((item,dkey)=>(
                     <div key={dkey} className="relative group">
                         <ScrollLink to={item.href} className={
                             cn("text-gray-600 hover:text-teal-600 font-medium transition-colors duration-300 border-b-2 border-transparent  flex items-center",
-                                "justify-center gap-1",(!item.subMenu && "hover:border-amber-200"))
+                                "justify-center text-[1.2vw] xl:text-base   gap-1",(!item.subMenu && "hover:border-amber-200"))
                             }>
                             {item.name}
                             {item.subMenu&& (<ChevronDown size={20} className=" "/>)}

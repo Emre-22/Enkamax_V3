@@ -11,7 +11,13 @@ import { ScrollLink } from "../lib/ScrollLink";
 import RealEstate from "@/assets/IndustryRealEstate.jpg"
 import Hospitality from "@/assets/IndustryHospitality.jpeg"
 import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
-import  UHNW  from "@/assets/IndustriesUHNW.jpeg"
+import  Jet  from "@/assets/IndustryJet.jpeg"
+import  Yachting from "@/assets/Yachting.jpeg"
+import  Chalet from "@/assets/Chalet.jpeg"
+import  PrivateHouseHolds from "@/assets/PrivateHouseHolds.jpeg"
+
+import React, { useRef, useState } from 'react';
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 {"Industries"}
 export const cardinfo =[ 
@@ -37,7 +43,7 @@ export const cardinfo =[
         paragraph:"We provide handpicked staff tailored to the unique preferences of each private household. From villa to estate, our bespoke recruitment ensures seamless service, discretion, and the highest level of personal attention.",
         paragraph2:"We ospitality with best teams.ovide you the best hospitality with best teams.We provide you the best hospitality with best teams. ovide you the best hospitality with best teams.ovide you ide you the best hospitality with best teams.ovide you the best hospitality with best teams.",
         icon:Gem,
-        img:UHNW,
+        img:PrivateHouseHolds,
         href:"/Industries/privatehouseholds",
 
     },
@@ -49,13 +55,13 @@ export const cardinfo =[
         icon:LampDesk,
         img:FamilyOffice,
         href:"/Industries/FamilyOffices",
-    },/*
+    },
     {
         title:"Yachting",
         paragraph:"From serene sails to luxury charters, we source elite yacht crew who deliver seamless service on every sea. Whether for private ownership or charter experiences, our hand-picked professionals ensure your journey is nothing short of exceptional.",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
         icon:LampDesk,
-        img:FamilyOffice,
+        img:Yachting,
         href:"/Industries/yachting",
     },
     {
@@ -63,54 +69,119 @@ export const cardinfo =[
         paragraph:"Whether you're staffing a private mountain retreat or a luxury villa under the sun, we provide exceptional, hand-picked professionals who transform your property into an unforgettable experience. From seasoned chalet hosts to discreet villa teams — we deliver excellence, wherever your home may be.",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
         icon:LampDesk,
-        img:FamilyOffice,
+        img:Chalet,
         href:"/Industries/chaletvilla",
     },
     {
-        title:"Jets",
+        title:"Private Jets",
         paragraph:"We provide you the best hospitality with best teams",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
         icon:LampDesk,
-        img:FamilyOffice,
+        img:Jet,
         href:"/Industries/jets",
-    } */
+    } 
+    
 ]
 
 
 export const Cards = ({animate=true}) => {
-    return <div className="my-container relative lg:min-h-32  z-30 -mt-15 lg:-mt-24 flex flex-col lg:flex-row gap-8 justify-between ">
-            {cardinfo.map((item,key)=>{
-                const Icon=item.icon;
-                return <ScrollLink to={item.href} key={key} style={{ animationDelay: `${key * 0.2}s` }} className={cn("relative group",animate ? "fade-in-up" : "",
-                " bg-white/60 group-hover:bg-amber-100/60    backdrop-blur-lg lg:w-72 rounded-md shadow-center flex flex-col items-center text-center hover:inner-shadow-center transition-colors duration-300")}>
-                        <div className="relative w-full h-full group overflow-hidden rounded-md">
-                            {/* Background Image (bottom layer) */}
-                            <img
-                                src={item.img}
-                                className="absolute inset-0 object-cover w-full h-full z-0 transition-all duration-300"
-                                alt=""
-                            />
+    const scrollRef = useRef(null);
 
-                            {/* Gradient overlay (middle layer) */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+    const [currentIndex, setCurrentIndex] = useState(0);
 
-                            {/* Text content (top layer) */}
-                            <div className="relative overflow-clip flex flex-col  transition-all duration-600 z-20">
-                                <div className="flex w-full  translate-y-full group-hover:translate-y-0 gap-4 px-4 relative h-50 group-hover:h-30 transition-all duration-600  items-center  bg-gray-800/30 border-b-1 border-gray-500/80 p-4">
-                                    <Icon className="text-teal-800 w-5 h-5 stroke-1 shrink-0" />
-                                    <h1 className="text-white text-left font-bold text-xl">{item.title}</h1>
-                                </div>
-                                <div className='relative top-100 group-hover:top-0 opacity-0 group-hover:opacity-100 transition-all duration-600'>
-                                    <p className="text-white  text-left font-medium p-6">{item.paragraph}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </ScrollLink>
+   const scrollToIndex = (index) => {
+  if (!scrollRef.current) return;
+  const children = scrollRef.current.children[0]?.children?.[0]?.children;
+  const target = children?.[index];
+  if (target) {
+    target.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest', // Prevents vertical scrolling
+      inline: 'center', // Scroll horizontally to center
+    });
+    setCurrentIndex(index);
+  }
+};
 
-            })}
-                        
-                    
+
+  const scroll = (dir) => {
+    if (scrollRef.current) {
+      const cardWidth = scrollRef.current.querySelector(".card")?.offsetWidth || 300;
+      scrollRef.current.scrollBy({
+        left: dir === "left" ? -cardWidth - 32 : cardWidth + 32, // 32px for gap-8
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <div className="relative w-full bg-gray-200 px-5 md:px-20">
+      {/* Scroll Buttons */}
+      <button
+        onClick={() => scroll("left")}
+        className="absolute left-0 top-1/2 lg:mx-4 border-1 border-black -translate-y-1/2 z-40 bg-white/70 hover:bg-white p-1 lg:p-4 rounded-full shadow-md"
+      >
+        <ChevronLeft className="w-6 h-6 text-black" />
+      </button>
+
+      <button
+        onClick={() => scroll("right")}
+        className="absolute right-0 top-1/2 lg:mx-4 border-1 border-black -translate-y-1/2 z-40 bg-white/70 hover:bg-white p-1 lg:p-4 rounded-full shadow-md"
+      >
+        <ChevronRight className="w-6 h-6 text-black" />
+      </button>
+
+      {/* Scroll Container */}
+      <div
+        ref={scrollRef}
+        className="overflow-x-auto  scroll-smooth snap-x snap-mandatory scrollbar-hidden w-full"
+      >
+        <div className="md:my-container flex gap-8 md:px-4 py-6">
+          {cardinfo.map((item, key) => {
+            const Icon = item.icon;
+            return (
+              <ScrollLink
+                to={item.href}
+                key={key}
+                style={{ animationDelay: `${key * 0.2}s` }}
+                className={cn(
+                  "card snap-center shrink-0 w-[100%] sm:w-[60%] md:w-[60%] max-w-[400px]",
+                  "bg-white/60 group-hover:bg-amber-100/60 backdrop-blur-lg",
+                  "shadow-center flex flex-col items-center text-center",
+                  "hover:inner-shadow-center transition-colors duration-300",
+                  animate ? "fade-in-up" : ""
+                )}
+              >
+                <div className="relative w-full h-full group   ">
+                  {/* Image */}
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="absolute inset-0 object-cover w-full h-full z-0 transition-all duration-300"
+                  />
+
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent lg:opacity-50 opacity-100 lg:group-hover:opacity-100 transition-opacity duration-300 z-10" />
+
+                  {/* Content */}
+                  <div className="relative z-20   flex flex-col ">
+                    {/* Title */}
+                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[100px] w-full flex gap-4 px-4 items-center bg-gray-800/30 border-b border-gray-500/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
+                      <Icon className="text-white w-10 h-10 stroke-1 shrink-0" />
+                      <h1 className="text-white font-bold text-xl text-left">{item.title}</h1>
+                    </div>
+
+                    {/* Paragraph */}
+                    <div className="lg:opacity-0 lg:group-hover:opacity-100 translate-y-4 lg:group-hover:translate-y-0 transition-all duration-500 p-6">
+                      <p className="text-white text-left font-medium">{item.paragraph}</p>
+                    </div>
+                  </div>
+                </div>
+              </ScrollLink>
+            );
+          })}
+        </div>
+      </div>
     </div>
-
-
+  );
 }

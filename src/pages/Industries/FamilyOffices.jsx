@@ -23,7 +23,7 @@ export const FamilyOffices = () => {
                 </div>
             </div>
           </div>
-    <div className="my-container flex  gap-8 pt-30">
+  <div className="my-container flex  gap-8 pt-30">
       <div className="w-500 h-200 bg-red-400 "></div>
       <div className="flex flex-col gap-8">
         <h1 className="text-3xl text-teal-800 font-medium">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
@@ -31,7 +31,7 @@ export const FamilyOffices = () => {
           <p className="text-lg text-gray-700 font-medium">At EnkaMax, we’ve proudly earned the trust of the world’s most discerning clients by placing exceptional talent in Private Households, Family Offices, and across the global UHNW community. Today, we extend our bespoke recruitment expertise to support CEOs, founders, and high-level executives in both private and corporate spheres — always with absolute discretion and precision.</p>
         </div>
         <h3>Tailored Family Office & Executive Search Services Include:</h3>
-        <ul>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700 font-medium">
           <li>Heads of Family Office (CEO, CFO, COO, CIO)</li>
           <li>Personal & Executive Assistants</li>
           <li>Investment Specialists (Real Estate, Private Equity, Hedge Funds)</li>
@@ -39,8 +39,8 @@ export const FamilyOffices = () => {
           <li>Lifestyle & Portfolio Managers</li>
           <li>Property & Operations Managers</li>
           <li>Office & HR Professionals</li>
-          <p>We understand the nuances of ultra-private environments and build long-term recruitment partnerships based on confidentiality, trust, and excellence.</p>
         </ul>
+
         <h1>Elite Recruitment for Visionary Leaders & Private Family Offices</h1>
         <p>
 Whether you manage a Private Family Office, operate within the UHNW sector, or lead a fast-paced organisation as a CEO, our sister agency Achieve Professionals delivers bespoke recruitment solutions designed to meet your highest expectations.<br/><br/>

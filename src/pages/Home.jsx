@@ -19,7 +19,7 @@ export const Home = () =>{
                 <HeroSection />
             </section>
 
-            <Cards/>
+            
             <AboutSection/>
 
         </main>
