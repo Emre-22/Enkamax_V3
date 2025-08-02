@@ -1,20 +1,20 @@
 export const Statistics = () => {
      const statistics = [
     {
-        title:"Candidates still employed",
-        value:"352",
+        title:"Years of combined experience",
+        value:"25",
     },
     {
-        title:"Clients",
-        value:"50+",
+        title:"Average days to hire",
+        value:"5",
     },
     {
-        title:"Years of industry experience",
-        value:"3",
+        title:"Monthly placements",
+        value:"40+",
     },
     {
-        title:"Placements per month",
-        value:"100+",
+        title:"Recruiting globally - Aligned with client requirements",
+        value:"193+",
     },
 ]
     return <div className=" min-h-30 w-full flex md:flex-nowrap flex-wrap items-center gap-4 justify-center md:justify-between  my-container my-20 ">

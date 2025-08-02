@@ -18,18 +18,18 @@ export const Hospitality = () => {
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Hospitality by Professionals</h1>
-                    <p className="text-lg font-medium text-center ">Get rid of the constant headache of chasing. Let our passionate team handle it.</p>
+                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Elite Talent for Private Estates & Hospitality | Precision. Discretion. Excellence.</h1>
+                    <h1 className="text-white/90 pt-8 text-center text-2xl md:text-3xl font-bold">Trusted by UHNW Families & Iconic Brands. Your Global Partner for Discreet Placements in Private Residences, Yachts, Jets & Resorts</h1>
                     
                   </div>
                 </div>
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-medium">Because it’s about time to redefine Hospitality.</h1>
+      <h1 className="text-3xl text-teal-800 font-medium">Expert Hospitality Recruitment for Luxury Establishments</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
+        <p className="text-lg text-gray-700 font-medium">At EnkaMax, we specialise in connecting world-class talent with prestigious hospitality environments — from five-star hotels and fine dining establishments to exclusive private members clubs, superyachts, and alpine chalets. Whether you're looking to hire exceptional professionals or take the next step in your luxury hospitality career, we ensure the perfect match.
+Explore the sectors below to discover more — and let us help you open the door to excellence.</p>
       </div>
     </div>
     <ContactUs/>

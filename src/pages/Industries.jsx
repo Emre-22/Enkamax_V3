@@ -42,8 +42,8 @@ export const Industries = () => {
 
         <div className="my-container flex  flex-col gap-4">
            <div className="relative flex flex-col gap-4 my-container pt-40 pb-10 max-w-200  z-10"> 
-            <h1 className="text-white/90 pt-30 mask-radial-from-75 text-center text-2xl md:text-3xl font-bold">Achieving Excellence Through First-Rate Recruitment</h1>
-            <p className="text-lg text-center font-medium  pb-15">With specialist recruitment consultants covering our core divisions, Enkamax combines the Private Household, Luxury Hospitality and Luxury Retail & Fashion recruitment industry and market expertise of a niche agency with the capacity and resources of a national agency to deliver the right talent for the right role.</p>
+            <h1 className="text-white/90 pt-30 mask-radial-from-75 text-center text-2xl md:text-3xl font-bold">Areas of Expertise</h1>
+            <p className="text-lg text-center font-medium  pb-15">At EnkaMax Recruiting & Consulting, our dedicated specialists bring deep expertise across our core divisions — Private Households & Estates, Luxury Hospitality, and Lifestyle & Retail. We combine the precision of a boutique agency with the reach and resources of a global partner, ensuring that every placement is a seamless match between talent and opportunity. Whether for a private estate, a luxury resort, or an exclusive retail brand, we deliver exceptional professionals tailored to your world.</p>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ export const Industries = () => {
                   <Icon className="relative md:pl-0 pl-4  md:w-20 md:m-4 z-4 transition-colors duration-300  text-gray-600 group-hover:text-teal-500" size={40} />
                   <h1 className={cn("text-2xl p-10 font-medium text-")}>{item.title}</h1> 
                 </div>
-                <p className=" p-10 text-lg py-5">{item.paragraph2} </p>
+                <p className=" p-10 text-lg py-5">{item.paragraph} </p>
               </div>
             </ScrollLink>
          </div>

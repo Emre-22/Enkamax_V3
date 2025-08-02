@@ -5,7 +5,10 @@ import { NotFound } from "./pages/NotFound"
 
 import { RealEstate } from "./pages/Industries/RealEstate";
 import { Hospitality } from "./pages/Industries/Hospitality";
-import { UHNW } from "./pages/Industries/UHNW";
+import { Privatehouseholds } from "./pages/Industries/privatehouseholds";
+import { FamilyOffices } from "./pages/Industries/FamilyOffices";
+import { FamilyOffices } from "./pages/Industries/FamilyOffices";
+import { FamilyOffices } from "./pages/Industries/FamilyOffices";
 import { FamilyOffices } from "./pages/Industries/FamilyOffices";
 
 
@@ -33,8 +36,13 @@ function App() {
           
           <Route path="/industries/realestate" element={<RealEstate />} />
           <Route path="/industries/Hospitality" element={<Hospitality />} />
-          <Route path="/industries/uhnw" element={<UHNW />} />
           <Route path="/industries/familyoffices" element={<FamilyOffices />} />
+
+          <Route path="/industries/privatehouseholds" element={<Privatehouseholds />} />
+          <Route path="/industries/chaletvilla" element={<Chalets />} />
+          <Route path="/industries/yachting" element={<Yachting />} />
+          <Route path="/industries/privatejets" element={<Privatejets />} />
+
 
 
           <Route path="/services/recruitmentsolutions" element={<Recruitmentsolutions/>}/>

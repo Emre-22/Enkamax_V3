@@ -3,12 +3,15 @@ export const navItems = [
     {name: "About", href:"/about"},
 
     {
-        name: "Industries", href:"/industries",
+        name: "Areas", href:"/industries",
         subMenu:[
             {name : "Real Estate",href:"/industries/realestate"},
-            {name : "UHNW",href:"/industries/uhnw"},
             {name : "Family Offices",href:"/industries/familyoffices"},
             {name : "Hospitality",href:"/industries/hospitality"},
+            {name : "Private Households & Estates",href:"/industries/privatehouseholds"},
+            {name : "Yachting",href:"/industries/yachting"},
+            {name : "Chalets",href:"/industries/chalets"},
+            {name : "Private Jets",href:"/industries/privatejets"},
 
     ]},
 
@@ -21,5 +24,7 @@ export const navItems = [
 
     ]},
 
+    {name: "Clients", href:"/clients"},
+    {name: "Candidates", href:"/candidates"},
     {name: "Contact", href:"/contact"},
 ]
