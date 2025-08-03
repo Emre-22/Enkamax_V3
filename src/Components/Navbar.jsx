@@ -47,53 +47,42 @@ export const Navbar = () =>{
                             {item.subMenu&& (<ChevronDown size={20} className=" "/>)}
                         </ScrollLink>
                         {/* Submenu */}
-                        {item.subMenu && (
-                            <div className="absolute -translate-x-8   rounded-xl text-left bg-gray-100 shadow-lg pointer-events-none opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
-                                {item.subMenu.map((sub, dsubKey) => {
-                                    const key = `${dkey}-${dsubKey}`;
-                                    const isOpen = openSubSubMenuIndex === key;
-                                    
-                                    return (
-                                        <div key={key}>
-                                    {sub.subMenu ? (
-                                        <>
-                                        <button
-                                            onClick={() => setOpenSubSubMenuIndex(isOpen ? null : key)}
-                                            className="w-full text-left px-5 py-6 text-gray-700 border-b border-gray-300 hover:bg-gray-200 flex justify-between items-center"
-                                            >
-                                            {sub.name}
-                                            <ChevronDown
-                                            className={`transition-transform shrink-0 ${isOpen ? "rotate-180" : ""}`}
-                                            size={16}
-                                            />
-                                        </button>
-
-                                        {isOpen && (
-                                            <div className="bg-gray-200/75 w-full ">
-                                            {sub.subMenu.map((deep, idx) => (
+                         {item.subMenu && (
+                            <div className="absolute -left-5  rounded-xl bg-gray-100 shadow-lg 
+                                        opacity-0 pointer-events-none 
+                                        group-hover:opacity-100 group-hover:pointer-events-auto 
+                                        transition-all duration-300 z-20">
+                                    {item.subMenu.map((sub, subKey) => (
+                                        <div key={subKey} className="relative group/sub">
+                                            {sub.subMenu ? (
+                                                <>
+                                                    <div className="px-5 py-4 text-gray-700 rounded-xl hover:bg-gray-200 flex items-center justify-between w-60">
+                                                        {sub.name}
+                                                        <ChevronDown size={16} />
+                                                    </div>
+                                                    <div className="absolute left-full top-0 mt-0  w-60 bg-gray-100 rounded-xl shadow-lg opacity-0 group-hover/sub:opacity-100 pointer-events-none group-hover/sub:pointer-events-auto transition duration-300 z-30">
+                                                        {sub.subMenu.map((deep, idx) => (
+                                                            <ScrollLink
+                                                                key={idx}
+                                                                to={deep.href}
+                                                                className="block px-5 py-4 rounded-xl text-sm text-gray-700 hover:bg-gray-200"
+                                                            >
+                                                                {deep.name}
+                                                            </ScrollLink>
+                                                        ))}
+                                                    </div>
+                                                </>
+                                            ) : (
                                                 <ScrollLink
-                                                key={idx}
-                                                to={deep.href}
-                                                className="block w-60 px-16 py-6  text-sm text-gray-700 hover:bg-gray-50"
+                                                    to={sub.href}
+                                                    className="block px-5 py-4 w-60 text-gray-700 rounded-xl hover:bg-gray-200"
                                                 >
-                                                {deep.name}
+                                                    {sub.name}
                                                 </ScrollLink>
-                                            ))}
-                                            </div>
-                                        )}
-                                        </>
-                                    ) : (
-                                        <ScrollLink
-                                        to={sub.href}
-                                        className="block px-4 py-4 w-60 text-gray-700 border-b  border-gray-300 hover:bg-gray-200"
-                                        >
-                                        {sub.name}
-                                        </ScrollLink>
-                                    )}
-                                    </div>
-                                );
-                            })}
-                            </div>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
                             )}
 
                         </div>
