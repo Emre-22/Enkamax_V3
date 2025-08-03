@@ -26,12 +26,12 @@ export const Hospitality = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 text-center font-medium">Expert Hospitality Recruitment for Luxury Establishments</h1>
+      <h1 className="text-3xl text-center text-teal-800   font-bold">Expert Hospitality Recruitment for Luxury Establishments</h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">At EnkaMax, we specialise in connecting world-class talent with prestigious hospitality environments — from five-star hotels and fine dining establishments to exclusive private members clubs, superyachts, and alpine chalets. Whether you're looking to hire exceptional professionals or take the next step in your luxury hospitality career, we ensure the perfect match.
           Explore the sectors below to discover more — and let us help you open the door to excellence.</p>
       </div>
-      <h1 className="text-3xl text-teal-800 text-center font-medium">Solving Your Recruitment Challenges with Precision and Purpose</h1>
+      <h1 className="text-3xl text-center text-teal-800 pt-30  font-bold">Solving Your Recruitment Challenges with Precision and Purpose</h1>
             <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">At EnkaMax, we transform your hiring hurdles into seamless success stories. Our exclusive network of thoroughly pre-vetted professionals isn’t just extensive—it’s activated. We know who’s ready to make a move, and more importantly, what it takes to motivate that move.<br/><br/>
 

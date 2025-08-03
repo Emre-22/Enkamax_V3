@@ -38,7 +38,7 @@ export const About = () => {
               style={{ backgroundImage: `url(${BgImg})` }}>
         <div className="absolute  min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
       <div className="relative my-container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
-        <h1 className="text-white/90 -translate-y-30 mask-radial-from-75 text-center text-3xl font-bold">Enkamax: Bespoke Hospitality Recruitment for Luxury & Private Clients</h1>
+        <h1 className="text-white/90 -translate-y-30  text-center text-3xl font-bold">Enkamax: Bespoke Hospitality Recruitment for Luxury & Private Clients</h1>
         <div className="flex flex-col gap-8 w-auto rounded-[5px] bg-gray-800/40 backdrop-blur-2xl p-10 text-white ">
           <p className=" text-lg">At EnkaMax, we specialize in sourcing exceptional hospitality professionals for the world’s most prestigious hotels, private estates, and fine-dining establishments. We understand the intricacies and expectations of luxury service — discretion, excellence, and cultural fit. Whether you're searching for executive chefs, general managers, or front-of-house specialists, our tailored recruitment solutions ensure you find the perfect match to elevate your guest experience.</p>
         </div>
@@ -48,13 +48,13 @@ export const About = () => {
 
 
     <div className="my-container flex flex-col mb-30 gap-8"> 
-        <h1 className="text-3xl font-bold  text-teal-900">Tailored Hospitality Recruitment That Embodies Your Vision</h1>
+        <h1 className="text-3xl font-bold text-center   text-teal-800">Tailored Hospitality Recruitment That Embodies Your Vision</h1>
         <p className="text-lg w-full">A flex flex-col gap-8t EnkaMax, we believe that every hospitality environment tells its own story — from the warmth of a boutique retreat to the precision of a Michelin-starred kitchen. That’s why we don’t just fill roles — we curate talent. We take the time to understand your culture, your standards, and your aspirations. With deep industry insight and an unwavering commitment to excellence, we connect you with professionals who don’t just meet expectations — they elevate them. Because your brand deserves more than a match — it deserves a legacy.</p>
     </div>
     <Statistics/>    
     <div className="my-container flex flex-col mb-30 gap-8"> 
 
-        <h1 className="text-3xl font-bold  text-teal-900">Your Bespoke Partner in Luxury Hospitality Recruitment</h1>
+        <h1 className="text-3xl font-bold text-center   text-teal-800">Your Bespoke Partner in Luxury Hospitality Recruitment</h1>
         <p className="text-lg w-full">At EnkaMax, we know that excellence in hospitality begins with people. That’s why our recruitment goes far beyond CVs and checklists — it’s about intuition, cultural alignment, and a shared passion for extraordinary service. With deep roots in the luxury hospitality world, we’ve built long-standing relationships with iconic hotels, fine-dining destinations, and private estates across the globe. Our curated network and discreet approach allow us to deliver talent that not only meets your expectations, but embodies your values. Let’s shape the future of your team — with individuals who live and breathe excellence.</p>
 
     </div>
@@ -89,7 +89,7 @@ export const About = () => {
     </div>
 
       <div className=" justify-center items-center text-center my-container  w-full pt-20">
-        <h1 className="text-3xl font-bold mask-radial-from-90 text-teal-900">Driven by Excellence: Our Core Values at EnkaMax</h1>
+        <h1 className="text-3xl font-bold  text-teal-800">Driven by Excellence: Our Core Values at EnkaMax</h1>
         <div className="flex justify-between  w-full  flex-col 2xl:flex-row pt-24 gap-16">
             {Values.map((item,key)=>{
               const Icon = item.icon

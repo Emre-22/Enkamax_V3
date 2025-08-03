@@ -103,9 +103,9 @@ export const Navbar = () =>{
                     : <Menu className="h-10 w-10" />}
                 </button>
 
-                <div className={cn("fixed inset-0 overflow-y-scroll w-full bg-teal-900 backdrop-blur-md z-40 flex flex-col items-center text-center py-30   transition-none  xl:hidden",
+                <div className={cn("fixed inset-0 overflow-y-scroll w-full bg-teal-900 backdrop-blur-md z-40 flex flex-col items-center  py-30   transition-none  xl:hidden",
                                 isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none")}>
-                    <div className="flex flex-col w-full text-center items-center  justify-center space-y-8 text-xl">
+                    <div className="flex flex-col w-full items-center  justify-center space-y-8 text-xl">
                         {navItems.map((item, mkey) => (
                             <div key={mkey} className="w-full">
                             <button
@@ -114,16 +114,18 @@ export const Navbar = () =>{
                                 ? setOpenSubMenuIndex(openSubMenuIndex === mkey ? null : mkey)
                                 : setisMenuOpen(false)
                             }
-                            className="w-full flex items-center mx-auto text-white hover:text-yellow-300  max-w-[300px] font-medium text-xl pl-[50px] py-3"
+                            className="w-full flex items-center justify-between mx-auto text-left px-10 text-white hover:text-yellow-300  max-w-[400px] md:max-w-[300px] font-medium text-xl  py-3"
                             >
-                                <ScrollLink to={item.href} className="flex items-center justify-center  w-[200px] gap-4 ">
-                                    {item.name}
+                                <ScrollLink to={item.href} className="flex items-center text-left justify-center   gap-4 ">
+                                    <h1 className="text-left ">
+                                        {item.name}
+                                    </h1>
                                     
                                 </ScrollLink>
                                 {item.subMenu && (
                                     <ChevronDown
                                     size={24}
-                                    className={`ml-2 transition-transform duration-300 border-2  animate-pulse ${
+                                    className={`ml-2 transition-transform duration-300 border-2 rounded-lg animate-pulse ${
                                         openSubMenuIndex === mkey ? "rotate-180" : ""
                                     }`}
                                     />
@@ -131,7 +133,11 @@ export const Navbar = () =>{
                             </button>
 
                             {item.subMenu && openSubMenuIndex === mkey && (
-                                <div className="bg-teal-800/90  w-full text-white transition-all duration-300">
+                                <div className="bg-teal-800/90  w-full flex flex-col items-center justify-center text-white transition-all duration-300">
+                                <div className="w-full flex flex-col justify-center items-center ">
+                                    <div>
+
+
                                 {item.subMenu.map((msub, msubKey) => {
                                     const key = `${mkey}-${msubKey}`;
                                     const isOpen = openSubSubMenuIndex === key;
@@ -144,46 +150,54 @@ export const Navbar = () =>{
                                         onClick={() =>
                                             setOpenSubSubMenuIndex(isOpen ? null : key)
                                         }
-                                        className={`w-full justify-center pl-7  text-base gap-4 py-3 flex items-center text-white hover:text-yellow-300 ${
-                                            openSubSubMenuIndex === key ? "bg-teal-700/50 border-b-1 border-teal-800" : ""
+                                        className={`    gap-4   w-full flex items-center justify-between mx-auto text-left text-base  text-white hover:text-yellow-300  max-w-[400px] md:max-w-[300px]   py-3${
+                                            openSubSubMenuIndex === key ? " " : ""
                                         } `}
-                                    >
+                                        >
                                         {msub.name}
                                         <ChevronDown
                                         size={24}
-                                        className={`ml-2  transition-transform duration-300 border-2   animate-pulse ${
+                                        className={`  transition-transform duration-300 border-2  rounded-xl animate-pulse ${
                                             openSubSubMenuIndex === key ? "rotate-180" : ""
                                         }`}
                                         />
                                     </button>
 
                                     {isOpen && (
-                                        <div className=" bg-teal-700/50">
-                                        {msub.subMenu.map((subSubItem, subSubIndex) => (
-                                            <ScrollLink
-                                            key={subSubIndex}
-                                            to={subSubItem.href}
-                                            className="block py-3 text-sm  text-white hover:text-yellow-200"
-                                            onClick={() => setisMenuOpen(false)}
-                                            >
-                                            {subSubItem.name}
-                                            </ScrollLink>
-                                        ))}
+                                        <div className=" translate-x-5 left-100 flex text-base w-full flex-col items-center  justify-center">
+                                            <div>
+                                                <div className="h-full w-[100vw] -translate-x-1/2  left-25 -z-10 absolute bg-teal-700"></div>
+                                                {msub.subMenu.map((subSubItem, subSubIndex) => (
+                                                    <ScrollLink
+                                                        key={subSubIndex}
+                                                        to={subSubItem.href}
+                                                        className="block py-3  max-w-[400px] md:max-w-[300px] text-white hover:text-yellow-200"
+                                                        onClick={() => setisMenuOpen(false)}
+                                                    >
+                                                    {subSubItem.name}
+                                                    </ScrollLink>
+                                                ))}
+                                            </div>
                                         </div>
                                     )}
                                     </>
-                                ) : (
+                                ) : 
+                                (
+
                                     <ScrollLink
-                                    to={msub.href}
-                                    className="block py-5 text-[1rem] hover:text-yellow-300"
-                                    onClick={() => setisMenuOpen(false)}
+                                        to={msub.href}
+                                        className="block py-5 text-[1rem]  hover:text-yellow-300"
+                                        onClick={() => setisMenuOpen(false)}
                                     >
-                                    {msub.name}
+                                        {msub.name}
                                     </ScrollLink>
                                 )}
+                                
                                 </div>
                             );
                         })}
+                        </div>
+                                        </div>
 
                             </div>
                             )}

@@ -32,7 +32,7 @@ export const FamilyOffices = () => {
       <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
         <BulkPictures images={[BulkPicture1,BulkPicture3]}/>{/*<div className="relative bg-gray-100 rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />*/}</div>
       <div className="flex flex-col gap-8">
-        <h1 className="text-2xl text-teal-800 font-medium">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
+        <h1 className="text-3xl  text-teal-800   font-bold">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
         <div className="flex flex-col md:flex-row gap-16">
           <p className="text-lg text-gray-700 font-medium ">At EnkaMax, we’ve proudly earned the trust of the world’s most discerning clients by placing exceptional talent in Private Households, Family Offices, and across the global UHNW community. Today, we extend our bespoke recruitment expertise to support CEOs, founders, and high-level executives in both private and corporate spheres — always with absolute discretion and precision.</p>
         </div>
@@ -52,7 +52,7 @@ export const FamilyOffices = () => {
 
 
     <div className="my-container py-20 gap-8 flex flex-col w-full ">
-      <h1 className="text-xl  font-medium">Elite Recruitment for Visionary Leaders & Private Family Offices</h1>
+      <h1 className="text-3xl text-center text-teal-800   font-bold">Elite Recruitment for Visionary Leaders & Private Family Offices</h1>
       <p className="text-lg text-gray-700 font-medium  ">
         Whether you manage a Private Family Office, operate within the UHNW sector, or lead a fast-paced organisation as a CEO, our sister agency Achieve Professionals delivers bespoke recruitment solutions designed to meet your highest expectations.<br/><br/>
 

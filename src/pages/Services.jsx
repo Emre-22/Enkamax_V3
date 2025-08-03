@@ -29,9 +29,9 @@ export const Services = () => {
     
             <div className="my-container flex flex-col gap-4">
                <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                <h1 className="text-white/90 pt-30 mask-radial-from-75 text-center text-2xl md:text-3xl font-bold">Achieving Excellence Through First-Rate Recruitment</h1>
+                <h1 className="text-white/90 pt-30 text-center text-2xl md:text-3xl font-bold">Achieving Excellence Through First-Rate Recruitment</h1>
                 <p className="text-lg font-medium text-center ">Because it’s about time to redefine recruitment.</p>
-                <ScrollLink to="/contact"  className="border-1 border-teal-400    rounded-3xl hover:shadow-center hover:bg-teal-900 transition-colors duration-300">
+                <ScrollLink to="/contact"  className="border-1 border-teal-400    rounded-3xl hover:shadow-center hover:bg-teal-800 transition-colors duration-300">
                                     <div className="text-white  p-7 py-2 text-center font-bold" >Lets Talk</div>
                 </ScrollLink>
               </div>
@@ -39,7 +39,7 @@ export const Services = () => {
         </div>
     </div>
     <div className="">
-      <h1 className="text-3xl text-teal-800  mt-20 mask-radial-from-45 font-medium text-center">Our Client Services</h1>
+      <h1 className="text-3xl text-teal-800  mt-20 font-medium text-center">Our Client Services</h1>
             
             
             <div className="relative my-20 my-container grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8">
@@ -71,7 +71,7 @@ export const Services = () => {
         <p className="text-lg text-gray-800">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
       </div>
 
-      <div className="w-full min-h-110 bg-gradient-to-b from-gray-700 to-teal-950/70 mb-40">
+      <div className="w-full min-h-110 bg-gradient-to-b from-gray-700 to-teal-800/70 mb-40">
         <h1 className="text-white text-center p-8 text-3xl">Your Benefits From Using Our Services</h1>
         <div className="my-container flex flex-col md:flex-row  md:gap-16">
           {benefits.map((item,key)=>{
@@ -88,7 +88,7 @@ export const Services = () => {
     </div>  
     <div className="relative flex flex-col my-container pb-16 gap-8">
       <div className="mb-32 flex flex-col gap-8">
-        <h1 className="text-3xl text-center font-medium text-teal-800 mask-radial-from-75">Areas Of Expertise</h1>
+        <h1 className="text-3xl text-center font-medium text-teal-800">Areas Of Expertise</h1>
         <p className="text-gray-700 text-lg">
           With specialist Private Household recruitment and Luxury Hospitality recruitment consultants covering our core divisions, Achieve Hospitality combines the Private Household recruitment and Luxury Hospitality recruitment industry and market expertise of a niche supplier within Private Household recruitment and Luxury Hospitality recruitment with the capacity and resources of a national agency to deliver the right talent for the right role.
         </p>

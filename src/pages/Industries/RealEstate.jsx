@@ -29,7 +29,7 @@ export const RealEstate = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 text-center font-medium">Global Property Solutions for the Discerning Few <br/>Exclusive Real Estate. Tailored to Your Vision.</h1>
+      <h1 className="text-3xl text-teal-800 font-bold text-center ">Global Property Solutions for the Discerning Few <br/>Exclusive Real Estate. Tailored to Your Vision.</h1>
       <div className="flex flex-col  gap-8">
         <p className="text-lg text-gray-700 w-full  font-medium">At EnkaMax, we specialize in sourcing and securing premium real estate assets for ultra-high-net-worth individuals, family offices, and private investors around the globe. Our property services go far beyond conventional brokerage. We act as discreet advisors and strategic partners—providing a fully bespoke experience that reflects the exceptional standards of our clientele.</p>
         <p className="text-lg text-gray-700 w-full font-medium">Whether you are seeking a secluded private residence, a flagship investment property, or a high-yield portfolio opportunity, we curate and negotiate off-market transactions with complete discretion. From waterfront villas in the Mediterranean to penthouses in Manhattan, luxury developments in Dubai to alpine chalets in Switzerland—every property we present is handpicked to meet the personal and financial goals of our clients.</p>

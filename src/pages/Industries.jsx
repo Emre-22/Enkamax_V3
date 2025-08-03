@@ -42,7 +42,7 @@ export const Industries = () => {
 
         <div className="my-container flex  flex-col gap-4">
            <div className="relative flex flex-col gap-4 my-container pt-40 pb-10 max-w-200  z-10"> 
-            <h1 className="text-white/90 pt-30 mask-radial-from-75 text-center text-2xl md:text-3xl font-bold">Areas of Expertise</h1>
+            <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Areas of Expertise</h1>
             <p className="text-lg text-center font-medium  pb-15">At EnkaMax Recruiting & Consulting, our dedicated specialists bring deep expertise across our core divisions — Private Households & Estates, Luxury Hospitality, and Lifestyle & Retail. We combine the precision of a boutique agency with the reach and resources of a global partner, ensuring that every placement is a seamless match between talent and opportunity. Whether for a private estate, a luxury resort, or an exclusive retail brand, we deliver exceptional professionals tailored to your world.</p>
           </div>
         </div>
@@ -78,8 +78,8 @@ export const Industries = () => {
         </div>
         
         
-        <ContactUs/>
       </div>
+        <ContactUs/>
 
         <Footer/>
     </div>;

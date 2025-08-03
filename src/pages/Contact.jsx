@@ -22,12 +22,7 @@ export const Contact = () => {
                      <div className="border-t-5   md:border-l-5 md:border-t-0 border-amber-400 w-full text-center  justify-center  flex flex-col gap-4  pt-8 md:pt-0 ">
                          <div className="" >
                              <span className="text-lg md:text-2xl text-gray-500">Mail us:  </span>
-                             <span className="text-lg md:text-2xl text-gray-600 font-medium">ee@enkamax.com </span>
-                         </div>
-     
-                         <div className="">
-                             <span className="text-lg md:text-2xl text-gray-500">Whatsapp: </span>
-                             <span className="text-lg md:text-2xl text-gray-600 font-medium">+90 555 333 22 11 </span>
+                             <span className="text-lg md:text-2xl text-gray-600 font-medium">info@enkamax.com </span>
                          </div>
                      </div>
      

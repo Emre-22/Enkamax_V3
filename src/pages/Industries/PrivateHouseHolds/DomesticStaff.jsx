@@ -34,13 +34,13 @@ Our mission is simple: to ensure your household runs with ease, grace, and absol
           <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
            <div className="relative bg-gray-100 rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} /></div>
           <div className="flex flex-col gap-8">
-            <h1 className="text-2xl text-teal-800 font-medium">Looking for Outstanding Household Staff?
+            <h1 className="text-3xl  text-teal-800   font-bold">Looking for Outstanding Household Staff?
 </h1>
             <div className="flex flex-col md:flex-row gap-16">
               <p className="text-lg text-gray-700 font-medium ">At EnkaMax, we specialise in sourcing exceptional domestic professionals for high-net-worth households, private estates, and residences around the world. We know that your home is more than just a place—it’s a reflection of your lifestyle, standards, and values.<br/><br/>
               That’s why we go beyond simply filling roles. Through our meticulous recruitment and vetting process, we introduce you only to candidates who meet the highest standards of experience, discretion, and dedication—whether you need a seasoned housekeeper, a qualified nanny, a governess, or a complete household team.</p>
             </div>
-            <h3 className="text-xl font-medium ">Why EnkaMax?
+            <h3 className="text-xl text-gray-700 font-bold ">Why EnkaMax:
 </h3>
             <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
               <li>Discreet and expert recruitment for UHNW residences globally
@@ -56,8 +56,8 @@ Our mission is simple: to ensure your household runs with ease, grace, and absol
           </div>
         </div>
         
-    <div className="my-container py-20 gap-8 flex flex-col w-full ">
-      <h1 className="text-xl  font-medium">Complete Household Staffing – From Kitchen to Laundry
+    <div className="my-container pt-20 gap-8 flex flex-col w-full ">
+      <h1 className="text-3xl text-center text-teal-800  pt-10 font-bold">Complete Household Staffing – From Kitchen to Laundry
 </h1>
       <p className="text-lg text-gray-700 font-medium  ">
         At EnkaMax, we don’t just fill individual roles—we curate fully functioning, high-performing domestic teams tailored to your lifestyle. Whether you require a private chef, butler, house manager, laundress, nanny, chauffeur, or full housekeeping support, we deliver seamless staffing solutions across every area of your home.<br/><br/>
