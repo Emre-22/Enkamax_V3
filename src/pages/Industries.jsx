@@ -54,11 +54,11 @@ export const Industries = () => {
         <div  className=" grid grid-cols-1  pt-30">
         {cardinfo.map((item, key)=>{
           const Icon = item.icon
-          return <div  key={key} className={cn("flex group py-8 md:p-0  ",
+          return <div  key={key} className={cn("flex group  py-8 md:p-0  ",
               key%2==1 ? "md:flex-row-reverse":""
             )}>
               <ScrollLink to={item.href} 
-              className={cn(`flex group  border-r-2 border-l-2  flex-col md:flex-row ${key % 2 !== 0 ? "md:flex-row-reverse border-l-teal-400" : "border-r-teal-400"}
+              className={cn(`flex group  border-r-2 border-l-2 w-full flex-col md:flex-row ${key % 2 !== 0 ? "md:flex-row-reverse border-l-teal-400" : "border-r-teal-400"}
               md:saturate-0 hover:saturate-100  border-transparent  transition-all  duration-300`,isResizing?"transition-none":"")}>
 
               <div className={cn(key%2==1 ? "mask-l-from-0 to-100% md:-translate-x-1/2 transition-all  md:group-hover:translate-x-0":"mask-r-from-0 to-100% md:translate-x-1/2 transition-all  md:group-hover:translate-x-0",

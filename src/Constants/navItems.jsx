@@ -11,11 +11,11 @@ export const navItems = [
       { name: "Hospitality", href: "/industries/hospitality" },
       {
         name: "Private Households & Estates",
-        href: "#", // Not used for navigation
+        href: "/industries/privatehouseholds/householdestatemanagement", 
         clickable: false,
         subMenu: [
-          { name: "Estate Managers", href: "/industries/privatehouseholds/estatemanager" },
-          { name: "Butlers", href: "/industries/privatehouseholds/butlers" },
+          { name: "Domestic Staff", href: "/industries/privatehouseholds/domesticstaff" },
+          { name: "HouseHold & Estate Management", href: "/industries/privatehouseholds/householdestatemanagement" },
           { name: "Private Chefs", href: "/industries/privatehouseholds/privatechefs" },
         ],
       },

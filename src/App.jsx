@@ -5,11 +5,11 @@ import { NotFound } from "./pages/NotFound"
 
 import { RealEstate } from "./pages/Industries/RealEstate";
 import { Hospitality } from "./pages/Industries/Hospitality";
-import { Privatehouseholds } from "./pages/Industries/privatehouseholds";
+import { DomesticStaff } from "./pages/Industries/PrivateHouseHolds/DomesticStaff";
 import { Chalets } from "./pages/Industries/chaletvilla";
 import { Yachting } from "./pages/Industries/yachting";
 import { Privatejets } from "./pages/Industries/privatejets";
-import { FamilyOffices } from "./pages/Industries/familyoffices";
+import { FamilyOffices } from "./pages/Industries/FamilyOffices";
 
 
 import { Contact } from "./pages/Contact";
@@ -24,6 +24,8 @@ import { Realestatemanagement } from "./pages/Services/realestatemanagement";
 import { Recruitmentsolutions } from "./pages/Services/recruitmentsolutions";
 import { Candidates } from "./pages/Candidates";
 import { Clients } from "./pages/Clients";
+import { Householdestatemanagement } from "./pages/Industries/PrivateHouseHolds/HouseholdEstateManagement";
+import { Privatechefs } from "./pages/Industries/PrivateHouseHolds/PrivateChefs";
 
 
 
@@ -40,11 +42,13 @@ function App() {
           <Route path="/industries/Hospitality" element={<Hospitality />} />
           <Route path="/industries/familyoffices" element={<FamilyOffices />} />
 
-          <Route path="/industries/privatehouseholds" element={<Privatehouseholds />} />
-          <Route path="/industries/chaletvilla" element={<Chalets />} />
+          <Route path="/industries/privatehouseholds/domesticstaff" element={<DomesticStaff />} />
+          <Route path="/industries/privatehouseholds/householdestatemanagement" element={<Householdestatemanagement />} />
+          <Route path="/industries/privatehouseholds/privatechefs" element={<Privatechefs />} />
+
+          <Route path="/industries/chalets" element={<Chalets />} />
           <Route path="/industries/yachting" element={<Yachting />} />
           <Route path="/industries/privatejets" element={<Privatejets />} />
-
 
 
           <Route path="/services/recruitmentsolutions" element={<Recruitmentsolutions/>}/>

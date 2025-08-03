@@ -70,11 +70,11 @@ export const cardinfo =[
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
         icon:LampDesk,
         img:Chalet,
-        href:"/Industries/chaletvilla",
+        href:"/Industries/chalets",
     },
     {
         title:"Private Jets",
-        paragraph:"We provide you the best hospitality with best teams",
+        paragraph:"Discretion, precision, and professionalism define every crew member we place. Whether for short-haul or global travel, we deliver highly experienced, polished candidates who understand the unique standards of private aviation. From flight attendants to full crew staffing, we ensure your jet is serviced by individuals who embody trust, safety, and seamless luxury.",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
         icon:LampDesk,
         img:Jet,
@@ -115,7 +115,7 @@ export const Cards = ({animate=true}) => {
   };
 
   return (
-    <div className="relative w-full bg-gray-200 px-5 md:px-20">
+    <div className="relative w-full bg-gray-100 px-5 py-30 md:px-20">
       {/* Scroll Buttons */}
       <button
         onClick={() => scroll("left")}
@@ -134,7 +134,7 @@ export const Cards = ({animate=true}) => {
       {/* Scroll Container */}
       <div
         ref={scrollRef}
-        className="overflow-x-auto  scroll-smooth snap-x snap-mandatory scrollbar-hidden w-full"
+        className="overflow-x-auto   scroll-smooth snap-x snap-mandatory scrollbar-hidden w-full"
       >
         <div className="md:my-container flex gap-8 md:px-4 py-6">
           {cardinfo.map((item, key) => {
@@ -148,7 +148,7 @@ export const Cards = ({animate=true}) => {
                   "card snap-center shrink-0 w-[100%] sm:w-[60%] md:w-[60%] max-w-[400px]",
                   "bg-white/60 group-hover:bg-amber-100/60 backdrop-blur-lg",
                   "shadow-center flex flex-col items-center text-center",
-                  "hover:inner-shadow-center transition-colors duration-300",
+                  "hover:inner-shadow-center transition-colors duration-300 min-h-120",
                   animate ? "fade-in-up" : ""
                 )}
               >
@@ -164,9 +164,9 @@ export const Cards = ({animate=true}) => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent lg:opacity-50 opacity-100 lg:group-hover:opacity-100 transition-opacity duration-300 z-10" />
 
                   {/* Content */}
-                  <div className="relative z-20   flex flex-col ">
+                  <div className="relative z-20 h-full flex flex-col ">
                     {/* Title */}
-                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[100px] w-full flex gap-4 px-4 items-center bg-gray-800/30 border-b border-gray-500/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
+                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[240px] w-full flex gap-4 px-4 items-center bg-gray-800/30 border-b border-gray-500/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
                       <Icon className="text-white w-10 h-10 stroke-1 shrink-0" />
                       <h1 className="text-white font-bold text-xl text-left">{item.title}</h1>
                     </div>

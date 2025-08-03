@@ -17,47 +17,8 @@ import { Gem } from 'lucide-react';
 import { TreePalm } from 'lucide-react';
 import { LampDesk } from 'lucide-react';
 
-const ServicesInfo = [
-  {
-    name: "Recruitment Solutions",
-    to: "/services/realestate",
-    icon: HandPlatter,
-    paragraph:"We manage your Real Estate with pure passion. We manage your Real  Estate with "
-    
-  },
-  {
-    name: "Real Estate Management",
-    to: "/services/realestate",
-    icon: Building2,
-    paragraph:"We manage your Real Estate with pure passion. We manage your Real Estate with pureeal Estate with pure passion. "
-  },
-  {
-    name: "Consultancy",
-    to: "/services/realestate",
-    icon: Gem,
-    paragraph:"We manage your Real Estate with pure passion. We manage your Real Estate with pure passion. "
-    
-  }
-
-]
-
-const benefits=[
-  {
-    title:"Save Time",
-    icon:Home,
-    paragraph:"Saveus time by using our serviceous time by using our serviceous time by using our services.",
-  },
-  {
-    title:"Save Time",
-    icon:Home,
-    paragraph:"Save your precious time by using our services. p.ices. pservices. precious time by using our services.",
-  },
-  {
-    title:"Save Time",
-    icon:Home,
-    paragraph:"Save your precious time by using our services.",
-  },
-]
+import { benefits } from "../Constants/benefits";
+import { ServicesInfo } from "../Constants/servicesinfo";
 
 export const Services = () => {
   return <div className="">
@@ -76,26 +37,34 @@ export const Services = () => {
               </div>
             </div>
         </div>
-      </div>
+    </div>
     <div className="">
-      <h1 className="text-3xl text-teal-800 mt-20 mask-radial-from-45 font-medium text-center">Our Client Services</h1>
-      <div className="relative my-container  justify-between flex  flex-col md:flex-row gap-8 w-full  py-20 md:p-20 ">
-      {ServicesInfo.map((item,key)=>{
-        const Icon = item.icon
-        return <ScrollLink key={key} to="/services/realestate" className="flex flex-col max-w-80 hover:inner-shadow-center gap-4 border border-gray-400 p-8 lg:px-32 items-center rounded-2xl w-full min-h-50 transition-all duration-300">
-          <div className="flex gap-4 justify-center items-center">
-            <Icon className="text-gray-600" size={24}/>
-            <h1 className="text-gray-600 font-bold text-xl">{item.name}</h1>
-          </div>
-          <div className="flex h-full ">
-            <p className="text-gray-600  ">
-              {item.paragraph}
-            </p>
-            <ChevronRight className="w-30  text-gray-600 translate-y-10" size = {24}/>
-          </div>
-        </ScrollLink>
-        })}
-      </div>
+      <h1 className="text-3xl text-teal-800  mt-20 mask-radial-from-45 font-medium text-center">Our Client Services</h1>
+            
+            
+            <div className="relative my-20 my-container grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8">
+              {ServicesInfo.map((item, key) => {
+                const Icon = item.icon;
+                return (
+                  <ScrollLink
+                    key={key}
+                    to="/services/realestate"
+                    className="border-1 relative hover:inner-shadow-center  transition-all duration-300 rounded-4xl p-10 flex flex-col h-full"
+                  >
+                    <div className="flex  gap-4">
+                      <Icon className="text-gray-600 shrink-0" size={24} />
+                      <h1 className="text-gray-600 font-bold text-xl">{item.name}</h1>
+                    </div>
+                    <div className="flex  justify-between  mt-6">
+                      <p className="text-gray-600">{item.paragraph}</p>
+                      <ChevronRight className="text-gray-600 shrink-0" size={24} />
+                    </div>
+                  </ScrollLink>
+                );
+              })}
+            </div>
+
+
 
       <div className="my-container flex flex-col gap-8 pb-30">
         <h1 className="text-xl text-gray-800 font-medium">Because it’s about time to redefine recruitment.</h1>

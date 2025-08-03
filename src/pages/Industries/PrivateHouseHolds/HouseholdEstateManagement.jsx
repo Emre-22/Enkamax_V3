@@ -1,14 +1,14 @@
-import { Navbar } from "../../Components/Navbar";
-import { Footer } from "../../Components/Footer";
+import { Navbar } from "../../../Components/Navbar";
+import { Footer } from "../../../Components/Footer";
 import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
-import { ContactUs } from "../../Components/ContactUs";
+import { ContactUs } from "../../../Components/ContactUs";
 
 import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 import  UHNWBG  from "@/assets/PrivateHouseHolds.jpeg"
 
 
-export const Privatehouseholds = () => {
+export const Householdestatemanagement = () => {
   return <div className="">
     <Navbar/>
     <div className="relative z-15 w-full  text-white font-medium flex flex-col   gap-4">

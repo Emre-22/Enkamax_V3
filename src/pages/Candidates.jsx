@@ -17,6 +17,8 @@ import { Gem } from 'lucide-react';
 import { TreePalm } from 'lucide-react';
 import { LampDesk } from 'lucide-react';
 
+import { benefits } from "../Constants/benefits";
+import { ServicesInfo } from "../Constants/servicesinfo";
 
 export const Candidates = () => {
   return <div className="">
@@ -38,7 +40,7 @@ export const Candidates = () => {
       </div>
     <div className="">
       <h1 className="text-3xl text-teal-800 mt-20 mask-radial-from-45 font-medium text-center">Our Client Services</h1>
-      
+     
 
       <div className="my-container flex flex-col gap-8 pb-30">
         <h1 className="text-xl text-gray-800 font-medium">Because it’s about time to redefine recruitment.</h1>
@@ -47,7 +49,16 @@ export const Candidates = () => {
 
       <div className="w-full min-h-110 bg-gradient-to-b from-gray-700 to-teal-950/70 mb-40">
         <h1 className="text-white text-center p-8 text-3xl">Your Benefits From Using Our Services</h1>
-       
+        <div className="my-container flex flex-col md:flex-row  md:gap-16">
+          {benefits.map((item,key)=>{
+            const Icon=item.icon
+            return <div className="flex w-full flex-col mt-12 gap-4 pb-8 items-center text-white" key = {key}>
+              <Icon className="text-yellow-400" size={40}/>
+              <h2 className="text-2xl">{item.title}</h2>
+              <p className="text-lg">{item.paragraph}</p>
+            </div>
+          })}
+        </div>  
       
         </div>
     </div>  
