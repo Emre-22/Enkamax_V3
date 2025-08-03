@@ -17,19 +17,76 @@ export const Privatechefs = () => {
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Enjoy Your Exclusive Perks</h1>
-                    <p className="text-lg font-medium text-center ">Get rid of the constant headache of chasing. Let our passionate team handle it.</p>
+                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Private Family Chef Appointments | Elite Culinary Roles in Riyadh & Across the Globe
+</h1>
+                    <p className="text-lg font-medium text-center ">Join the culinary elite serving the world’s most discerning families. At EnkaMax, we place world-class chefs into ultra-private residences, royal households, and prestigious estates where excellence is a minimum standard. These are not typical kitchen roles—these are once-in-a-lifetime opportunities to create refined dining experiences in environments that demand absolute discretion, creativity, and precision. From Riyadh to Monaco, your talent belongs on the global stage.</p>
                     
                   </div>
                 </div>
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-medium">Because it’s about time to redefine Exclusive.</h1>
+      <h1 className="text-3xl text-teal-800 font-medium">Why Choose a Private Family Chef Career?</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
+        <p className="text-lg text-gray-700 font-medium">
+Step into a world where culinary mastery meets lifestyle excellence. At EnkaMax, we match seasoned chefs with some of the most prestigious families and private households around the globe. Whether you're searching for private chef roles in London, Riyadh, or Monaco, we offer access to exclusive opportunities that rarely reach the public market.
+
+</p>
       </div>
+      <h1 className="text-3xl text-teal-800 font-medium">Why Private Chef Roles Are in High Demand
+</h1>
+        <p className="text-lg text-gray-700 font-medium">
+Today’s ultra-high-net-worth families seek more than just nourishment—they desire unforgettable dining experiences tailored to their lifestyle. As a private chef, you’ll have the creative freedom to design menus, travel internationally, and cater to the refined tastes and dietary philosophies of exceptional individuals. From intimate family dinners to high-profile entertaining, this career offers unmatched variety, flexibility, and prestige—backed by trust, discretion, and long-term commitment.
+</p>
+      <h1 className="text-3xl text-teal-800 font-medium">Benefits of a Private Chef Career
+
+</h1>
+        <p className="text-lg text-gray-700 font-medium">
+<span className="font-bold">
+  Exceptional Compensation 
+  </span>
+: Enjoy highly competitive salaries, often enhanced by generous bonuses, global travel, and luxury accommodations.<br/><br/>
+
+
+<span className="font-bold">
+Elite Work Environments
+  </span>
+: Serve in the world’s most prestigious settings—from private estates in London to royal residences in Riyadh and beyond.<br/><br/>
+
+
+<span className="font-bold">
+Global Access
+  </span>
+Unlock unique career opportunities aboard yachts, in exclusive villas, and with ultra-high-net-worth families across the globe.<br/><br/>
+
+<span className="font-bold">
+Creative Freedom
+  </span>
+Curate bespoke menus using the finest seasonal and locally sourced ingredients, with full autonomy over your culinary artistry.<br/><br/>
+
+<span className="font-bold">
+Long-Term Growth
+  </span>
+Establish lasting relationships with private clients, build your international reputation, and elevate your career to new heights in the world of private service.</p>
+    </div>
+
+
+    <div className="my-container bg-red-400 mt-20 py-20 gap-8 flex flex-col w-full ">
+      <h1 className="text-3xl text-white font-bold">Your Trusted Partner in Private Chef Recruitment</h1>
+      <h1 className="text-lg text-white font-medium">At EnkaMax, we specialise in placing exceptional culinary professionals in the most exclusive private households and residences around the world. Whether for daily gourmet dining, high-profile entertaining, or bespoke health-focused cuisine, we match skilled private chefs with discerning families and individuals who value excellence, discretion, and creativity.<br/>
+      With deep industry knowledge and a personalised approach, we ensure every placement reflects the unique lifestyle and preferences of our clients—because in private service, the perfect match is everything.</h1>
+    </div>
+    <div className="my-container  mt-20 py-20 gap-8 flex  w-full ">
+        <div>
+          <h1 className="text-3xl font-bold w-full">How to Advance Your Private Chef Career</h1>
+        <p className="text-lg text-gray-700 font-medium">
+          Ready to bring your culinary expertise into the world’s most prestigious private households? Here's how to step confidently into your next elite role:
+        </p>
+
+        </div>
+        <div className=" bg-red-400  py-20 h-full gap-8 flex  w-[50%] ">
+
+        </div>
     </div>
     <ContactUs/>
     <Footer/>

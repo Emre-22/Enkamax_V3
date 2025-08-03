@@ -36,11 +36,11 @@ export const Navbar = () =>{
             <div className="flex gap-8  items-center">
 
             {/* desktop nav */}
-            <div className="hidden xl:flex space-x-8 pl-10">
+            <div className="hidden xl:flex   space-x-8 pl-10">
                 {navItems.map((item,dkey)=>(
                     <div key={dkey} className="relative group">
                         <ScrollLink to={item.href} className={
-                            cn("text-gray-600 hover:text-teal-600 font-medium transition-colors duration-300 border-b-2 border-transparent  flex items-center",
+                            cn("text-gray-600 hover:text-teal-600 font-medium transition-colors  duration-300 border-b-2 border-transparent  flex items-center",
                                 "justify-center text-[1.2vw] xl:text-base   gap-1",(!item.subMenu && "hover:border-amber-200"))
                             }>
                             {item.name}
@@ -48,7 +48,7 @@ export const Navbar = () =>{
                         </ScrollLink>
                         {/* Submenu */}
                         {item.subMenu && (
-                            <div className="absolute left-1/2 -translate-x-1/2   rounded-xl text-center bg-gray-100 shadow-lg pointer-events-none opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
+                            <div className="absolute left-1/2 -translate-x-1/2   rounded-xl text-left bg-gray-100 shadow-lg pointer-events-none opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300">
                                 {item.subMenu.map((sub, dsubKey) => {
                                     const key = `${dkey}-${dsubKey}`;
                                     const isOpen = openSubSubMenuIndex === key;

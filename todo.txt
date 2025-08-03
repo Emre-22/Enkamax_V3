@@ -5,3 +5,5 @@ areas routing fix
 add candidates
 
 areas extend menu
+
+istatistikleri yatay genişlet
