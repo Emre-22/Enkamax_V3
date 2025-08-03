@@ -4,6 +4,9 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
+import BulkPicture1 from "@/assets/bulkcard1.jpeg"
+import BulkPicture3 from "@/assets/bulkcard3.jpeg"
+
 import FamilyOfficesBG from "@/assets/IndustryFamilyOffice.jpeg"
 import Privatehouseholds from "@/assets/PrivateHouseholds.jpeg";
 import { BulkPictures } from "../../Components/BulkPictures";
@@ -26,7 +29,8 @@ export const FamilyOffices = () => {
           </div>
   <div className="my-container grid grid-cols-1 rounded-4xl xl:grid-cols-2 gap-16 pt-30">
     
-      <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  "><BulkPictures/>{/*<div className="relative bg-gray-100 rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />*/}</div>
+      <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
+        <BulkPictures images={[BulkPicture1,BulkPicture3]}/>{/*<div className="relative bg-gray-100 rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />*/}</div>
       <div className="flex flex-col gap-8">
         <h1 className="text-2xl text-teal-800 font-medium">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
         <div className="flex flex-col md:flex-row gap-16">
