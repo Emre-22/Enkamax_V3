@@ -34,8 +34,8 @@ export const AboutSection = () =>{
                     </div>
                 </ScrollLink>
             </div>
-
             <Statistics/>
+
 
             <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
                 <div className="my-container  flex flex-col gap-16 p-16">

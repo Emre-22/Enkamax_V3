@@ -50,7 +50,10 @@ export const About = () => {
     <div className="my-container flex flex-col mb-30 gap-8"> 
         <h1 className="text-3xl font-bold  text-teal-900">Tailored Hospitality Recruitment That Embodies Your Vision</h1>
         <p className="text-lg w-full">A flex flex-col gap-8t EnkaMax, we believe that every hospitality environment tells its own story — from the warmth of a boutique retreat to the precision of a Michelin-starred kitchen. That’s why we don’t just fill roles — we curate talent. We take the time to understand your culture, your standards, and your aspirations. With deep industry insight and an unwavering commitment to excellence, we connect you with professionals who don’t just meet expectations — they elevate them. Because your brand deserves more than a match — it deserves a legacy.</p>
-        <Statistics/>
+    </div>
+    <Statistics/>    
+    <div className="my-container flex flex-col mb-30 gap-8"> 
+
         <h1 className="text-3xl font-bold  text-teal-900">Your Bespoke Partner in Luxury Hospitality Recruitment</h1>
         <p className="text-lg w-full">At EnkaMax, we know that excellence in hospitality begins with people. That’s why our recruitment goes far beyond CVs and checklists — it’s about intuition, cultural alignment, and a shared passion for extraordinary service. With deep roots in the luxury hospitality world, we’ve built long-standing relationships with iconic hotels, fine-dining destinations, and private estates across the globe. Our curated network and discreet approach allow us to deliver talent that not only meets your expectations, but embodies your values. Let’s shape the future of your team — with individuals who live and breathe excellence.</p>
 
