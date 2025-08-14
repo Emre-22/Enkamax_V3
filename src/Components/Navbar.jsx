@@ -27,9 +27,9 @@ export const Navbar = () =>{
         isScrolled ? "py-5 bg-background-foreground/80 shadow-xs" : "py-8",
         isMenuOpen ? "" : "backdrop-blur-md" )}
     >
-        <div className = "my-container mx-auto px-4 flex items-center justify-between" >
+        <div className = "my-container mx-auto px-4 flex  items-center justify-between" >
             <ScrollLink to = "/">
-                <svg className="text-primary  w-[210px]   h-[50px]">
+                <svg className="text-primary   w-[210px]  h-[50px]">
                     <g transform="scale(1.5)">
                         <use href={EnkamaxLogo}></use>
                     </g>
@@ -95,10 +95,10 @@ export const Navbar = () =>{
                         </div>
                 ))}
             </div>
-            <div className="h-10 w-10">
+            <div className="h-10  w-10 hidden  md:block ">
 
             <ScrollLink to = "/">
-                  <svg className=" h-[40px] w-[40px] ml-4 " width="4.23mm" height="4.23mm" version="1.1" viewBox="0 0 4.23 4.23" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-.125 -.124)"><path d="m2.24 0.124v0.253h1.88v3.22h0.241v-3.47zm-2.11 0.569v3.66h2.14v-0.241h-1.89v-3.42zm2.36 0.44v0.242h0.763v0.684h-0.719v0.239h0.719v0.781h-0.763v0.242h0.985v-2.19zm-1.43 5.2e-4v2.19h0.985v-0.242h-0.763v-0.782h0.719v-0.239h-0.719v-0.684h0.763v-0.242z" fill="var(--neutral-dark)" fillOpacity=".98" strokeWidth=".265"/></g></svg>
+                  <svg className=" h-[40px] w-[40px] ml-2 " width="4.23mm" height="4.23mm" version="1.1" viewBox="0 0 4.23 4.23" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-.125 -.124)"><path d="m2.24 0.124v0.253h1.88v3.22h0.241v-3.47zm-2.11 0.569v3.66h2.14v-0.241h-1.89v-3.42zm2.36 0.44v0.242h0.763v0.684h-0.719v0.239h0.719v0.781h-0.763v0.242h0.985v-2.19zm-1.43 5.2e-4v2.19h0.985v-0.242h-0.763v-0.782h0.719v-0.239h-0.719v-0.684h0.763v-0.242z" fill="var(--neutral-dark)" fillOpacity=".98" strokeWidth=".265"/></g></svg>
 
             </ScrollLink>
             </div>
@@ -107,7 +107,7 @@ export const Navbar = () =>{
             <button onClick={()=>setisMenuOpen((prev) => !prev)} 
                 className={cn("xl:hidden p-2 z-50  text-neutral-dark")}> 
                 {isMenuOpen
-                    ? <X className="h-10 w-10" />
+                    ? <X className="h-10 text-tertiary w-10" />
                     : <Menu className="h-10 w-10" />}
                 </button>
 
