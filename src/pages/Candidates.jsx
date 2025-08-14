@@ -45,22 +45,22 @@ Our network extends to some of the most distinguished properties and private res
         </div>
       </div>
     <div className="">
-      <h1 className="text-3xl text-teal-800 mt-20 mb-10  font-medium text-center">Take the Next Step in Your Hospitality Career with EnkaMax
+      <h1 className="text-3xl text-primary mt-20 mb-10  font-bold text-center">Take the Next Step in Your Hospitality Career with EnkaMax
 </h1>
      
 
       <div className="my-container flex flex-col gap-8 pb-30">
         <p className="text-lg text-gray-800">At EnkaMax, we specialise in opening doors to the most prestigious and exclusive hospitality opportunities worldwide. Our network spans iconic luxury hotels, Michelin-starred restaurants, private estates, superyachts, and opulent villas—ensuring that your skills and talent are showcased in environments where excellence is the standard. Whether you aspire to step into a senior management position, secure a high-profile front-of-house role, or lead a world-class kitchen, we are here to guide you toward the next defining chapter of your career.<br/><br/>
-<span className="font-bold text-teal-800">
+<span className="font-bold ">
 A Tailored Approach for Exceptional Talent<br/><br/>
 </span>
 We understand that no two professionals—or careers—are alike. Our experienced consultants take the time to understand your aspirations, strengths, and values before matching you with roles that align perfectly with your expertise and ambitions. From high-pressure, performance-driven Michelin kitchens to the refined discretion of a private estate, we ensure you are positioned where your talent can truly shine.<br/><br/>
-<span className="font-bold text-teal-800">
+<span className="font-bold ">
 
 Global Opportunities, Lasting Careers<br/><br/>
 </span>
 Drawing on deep industry insight, we connect you with opportunities that offer more than just a job—they offer stability, growth, and the chance to become part of the world’s most elite hospitality teams. We work with principals, owners, and brands who value dedication, professionalism, and excellence, ensuring that your career path leads to both personal fulfilment and professional success.<br/><br/>
-<span className="font-bold text-teal-800">
+<span className="font-bold ">
 
 Ready to Elevate Your Career?<br/><br/>
 </span>
@@ -135,7 +135,7 @@ Your next role could be the one that transforms your professional journey. Explo
     
     <div className="relative flex flex-col my-container pb-16 gap-8">
       <div className="mb-32 flex flex-col gap-8">
-        <h1 className="text-3xl text-center font-medium text-teal-800 ">Areas Of Expertise</h1>
+        <h1 className="text-3xl text-center font-bold text-primary ">Areas Of Expertise</h1>
         <p className="text-gray-700 text-lg">
           With specialist Private Household recruitment and Luxury Hospitality recruitment consultants covering our core divisions, Achieve Hospitality combines the Private Household recruitment and Luxury Hospitality recruitment industry and market expertise of a niche supplier within Private Household recruitment and Luxury Hospitality recruitment with the capacity and resources of a national agency to deliver the right talent for the right role.
         </p>

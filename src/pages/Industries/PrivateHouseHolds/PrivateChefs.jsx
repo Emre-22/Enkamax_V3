@@ -26,17 +26,17 @@ export const Privatechefs = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-left text-teal-800   font-bold ">Why Choose a Private Family Chef Career?</h1>
+      <h1 className="text-3xl text-left text-primary   font-bold ">Why Choose a Private Family Chef Career?</h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">
           Step into a world where culinary mastery meets lifestyle excellence. At EnkaMax, we match seasoned chefs with some of the most prestigious families and private households around the globe. Whether you're searching for private chef roles in London, Riyadh, or Monaco, we offer access to exclusive opportunities that rarely reach the public market.
         </p>
     </div>
-      <h1 className="text-3xl text-left text-teal-800   font-bold pt-30">Why Private Chef Roles Are in High Demand</h1>
+      <h1 className="text-3xl text-left text-primary   font-bold pt-30">Why Private Chef Roles Are in High Demand</h1>
         <p className="text-lg text-gray-700 font-medium">
           Today’s ultra-high-net-worth families seek more than just nourishment—they desire unforgettable dining experiences tailored to their lifestyle. As a private chef, you’ll have the creative freedom to design menus, travel internationally, and cater to the refined tastes and dietary philosophies of exceptional individuals. From intimate family dinners to high-profile entertaining, this career offers unmatched variety, flexibility, and prestige—backed by trust, discretion, and long-term commitment.
         </p>
-      <h1 className="text-3xl text-left text-teal-800   font-bold pt-30">Benefits of a Private Chef Career</h1>
+      <h1 className="text-3xl text-left text-primary   font-bold pt-30">Benefits of a Private Chef Career</h1>
     <div>
 
       <li className="list-disc text-lg text-gray-700 font-medium">
@@ -87,7 +87,7 @@ export const Privatechefs = () => {
     </div>
     <div className="my-container  mt-20 py-20 gap-8 grid grid-cols-2  w-full ">
         <div>
-          <h1 className="text-3xl font-bold text-teal-800 w-full">How to Advance Your Private Chef Career</h1>
+          <h1 className="text-3xl font-bold text-primary w-full">How to Advance Your Private Chef Career</h1>
           <p className="text-lg text-gray-700 pt-10 font-medium">
             Ready to bring your culinary expertise into the world’s most prestigious private households? Here's how to step confidently into your next elite role:<br/><br/>
             Submit Your CV and your Food Präsentation – Showcase your culinary credentials, specialties, and experience in private service or luxury hospitality.<br/><br/>

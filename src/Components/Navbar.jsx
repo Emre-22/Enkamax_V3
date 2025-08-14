@@ -30,7 +30,11 @@ export const Navbar = () =>{
     >
         <div className = "my-container mx-auto px-4 flex items-center justify-between" >
             <ScrollLink to = "/">
-               <img src={EnkamaxLogo} alt = "Enkamax Logo" className="h-10  w-auto "></img>
+                <svg className="text-primary w-[177px] bg-red-400 h-[50px]">
+                    <g transform="scale(1.3)">
+                        <use href={EnkamaxLogo}></use>
+                    </g>
+                </svg>
             </ScrollLink>
 
             <div className="flex gap-8  items-center">

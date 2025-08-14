@@ -36,7 +36,7 @@ export const Householdestatemanagement = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 text-center font-bold">The Art of Professional Estate Management <br/> For Visionary Property Owners & Principals</h1>
+      <h1 className="text-3xl text-primary text-center font-bold">The Art of Professional Estate Management <br/> For Visionary Property Owners & Principals</h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">
           A flawlessly managed private estate is more than a residence — it is a finely tuned ecosystem of service, discretion, and security. At EnkaMax, we handpick and place exceptional estate professionals who ensure your property operates with seamless precision while reflecting your personal standards of luxury living.<br/><br/>
@@ -62,7 +62,7 @@ export const Householdestatemanagement = () => {
           With EnkaMax, estate management becomes an art form — designed exclusively around your lifestyle, priorities, and peace of mind.
         </p>
       </div>
-      <h1 className="text-3xl text-teal-800 mt-20 text-center font-bold">For Exceptional Estate Management Professionals <br/>
+      <h1 className="text-3xl text-primary mt-20 text-center font-bold">For Exceptional Estate Management Professionals <br/>
         Elevate Your Career in the World of Luxury Living
       </h1>
       <div className="flex flex-col md:flex-row  gap-16">
@@ -88,7 +88,7 @@ export const Householdestatemanagement = () => {
           At EnkaMax, we don’t just place talent — we craft careers that redefine what’s possible in private estate management.<br/>
         </p>
       </div>
-      <h1 className="text-3xl text-teal-800 mt-20 text-center font-bold">
+      <h1 className="text-3xl text-primary mt-20 text-center font-bold">
 Why Choose a Career in Private Service?<br/>Step Into a World Few Ever Experience      </h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">
@@ -128,7 +128,7 @@ Whether you’re a seasoned estate manager or ready to embark on your journey in
 At EnkaMax, we don’t just place you in a job — we position you for a career that transforms your life.
         </p>
       </div>
-      <h1 className="text-3xl text-teal-800 mt-20 text-center font-bold">
+      <h1 className="text-3xl text-primary mt-20 text-center font-bold">
 Working with EnkaMax<br/>
 Where Discretion Meets Distinction.
 </h1>

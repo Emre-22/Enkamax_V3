@@ -23,7 +23,7 @@ export const Recruitmentsolutions = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-bold text-center">Proven Global Recruitment Excellence
+      <h1 className="text-3xl text-primary font-bold text-center">Proven Global Recruitment Excellence
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">At EnkaMax, we deliver streamlined, high-precision recruitment solutions for clients worldwide. Our process begins with a deep understanding of your requirements — collaborating with you to craft the ideal candidate profile and a tailored job description before presenting only meticulously vetted, top-tier talent.<br/><br/>

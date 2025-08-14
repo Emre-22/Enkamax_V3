@@ -25,7 +25,7 @@ export const Yachting = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-bold text-center">EnkaMax Yacht Crew Recruitment<br/>
+      <h1 className="text-3xl text-primary font-bold text-center">EnkaMax Yacht Crew Recruitment<br/>
 Bespoke Excellence for the World’s Most Prestigious Vessels
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">

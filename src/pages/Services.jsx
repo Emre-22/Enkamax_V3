@@ -40,7 +40,7 @@ export const Services = () => {
         </div>
     </div>
     <div className="">
-      <h1 className="text-3xl text-teal-800  mt-20 font-medium mb-10 text-center">EnkaMax – Where Recruitment Becomes a Signature Experience</h1>
+      <h1 className="text-3xl text-primary  mt-20 font-medium mb-10 text-center">EnkaMax – Where Recruitment Becomes a Signature Experience</h1>
             
             
 
@@ -94,7 +94,7 @@ At EnkaMax, we believe your success is measured by the people you trust to repre
     </div>  
     <div className="relative flex flex-col my-container pb-16 gap-8">
       <div className="mb-32 flex flex-col gap-8">
-        <h1 className="text-3xl text-center font-medium text-teal-800">Areas Of Expertise</h1>
+        <h1 className="text-3xl text-center font-medium text-primary">Areas Of Expertise</h1>
         <p className="text-gray-700 text-lg">
           With specialist Private Household recruitment and Luxury Hospitality recruitment consultants covering our core divisions, Achieve Hospitality combines the Private Household recruitment and Luxury Hospitality recruitment industry and market expertise of a niche supplier within Private Household recruitment and Luxury Hospitality recruitment with the capacity and resources of a national agency to deliver the right talent for the right role.
         </p>

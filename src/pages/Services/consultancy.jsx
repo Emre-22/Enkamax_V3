@@ -23,7 +23,7 @@ export const Consultancy = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-medium">Because it’s about time to redefine consultancy.</h1>
+      <h1 className="text-3xl text-primary font-medium">Because it’s about time to redefine consultancy.</h1>
       <div className="flex flex-col md:flex-row  gap-16">
               <p className="text-lg text-gray-700 font-medium">At EnkaMax, we transform experience into impact.
 We partner with you as independent consultants, integrating seamlessly into your business to understand its unique character, challenges, and ambitions. By applying our deep industry knowledge and hands-on expertise, we create bespoke strategies that elevate every aspect of your operation—from day-to-day efficiency to long-term growth.<br/><br/>

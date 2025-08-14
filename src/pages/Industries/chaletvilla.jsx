@@ -51,7 +51,7 @@ If you are a principal seeking excellence or a hospitality professional ready to
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-bold text-center">Solving Your Recruitment Challenges
+      <h1 className="text-3xl text-primary font-bold text-center">Solving Your Recruitment Challenges
 
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">

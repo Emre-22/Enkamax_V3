@@ -24,7 +24,7 @@ export const Realestatemanagement = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-bold text-center">Because it’s about time to redefine Real Estate.</h1>
+      <h1 className="text-3xl text-primary font-bold text-center">Because it’s about time to redefine Real Estate.</h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">At EnkaMax, we recognise that a truly exceptional household is more than simply well-staffed—it is flawlessly orchestrated. Our Estate Management service has been designed to meet the long-standing need for tailored, expert guidance in operating private households at the highest level of excellence.<br/><br/>
 

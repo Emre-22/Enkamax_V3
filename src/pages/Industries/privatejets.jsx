@@ -25,7 +25,7 @@ export const Privatejets = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-bold text-center ">Bespoke Private Aviation Staffing – Elevating Excellence Above the Clouds
+      <h1 className="text-3xl text-primary font-bold text-center ">Bespoke Private Aviation Staffing – Elevating Excellence Above the Clouds
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-gray-700 font-medium">At EnkaMax, we understand that in the world of private aviation, every detail matters. The calibre of your onboard team is a direct reflection of your service standards, your brand, and the experience your guests will remember. That is why we go far beyond traditional recruitment – delivering hand-selected, highly trained, and impeccably presented professionals who embody discretion, skill, and world-class hospitality.<br/><br/>

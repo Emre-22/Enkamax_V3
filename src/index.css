@@ -1,5 +1,40 @@
 @import "tailwindcss";
 
+
+
+
+body{
+  text-wrap: balance;
+}
+
+
+
+@theme{
+  --color-background:var(--background);
+
+  --color-primary:var(--primary);
+  --color-primary-foreground:var(--primary-foreground);
+  --color-primary-background:var(--primary-background);
+
+  --color-secondary:var(--secondary);
+  --color-secondary-foreground:var(--secondary-foreground);
+  --color-secondary-background:var(--secondary-background);
+
+  --color-border:var(--border);
+}
+
+
+@layer base{
+  :root{
+    --background: #ffffff;
+    --primary: #091235;
+    --primary-background: #88a9c3;
+    --secondary: 	#2b4257;
+    --secondary-foreground: #88a9c3;
+    --secondary-background: #88a9c3;
+  }
+}
+
 @utility my-container{
 
     width: 100%;
