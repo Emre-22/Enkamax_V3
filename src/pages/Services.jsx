@@ -19,6 +19,7 @@ import { LampDesk } from 'lucide-react';
 
 import { benefits } from "../Constants/benefits";
 import { ServicesInfo } from "../Constants/servicesinfo";
+import { AreasOfExpertise } from "../Components/AreasOfExpertise";
 
 export const Services = () => {
   return <div className="">
@@ -77,7 +78,7 @@ At EnkaMax, we believe your success is measured by the people you trust to repre
                 );
               })}
             </div>
-      <div className="w-full min-h-110 bg-gradient-to-b from-neutral-dark to-primary/70 mb-40">
+      <div className="w-full min-h-110 bg-gradient-to-b from-neutral-dark to-primary/70 mb-20">
         <h1 className="text-tertiary text-center p-8 text-3xl">Your Benefits From Using Our Services</h1>
         <div className="my-container flex flex-col md:flex-row  md:gap-16">
           {benefits.map((item,key)=>{
@@ -92,14 +93,7 @@ At EnkaMax, we believe your success is measured by the people you trust to repre
       
         </div>
     </div>  
-    <div className="relative flex flex-col my-container pb-16 gap-8">
-      <div className="mb-32 flex flex-col gap-8">
-        <h1 className="text-3xl text-center font-bold text-primary">Areas Of Expertise</h1>
-        <p className="text-neutral-dark text-lg">
-          With specialist Private Household recruitment and Luxury Hospitality recruitment consultants covering our core divisions, Achieve Hospitality combines the Private Household recruitment and Luxury Hospitality recruitment industry and market expertise of a niche supplier within Private Household recruitment and Luxury Hospitality recruitment with the capacity and resources of a national agency to deliver the right talent for the right role.
-        </p>
-      </div>
-    </div>
+    <AreasOfExpertise/>
     <Cards animate={false}/>
     <ContactUs/>
     <Footer/>
