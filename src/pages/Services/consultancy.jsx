@@ -10,22 +10,23 @@ import ConsultancyBG from "@/assets/consultancy.jpeg"
 export const Consultancy = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-white font-medium flex flex-col   gap-4">
-            <div className="relative bg-gray-100 bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${ConsultancyBG})`}} >
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${ConsultancyBG})`}} >
                 <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
+                    <h1 className="text-tertiary/90 pt-30  text-center text-2xl md:text-3xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
                     
                   </div>
                 </div>
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-primary font-medium">Because it’s about time to redefine consultancy.</h1>
+      <h1 className="text-3xl text-primary  text-center font-bold">At EnkaMax, we transform experience into impact.
+</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-              <p className="text-lg text-gray-700 font-medium">At EnkaMax, we transform experience into impact.
+              <p className="text-lg text-neutral-dark font-medium">
 We partner with you as independent consultants, integrating seamlessly into your business to understand its unique character, challenges, and ambitions. By applying our deep industry knowledge and hands-on expertise, we create bespoke strategies that elevate every aspect of your operation—from day-to-day efficiency to long-term growth.<br/><br/>
 
 Our tailored, cost-effective solutions are designed to deliver tangible results: increased sales, enhanced profitability, and higher employee productivity. We believe success lies not only in numbers, but in the sustainable strength of your team, the satisfaction of your clients, and the reputation your brand commands.<br/><br/>

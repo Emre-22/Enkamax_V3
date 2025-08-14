@@ -3,7 +3,7 @@
 
 
 
-body{
+h1,h2,h3{
   text-wrap: balance;
 }
 
@@ -11,27 +11,77 @@ body{
 
 @theme{
   --color-background:var(--background);
+  --color-background-foreground:var(--background-foreground);
 
   --color-primary:var(--primary);
   --color-primary-foreground:var(--primary-foreground);
   --color-primary-background:var(--primary-background);
+  --color-primary-background-sub:var(--primary-background-sub);
+  --color-hover-primary: var(--hover-primary);
 
   --color-secondary:var(--secondary);
   --color-secondary-foreground:var(--secondary-foreground);
   --color-secondary-background:var(--secondary-background);
+  --color-hover-secondary: var(--hover-secondary);
+  
 
+  --color-tertiary:var(--tertiary);
+  --color-tertiary-foreground:var(--tertiary-foreground);
+  --color-tertiary-background:var(--tertiary-background);
+  
+  --color-accent:var(--accent);
+  --color-accent-foreground:var(--accent-foreground);
+  --color-accent-background:var(--accent-background);
+  
+  --color-neutral-light:var(--neutral-light);
+  --color-neutral-mid:var(--neutral-mid);
+  --color-neutral-dark:var(--neutral-dark);
   --color-border:var(--border);
 }
 
 
 @layer base{
   :root{
-    --background: #ffffff;
-    --primary: #091235;
-    --primary-background: #88a9c3;
-    --secondary: 	#2b4257;
-    --secondary-foreground: #88a9c3;
-    --secondary-background: #88a9c3;
+    --background: #0F172A; 
+    --background-foreground: #fafbff;
+
+    --primary: #18377a ;
+    --primary-foreground: #F9FAFB ;
+    --primary-background: #162864;
+    --primary-background-sub: #1f357c;
+    --hover-primary: #19319e; 
+
+    --secondary: 	#ffae00;
+    --secondary-background: #111827;
+    --secondary-foreground: #392F1B;
+    --hover-secondary: #FFD84D; 
+
+    
+    --neutral-light: #ebf2ff;
+    --neutral-mid: #b5c5e0; 
+    --neutral-dark: #2d3a4d; 
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    --tertiary:rgb(255, 255, 255);
+    --tertiary-foreground: #000000; 
+    --tertiary-background: #3C1361;
+    
+    --accent: #EAB308; 
+    --accent-foreground: #111827; 
+    --accent-background: #FFD700; 
   }
 }
 
@@ -77,5 +127,5 @@ body{
 }
 
 @utility inner-shadow-center {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), inset 0 0 30px oklch(100.8% 0.5 100.0/0.4); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), inset 0 0 30px var(--hover-secondary); 
 }

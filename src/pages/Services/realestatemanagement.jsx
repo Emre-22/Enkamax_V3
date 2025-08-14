@@ -10,13 +10,13 @@ import RealestatemanagementBG from "@/assets/Realestatemanagement.jpeg"
 export const Realestatemanagement = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-white font-medium flex flex-col   gap-4">
-            <div className="relative bg-gray-100 bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RealestatemanagementBG})`}} >
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RealestatemanagementBG})`}} >
                 <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-left text-2xl md:text-3xl font-bold">EnkaMax Redefines the Standard in Bespoke Estate Management Services</h1>
+                    <h1 className="text-tertiary/90 pt-30  text-left text-2xl md:text-3xl font-bold">EnkaMax Redefines the Standard in Bespoke Estate Management Services</h1>
                     <p className="text-lg font-medium text-left ">It conveys exclusivity, authority, and a market-leading position—while still being adaptable for both web and print.</p>
                     
                   </div>
@@ -24,14 +24,15 @@ export const Realestatemanagement = () => {
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-primary font-bold text-center">Because it’s about time to redefine Real Estate.</h1>
+      <h1 className="text-3xl text-primary font-bold text-center">Elevating Private Estate Management to an Art Form
+</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">At EnkaMax, we recognise that a truly exceptional household is more than simply well-staffed—it is flawlessly orchestrated. Our Estate Management service has been designed to meet the long-standing need for tailored, expert guidance in operating private households at the highest level of excellence.<br/><br/>
+        <p className="text-lg text-neutral-dark font-medium">At EnkaMax, we recognise that a truly exceptional household is more than simply well-staffed—it is flawlessly orchestrated. Our Estate Management service has been designed to meet the long-standing need for tailored, expert guidance in operating private households at the highest level of excellence.<br/><br/>
 
 From the initial assessment of your estate’s unique requirements to the seamless implementation of bespoke staffing structures, we provide a wealth of knowledge and precision-driven solutions. Every recommendation is informed by our deep understanding of ultra-high-net-worth lifestyles, ensuring your household operates with effortless efficiency, unwavering discretion, and refined sophistication.<br/><br/>
 
 To accommodate the individuality of each property and Principal, we offer a tiered selection of packages: Bronze, Silver, Gold, and our entirely Bespoke Package. Whether you require targeted advisory on staff selection, a complete review of operational protocols, or an end-to-end estate management strategy, each package is designed to:<br/><br/>
-<ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
+<ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
           <li>           Optimise daily household operations without compromising on luxury or privacy.<br/>
 
 

@@ -12,13 +12,13 @@ import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 export const Chalets = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-white font-medium flex flex-col   gap-4">
-            <div className="relative bg-gray-100 bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RealEstateBG})`}} >
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RealEstateBG})`}} >
                 <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-left text-2xl md:text-3xl font-bold">EnkaMax Chalet & Luxury Ski Recruitment<br/>
+                    <h1 className="text-tertiary/90 pt-30  text-left text-2xl md:text-3xl font-bold">EnkaMax Chalet & Luxury Ski Recruitment<br/>
 Tailored Excellence for the World’s Finest Mountain Retreats</h1>
                     <p className="text-lg font-medium text-left "> Whether you are staffing a privately owned alpine chalet or managing a luxury ski resort, EnkaMax specialises in placing expertly trained, highly vetted chalet staff anywhere in the world.<br/><br/>
 
@@ -27,7 +27,8 @@ We understand that in these rarefied environments, service is not just hospitali
 <span className="font-bold">Our Promise to You:</span><br/><br/>
 <ul className="list-disc pl-6 space-y-2 text-lg font-medium  ">
           <li>           
-            Bespoke candidate selection aligned with your yacht’s specific requirements<br/>
+            Bespoke candidate selection aligned with your property’s style, standards, and guest expectations
+<br/>
           </li>
           <li>
 Verified experience in luxury hospitality and winter resort operations
@@ -51,33 +52,17 @@ If you are a principal seeking excellence or a hospitality professional ready to
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-primary font-bold text-center">Solving Your Recruitment Challenges
+      <h1 className="text-3xl text-primary font-bold text-center">Exclusive Chalet & Resort Staffing
 
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">
-          At EnkaMax, we don’t just search for talent — we already know where it is.<br/>
-Through our established and ever-expanding network of high-calibre, discreet professionals, we maintain relationships with thousands of exceptional candidates worldwide. We know exactly who is open to a strategic career move and precisely what conditions will inspire them to say yes.<br/><br/>
+        <p className="text-lg text-neutral-dark font-medium">
+          At EnkaMax, we understand that luxury chalet operations demand more than just staff — they require individuals who combine professional expertise with a passion for the alpine lifestyle.
 
-By leveraging our insider knowledge and unparalleled access to hard-to-reach, high-value talent, we take the complexity out of recruitment for you. While you focus on scaling your organisation, we curate and connect you with individuals who will transform your team’s impact.<br/><br/>
+Our specialist recruitment team sources candidates with proven hospitality and catering experience, handpicked for their ability to deliver exceptional service in the unique environment of ski resorts. Whether it’s a seasoned chalet manager, a fine-dining chef, or attentive front-of-house staff, we ensure every placement is a perfect match for both skill and character.<br/><br/>
+        We know the rewards and challenges that come with working in a chalet setting, from the fast-paced service expectations to the adventure-filled surroundings. That’s why we select candidates who are not only highly capable but also adaptable, energetic, and ready to thrive in the mountains.
 
-<span className="font-bold">Why Principals & Employers Choose Us:<br/><br/></span>
-<ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
-          <li>          Established trust with exclusive, off-market talent<br/>
-
-
-          </li>
-          <li>      Insight into candidate motivations and decision triggers<br/></li>
-          <li>      Bespoke approach ensuring cultural and professional alignment<br/></li>
-          <li>      Proven ability to secure placements in roles of extreme discretion and prestige<br/></li>
-          
- 
-        </ul>
-<br/><br/>
-
-
-
-With EnkaMax, recruitment is no longer a challenge — it’s a competitive advantage.
+Whether you are seeking a new role in a world-class resort or looking to hire exceptional chalet staff, EnkaMax provides a discreet, tailored service that ensures your needs are met with precision and care.
 </p>
       </div>
     </div>

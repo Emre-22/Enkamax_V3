@@ -11,13 +11,13 @@ import  UHNWBG  from "@/assets/PrivateHouseHolds.jpeg"
 export const Householdestatemanagement = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-white font-medium flex flex-col   gap-4">
-            <div className="relative bg-gray-100 bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${UHNWBG})`}} >
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${UHNWBG})`}} >
                 <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container  pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30   text-left text-2xl md:text-3xl font-bold">Bespoke Household & Estate Management Staffing</h1>
+                    <h1 className="text-tertiary/90 pt-30   text-left text-2xl md:text-3xl font-bold">Bespoke Household & Estate Management Staffing</h1>
                     <p className="text-lg font-medium text-left ">
                       At <span className="font-bold">EnkaMax</span>, we don’t just fill positions — we craft perfect matches.<br/><br/>
                       Every placement is a finely tailored arrangement, designed to meet the exacting standards of the world’s most discerning households and estates.<br/><br/>
@@ -38,7 +38,7 @@ export const Householdestatemanagement = () => {
     <div className="my-container flex flex-col gap-8 pt-30">
       <h1 className="text-3xl text-primary text-center font-bold">The Art of Professional Estate Management <br/> For Visionary Property Owners & Principals</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">
+        <p className="text-lg text-neutral-dark font-medium">
           A flawlessly managed private estate is more than a residence — it is a finely tuned ecosystem of service, discretion, and security. At EnkaMax, we handpick and place exceptional estate professionals who ensure your property operates with seamless precision while reflecting your personal standards of luxury living.<br/><br/>
 
 
@@ -46,7 +46,7 @@ export const Householdestatemanagement = () => {
 
 
         <p/>
-        <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
+        <ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
           <li>         <span className="font-bold"> Uncompromising Selection</span> – Comprehensive screening to ensure only the most trustworthy and experienced professionals join your household.<br/>
 </li>
           <li>          <span className="font-bold">Discretion at the Core </span>– Staff trained in advanced privacy, security, and protocol adherence.<br/>
@@ -66,11 +66,11 @@ export const Householdestatemanagement = () => {
         Elevate Your Career in the World of Luxury Living
       </h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">
+        <p className="text-lg text-neutral-dark font-medium">
           Your expertise deserves a stage as distinguished as your skills. At EnkaMax, we connect accomplished estate management professionals with discerning principals who expect — and reward — the very highest standards of service. Our clients are prestigious private households and landmark estates worldwide, each seeking the rare combination of leadership, discretion, and operational excellence.<br/><br/>
 
           Whether you are a seasoned estate manager or a rising talent in private service, we open doors to exclusive, career-defining positions that are rarely advertised and highly coveted.<br/><br/>
-          <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
+          <ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
           <li>         <span className="font-bold"> Elite Opportunities</span>           – Direct access to prestigious, invitation-only roles in distinguished private estates.<br/>
 
           </li>
@@ -91,12 +91,12 @@ export const Householdestatemanagement = () => {
       <h1 className="text-3xl text-primary mt-20 text-center font-bold">
 Why Choose a Career in Private Service?<br/>Step Into a World Few Ever Experience      </h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">
+        <p className="text-lg text-neutral-dark font-medium">
           A career in private service is more than just a role — it’s an invitation to a lifestyle of excellence, discretion, and prestige. Within the walls of the world’s most distinguished private estates and exclusive households, you’ll find not only unmatched working environments but also long-term career stability and extraordinary professional growth.<br/>
 
 Whether you’re a seasoned estate manager or ready to embark on your journey into luxury private service, these positions open doors to a life where expertise is valued, loyalty is rewarded, and every day brings new challenges at the highest level.<br/><br/>
 
-    <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
+    <ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
           <li>         <span className="font-bold"> Join the Elite</span>           – Become part of distinguished households and prestigious private estates worldwide.<br/>
 
 
@@ -133,14 +133,14 @@ Working with EnkaMax<br/>
 Where Discretion Meets Distinction.
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">
+        <p className="text-lg text-neutral-dark font-medium">
           At EnkaMax, we don’t simply fill positions — we curate partnerships between the world’s most discerning principals and the most accomplished professionals in private service. Every match is the result of meticulous insight, absolute discretion, and a deep understanding of the refined lifestyle you serve.<br/><br/>
 
 Our approach is as tailored as a Savile Row suit and as precise as Swiss timekeeping — ensuring every placement elevates both career and household to new heights.<br/><br/>
 
 <span className="font-bold">What sets EnkaMax apart:</span><br/><br/>
 
-<ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 font-medium  ">
+<ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
           <li>         <span className="font-bold"> Specialists in Ultra-Luxury Recruitment</span>    – Consultants with unparalleled knowledge of high-profile households, royal estates, and private yachts.<br/>
 
 

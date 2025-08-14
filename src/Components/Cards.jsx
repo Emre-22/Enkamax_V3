@@ -115,20 +115,20 @@ export const Cards = ({animate=true}) => {
   };
 
   return (
-    <div className="relative w-full bg-gray-100 px-5 py-30 md:px-20">
+    <div className="relative w-full bg-neutral-light px-5 py-20 md:px-20">
       {/* Scroll Buttons */}
       <button
         onClick={() => scroll("left")}
-        className="absolute left-0 top-1/2 lg:mx-4 border-1 border-black -translate-y-1/2 z-40 bg-white/70 hover:bg-white p-1 lg:p-4 rounded-full shadow-md"
+        className="absolute left-0 top-1/2 lg:mx-4 border-1 border-tertiary-foreground -translate-y-1/2 z-40 bg-tertiary/70 hover:bg-tertiary p-1 lg:p-4 rounded-full shadow-md"
       >
-        <ChevronLeft className="w-6 h-6 text-black" />
+        <ChevronLeft className="w-6 h-6 text-tertiary-foreground" />
       </button>
 
       <button
         onClick={() => scroll("right")}
-        className="absolute right-0 top-1/2 lg:mx-4 border-1 border-black -translate-y-1/2 z-40 bg-white/70 hover:bg-white p-1 lg:p-4 rounded-full shadow-md"
+        className="absolute right-0 top-1/2 lg:mx-4 border-1 border-tertiary-foreground -translate-y-1/2 z-40 bg-tertiary/70 hover:bg-tertiary p-1 lg:p-4 rounded-full shadow-md"
       >
-        <ChevronRight className="w-6 h-6 text-black" />
+        <ChevronRight className="w-6 h-6 text-tertiary-foreground" />
       </button>
 
       {/* Scroll Container */}
@@ -146,7 +146,7 @@ export const Cards = ({animate=true}) => {
                 style={{ animationDelay: `${key * 0.2}s` }}
                 className={cn(
                   "card snap-center shrink-0 w-[100%] sm:w-[60%] md:w-[60%] max-w-[400px]",
-                  "bg-white/60 group-hover:bg-amber-100/60 backdrop-blur-lg",
+                  "bg-tertiary/60  backdrop-blur-lg",
                   "shadow-center flex flex-col items-center text-center",
                   "hover:inner-shadow-center transition-colors duration-300 min-h-120",
                   animate ? "fade-in-up" : ""
@@ -161,19 +161,19 @@ export const Cards = ({animate=true}) => {
                   />
 
                   {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent lg:opacity-50 opacity-100 lg:group-hover:opacity-100 transition-opacity duration-300 z-10" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-tertiary-foreground to-transparent lg:opacity-50 opacity-100 lg:group-hover:opacity-100 transition-opacity duration-300 z-10" />
 
                   {/* Content */}
                   <div className="relative z-20 h-full flex flex-col ">
                     {/* Title */}
-                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[240px] w-full flex gap-4 px-4 items-center bg-gray-800/30 border-b border-gray-500/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
-                      <Icon className="text-white w-10 h-10 stroke-1 shrink-0" />
-                      <h1 className="text-white font-bold text-xl text-left">{item.title}</h1>
+                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[240px] w-full flex gap-4 px-4 items-center bg-neutral-dark/30 border-b border-neutral-mid/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
+                      <Icon className="text-tertiary w-10 h-10 stroke-1 shrink-0" />
+                      <h1 className="text-tertiary font-bold text-xl text-left">{item.title}</h1>
                     </div>
 
                     {/* Paragraph */}
                     <div className="lg:opacity-0 lg:group-hover:opacity-100 translate-y-4 lg:group-hover:translate-y-0 transition-all duration-500 p-6">
-                      <p className="text-white text-left font-medium">{item.paragraph}</p>
+                      <p className="text-tertiary text-left font-medium">{item.paragraph}</p>
                     </div>
                   </div>
                 </div>

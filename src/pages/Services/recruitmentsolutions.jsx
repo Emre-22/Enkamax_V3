@@ -10,13 +10,13 @@ import RecruitmentsolutionsBG from "@/assets/Recruitmentsolutions.jpeg"
 export const Recruitmentsolutions = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-white font-medium flex flex-col   gap-4">
-            <div className="relative bg-gray-100 bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RecruitmentsolutionsBG})`}} >
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RecruitmentsolutionsBG})`}} >
                 <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
+                    <h1 className="text-tertiary/90 pt-30  text-center text-2xl md:text-3xl font-bold">Harnessing our expertise in talent acquisition, we create recruitment strategies that connect you with the right people, right when you need them.</h1>
                     
                   </div>
                 </div>
@@ -26,7 +26,7 @@ export const Recruitmentsolutions = () => {
       <h1 className="text-3xl text-primary font-bold text-center">Proven Global Recruitment Excellence
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">At EnkaMax, we deliver streamlined, high-precision recruitment solutions for clients worldwide. Our process begins with a deep understanding of your requirements — collaborating with you to craft the ideal candidate profile and a tailored job description before presenting only meticulously vetted, top-tier talent.<br/><br/>
+        <p className="text-lg text-neutral-dark font-medium">At EnkaMax, we deliver streamlined, high-precision recruitment solutions for clients worldwide. Our process begins with a deep understanding of your requirements — collaborating with you to craft the ideal candidate profile and a tailored job description before presenting only meticulously vetted, top-tier talent.<br/><br/>
 
 For clients seeking a more personal, hands-on service, we offer on-site recruitment support — working directly alongside private families or luxury hospitality teams to achieve exceptional results. This can include recruitment, staff training, ongoing management, and other retained services designed to optimise performance.<br/><br/>
 

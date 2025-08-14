@@ -20,7 +20,7 @@ export const BulkPictures = ({ images }) => {
         return (
           <div
             key={index}
-            className={`absolute ${translate} p-2 bg-white shadow-lg`}
+            className={`absolute ${translate} p-2 bg-tertiary shadow-lg`}
           >
             <div
               className={`${sizeClass} bg-cover bg-no-repeat bg-center`}

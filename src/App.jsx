@@ -23,7 +23,6 @@ import { Consultancy } from "./pages/Services/consultancy";
 import { Realestatemanagement } from "./pages/Services/realestatemanagement";
 import { Recruitmentsolutions } from "./pages/Services/recruitmentsolutions";
 import { Candidates } from "./pages/Candidates";
-import { Clients } from "./pages/Clients";
 import { Householdestatemanagement } from "./pages/Industries/PrivateHouseHolds/HouseholdEstateManagement";
 import { Privatechefs } from "./pages/Industries/PrivateHouseHolds/PrivateChefs";
 
@@ -62,8 +61,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/services" element={<Services />} />
-          
-          <Route path="/clients" element={<Clients/>} />
+         
           <Route path="/candidates" element={<Candidates />} />
 
 
