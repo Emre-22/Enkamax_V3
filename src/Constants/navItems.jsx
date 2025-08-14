@@ -35,7 +35,6 @@ export const navItems = [
     ],
   },
 
-  { name: "Clients", href: "/clients" },
   { name: "Candidates", href: "/candidates" },
   { name: "Contact", href: "/contact" },
 ];

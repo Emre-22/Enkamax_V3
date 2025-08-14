@@ -29,8 +29,9 @@ export const Services = () => {
     
             <div className="my-container flex flex-col gap-4">
                <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                <h1 className="text-white/90 pt-30 text-center text-2xl md:text-3xl font-bold">Achieving Excellence Through First-Rate Recruitment</h1>
-                <p className="text-lg font-medium text-center ">Because it’s about time to redefine recruitment.</p>
+                <h1 className="text-white/90 pt-30 text-center text-2xl md:text-3xl font-bold">EnkaMax – Redefining Elite Recruitment
+</h1>
+                <p className="text-lg font-medium text-center ">Because the right talent doesn’t just fill a role – it transforms it.</p>
                 <ScrollLink to="/contact"  className="border-1 border-teal-400    rounded-3xl hover:shadow-center hover:bg-teal-800 transition-colors duration-300">
                                     <div className="text-white  p-7 py-2 text-center font-bold" >Lets Talk</div>
                 </ScrollLink>
@@ -39,9 +40,22 @@ export const Services = () => {
         </div>
     </div>
     <div className="">
-      <h1 className="text-3xl text-teal-800  mt-20 font-medium text-center">Our Client Services</h1>
+      <h1 className="text-3xl text-teal-800  mt-20 font-medium mb-10 text-center">EnkaMax – Where Recruitment Becomes a Signature Experience</h1>
             
             
+
+
+
+      <div className="my-container flex flex-col gap-8 pb-10">
+        <p className="text-lg text-gray-800">At EnkaMax, we redefine recruitment for the world’s most discerning clients. This is not about filling a position — it’s about curating a perfect fit, one that elevates your household, estate, yacht, chalet, boutique, or private aircraft to new heights of excellence.<br/><br/>
+
+We operate in the rarefied spaces where privacy, precision, and perfection are absolute. Every introduction we make is guided by a meticulous process: understanding the unique culture of your environment, identifying candidates whose skills and discretion are beyond question, and ensuring that each match not only meets but anticipates your needs.<br/><br/>
+
+From ultra-private estates to luxury hospitality, designer retail, exclusive yachts, ski chalets, and private aviation — our team brings deep industry knowledge and a global network built on trust. Every candidate is hand-selected, rigorously vetted, and personally profiled, ensuring that they embody the expertise, reliability, and loyalty you require.<br/><br/>
+
+At EnkaMax, we believe your success is measured by the people you trust to represent you. That’s why our approach is bespoke, comprehensive, and uncompromising — every time, for every client. Because in your world, only exceptional is acceptable.</p>
+      </div>
+
             <div className="relative my-20 my-container grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8">
               {ServicesInfo.map((item, key) => {
                 const Icon = item.icon;
@@ -63,14 +77,6 @@ export const Services = () => {
                 );
               })}
             </div>
-
-
-
-      <div className="my-container flex flex-col gap-8 pb-30">
-        <h1 className="text-xl text-gray-800 font-medium">Because it’s about time to redefine recruitment.</h1>
-        <p className="text-lg text-gray-800">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
-      </div>
-
       <div className="w-full min-h-110 bg-gradient-to-b from-gray-700 to-teal-800/70 mb-40">
         <h1 className="text-white text-center p-8 text-3xl">Your Benefits From Using Our Services</h1>
         <div className="my-container flex flex-col md:flex-row  md:gap-16">
@@ -78,8 +84,8 @@ export const Services = () => {
             const Icon=item.icon
             return <div className="flex w-full flex-col mt-12 gap-4 pb-8 items-center text-white" key = {key}>
               <Icon className="text-yellow-400" size={40}/>
-              <h2 className="text-2xl">{item.title}</h2>
-              <p className="text-lg">{item.paragraph}</p>
+              <h2 className="text-center text-2xl">{item.title}</h2>
+              <p className="text-lg text-center ">{item.paragraph}</p>
             </div>
           })}
         </div>  

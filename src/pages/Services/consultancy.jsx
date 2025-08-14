@@ -16,8 +16,7 @@ export const Consultancy = () => {
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Get Your Personal Consultant With Enkamax</h1>
-                    <p className="text-lg font-medium text-center ">Get rid of the constant headache of chasing. Let our passionate team handle it.</p>
+                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
                     
                   </div>
                 </div>
@@ -26,8 +25,12 @@ export const Consultancy = () => {
     <div className="my-container flex flex-col gap-8 pt-30">
       <h1 className="text-3xl text-teal-800 font-medium">Because it’s about time to redefine consultancy.</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
+              <p className="text-lg text-gray-700 font-medium">At EnkaMax, we transform experience into impact.
+We partner with you as independent consultants, integrating seamlessly into your business to understand its unique character, challenges, and ambitions. By applying our deep industry knowledge and hands-on expertise, we create bespoke strategies that elevate every aspect of your operation—from day-to-day efficiency to long-term growth.<br/><br/>
+
+Our tailored, cost-effective solutions are designed to deliver tangible results: increased sales, enhanced profitability, and higher employee productivity. We believe success lies not only in numbers, but in the sustainable strength of your team, the satisfaction of your clients, and the reputation your brand commands.<br/><br/>
+
+With EnkaMax by your side, you gain more than a service provider—you gain a strategic ally dedicated to pushing your business ahead of the competition, building resilience, and unlocking its full potential.</p>
       </div>
     </div>
     <ContactUs/>

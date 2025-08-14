@@ -12,7 +12,7 @@ export const AboutSection = () =>{
     return(
         <section className="overflow-x-hidden">
             <div id="about" className="py-20 my-container flex flex-col gap-16  items-center align-center ">
-                <h1 className="text-3xl font-bold  text-teal-800">Bespoke Recruitment & Consulting for a World Beyond Ordinary</h1>
+                <h1 className="text-3xl font-bold  text-center lg text-teal-800">Bespoke Recruitment & Consulting for a World Beyond Ordinary</h1>
                 <p className="text-lg ">At EnkaMax, we don’t just fill positions — we shape exceptional environments. With deep expertise in the luxury sector, we offer bespoke recruitment and consulting services for UHNW individuals, VVIP families, and elite brands. From private estates, yachts, and jets to chalets and world-class hospitality venues, our approach is discreet, strategic, and relentlessly focused on quality. We work across time zones, cultures, and expectations — delivering excellence wherever you need us. Because true luxury begins with the right people — and the right partner.</p>
             </div>
                 <Cards/>
@@ -40,7 +40,7 @@ export const AboutSection = () =>{
             <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
                 <div className="my-container  flex flex-col gap-16 p-16">
 
-                    <h1 className="text-white text-center font-bold text-3xl">Achieve Your Long-Term Career Goals with EnkaMax</h1>
+                    <h1 className="text-white text-center font-bold text-3xl">Unlock Your Long-Term Career Goals with EnkaMax</h1>
                     <p className="text-white text-wrap w-full text-xl ">At EnkaMax, we understand that your next career move is about more than just a job — it’s about building a future that reflects your ambition, values, and expertise. As a trusted consultancy for UHNW households and the luxury hospitality sector, we offer you access to exclusive opportunities that are rarely advertised publicly.<br/><br/>
                         Thanks to our close relationships with leading global employers, we connect exceptional talent with exceptional environments — from private estates and yachts to luxury hotels and private family offices. Discreet, bespoke, and always candidate-focused, we accompany you every step of the way — with personalised guidance, absolute confidentiality, and the highest level of professionalism.<br/><br/>
                         If you're ready to take the next step, we're ready to guide you there.</p>

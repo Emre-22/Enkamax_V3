@@ -16,18 +16,25 @@ export const Recruitmentsolutions = () => {
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Enkamax Mastered Hiring And Employing</h1>
-                    <p className="text-lg font-medium text-center ">Get rid of the constant headache of chasing. Let our passionate team handle it.</p>
+                    <h1 className="text-white/90 pt-30  text-center text-2xl md:text-3xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
                     
                   </div>
                 </div>
             </div>
           </div>
     <div className="my-container flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-teal-800 font-medium">Because it’s about time to redefine Recruitment.</h1>
+      <h1 className="text-3xl text-teal-800 font-bold text-center">Proven Global Recruitment Excellence
+</h1>
       <div className="flex flex-col md:flex-row  gap-16">
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
-        <p className="text-lg text-gray-700 font-medium">Enkamax is a market leading recruitment and consultant agency who strive to be above competition and have been proven to beat any other genuine agency quote for your recruitment needs. Our team brings passion and understanding of Private Households, Hospitality, Retail, Fashion, Yachting, Chalets and Aviation, and a belief that success is only measured by the quality of people within your home and/or business.</p>
+        <p className="text-lg text-gray-700 font-medium">At EnkaMax, we deliver streamlined, high-precision recruitment solutions for clients worldwide. Our process begins with a deep understanding of your requirements — collaborating with you to craft the ideal candidate profile and a tailored job description before presenting only meticulously vetted, top-tier talent.<br/><br/>
+
+For clients seeking a more personal, hands-on service, we offer on-site recruitment support — working directly alongside private families or luxury hospitality teams to achieve exceptional results. This can include recruitment, staff training, ongoing management, and other retained services designed to optimise performance.<br/><br/>
+
+Our approach is consultative, not transactional. Unlike “one size fits all” agencies, we provide a bespoke, market-leading service at substantially reduced rates compared to other recruitment firms — without compromising on quality. We are committed to long-term success, offering extended rebate and replacement guarantees to ensure lasting placements.<br/><br/>
+
+We also provide a unique three-month free replacement period, covering the entire probationary stage — a level of commitment rarely seen in hospitality recruitment.<br/><br/>
+
+With a focus on longevity, trust, and excellence, EnkaMax is your partner in building teams that define the highest standards of private service.</p>
       </div>
     </div>
     <ContactUs/>
