@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { ScrollLink } from "../lib/ScrollLink";
 
-import RealEstate from "@/assets/IndustryRealEstate.jpg"
-import Hospitality from "@/assets/IndustryHospitality.jpeg"
-import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
+import RealEstate from "@/assets/realestate-bg.jpeg"
+import Hospitality from "@/assets/hospitality-bg.jpeg"
+import FamilyOffice from "@/assets/familyoffice.jpeg"
 import  Jet  from "@/assets/IndustryJet.jpeg"
 import  Yachting from "@/assets/Yachting.jpeg"
 import  Chalet from "@/assets/Chalet.jpeg"
-import  PrivateHouseHolds from "@/assets/PrivateHouseHolds.jpeg"
+import  PrivateHouseHolds from "@/assets/householdestatemngmnt.jpeg"
 
 import React, { useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -78,7 +78,7 @@ export const cardinfo =[
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
         icon:LampDesk,
         img:Jet,
-        href:"/Industries/jets",
+        href:"/Industries/privatejets",
     } 
     
 ]
@@ -145,10 +145,10 @@ export const Cards = ({animate=true}) => {
                 key={key}
                 style={{ animationDelay: `${key * 0.2}s` }}
                 className={cn(
-                  "card snap-center shrink-0 w-[100%] sm:w-[60%] md:w-[60%] max-w-[400px]",
+                  "card snap-center shrink-0 w-[100%] sm:w-[60%] md:w-[60%] max-w-[800px]",
                   "bg-tertiary/60  backdrop-blur-lg",
                   "shadow-center flex flex-col items-center text-center",
-                  "hover:inner-shadow-center transition-colors duration-300 min-h-120",
+                  "hover:inner-shadow-center transition-colors duration-300 min-h-80 ",
                   animate ? "fade-in-up" : ""
                 )}
               >
@@ -166,7 +166,7 @@ export const Cards = ({animate=true}) => {
                   {/* Content */}
                   <div className="relative z-20 h-full flex flex-col ">
                     {/* Title */}
-                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[240px] w-full flex gap-4 px-4 items-center bg-neutral-dark/30 border-b border-neutral-mid/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
+                    <div className="relative flex-col lg:flex-row min-h-[100px] lg:h-[80] w-full flex gap-4 px-4 items-center bg-neutral-dark/30 border-b border-neutral-mid/80 p-4 transform lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500">
                       <Icon className="text-tertiary w-10 h-10 stroke-1 shrink-0" />
                       <h1 className="text-tertiary font-bold text-xl text-left">{item.title}</h1>
                     </div>

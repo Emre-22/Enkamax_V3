@@ -45,21 +45,21 @@ h1,h2,h3{
     --background: #0F172A; 
     --background-foreground: #fafbff;
 
-    --primary: #18377a ;
+    --primary: #0a1f44 ;
     --primary-foreground: #F9FAFB ;
     --primary-background: #162864;
     --primary-background-sub: #1f357c;
     --hover-primary: #19319e; 
 
-    --secondary: 	#ffae00;
+    --secondary: 	#d4af37;
     --secondary-background: #111827;
     --secondary-foreground: #392F1B;
     --hover-secondary: #FFD84D; 
 
     
-    --neutral-light: #ebf2ff;
+    --neutral-light: #F8F6F2;
     --neutral-mid: #b5c5e0; 
-    --neutral-dark: #2d3a4d; 
+    --neutral-dark: #2E2E2E; 
    
     
 

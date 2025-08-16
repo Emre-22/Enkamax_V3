@@ -31,7 +31,7 @@ export const AboutSection = () =>{
                 </ScrollLink>
                 <ScrollLink to="/services" className="w-full flex flex-col    h-full">
                     <div style={{ backgroundImage: `url(${RealEstate})` }} className="bg-secondary hover:brightness-110 transition-all duration-300  bg-cover bg-no-repeat bg-[position:center_80%] flex items-end w-full h-full">
-                        <div className="bg-neutral-light/60 backdrop-blur-md flex items-center w-full h-15"><h1  className="text-bold decoration-transparent  hover:decoration-tertiary duration-300  underline underline-offset-4 transition-colors text-tertiary text-lg lg:text-2xl px-10 ">Learn more about our services!</h1><ArrowRight size={34} className="text-tertiary absolute right-5" /></div>
+                        <div className="bg-neutral-light/60 backdrop-blur-md flex items-center w-full h-15"><h1  className="text-bold decoration-transparent  hover:decoration-tertiary duration-300  underline underline-offset-4 transition-colors text-primary text-lg lg:text-2xl px-10 ">Learn more about our services!</h1><ArrowRight size={34} className="text-tertiary absolute right-5" /></div>
                     </div>
                 </ScrollLink>
             </div>

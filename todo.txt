@@ -7,3 +7,6 @@ add candidates
 areas extend menu
 
 istatistikleri yatay genişlet
+
+Logo font
+Logo mac not visible

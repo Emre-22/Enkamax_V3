@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
 import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
-import  UHNWBG  from "@/assets/PrivateHouseHolds.jpeg"
-import Privatehouseholds from "@/assets/PrivateHouseholds.jpeg";
+import  UHNWBG  from "@/assets/domeststaff.jpeg"
+import Privatehouseholds from "@/assets/domeststaff2.jpeg";
 
 
 export const DomesticStaff = () => {
@@ -29,22 +29,29 @@ Our mission is simple: to ensure your household runs with ease, grace, and absol
                 </div>
             </div>
           </div>
-    <div className="my-container grid grid-cols-1 rounded-4xl xl:grid-cols-2 gap-16 pt-30">
+    <div className=" my-container grid grid-cols-1 rounded-4xl xl:grid-cols-1 gap-16 pt-20">
         
-          <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
-           <div className="relative bg-neutral-light rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} /></div>
-          <div className="flex flex-col gap-8">
-            <h1 className="text-3xl  text-primary   font-bold">Looking for Outstanding Household Staff?
-</h1>
-            <div className="flex flex-col md:flex-row gap-16">
-              <p className="text-lg text-neutral-dark font-medium ">At EnkaMax, we specialise in sourcing exceptional domestic professionals for high-net-worth households, private estates, and residences around the world. We know that your home is more than just a place—it’s a reflection of your lifestyle, standards, and values.<br/><br/>
-              That’s why we go beyond simply filling roles. Through our meticulous recruitment and vetting process, we introduce you only to candidates who meet the highest standards of experience, discretion, and dedication—whether you need a seasoned housekeeper, a qualified nanny, a governess, or a complete household team.</p>
+       
+          
+          
+          <div className="flex  gap-8">
+            <div>
+              <h1 className="text-3xl  text-primary  pb-10 font-bold">Looking for Outstanding Household Staff?</h1>
+              <div className="flex flex-col md:flex-row gap-16">
+                <p className="text-lg text-neutral-dark font-medium ">At EnkaMax, we specialise in sourcing exceptional domestic professionals for high-net-worth households, private estates, and residences around the world. We know that your home is more than just a place—it’s a reflection of your lifestyle, standards, and values.<br/><br/>
+                That’s why we go beyond simply filling roles. Through our meticulous recruitment and vetting process, we introduce you only to candidates who meet the highest standards of experience, discretion, and dedication—whether you need a seasoned housekeeper, a qualified nanny, a governess, or a complete household team.</p>
+              </div>
             </div>
+           </div>
+
+            <div className="relative bg-neutral-light rounded-4xl bg-cover bg-center  min-h-100 bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />
+            
+            <div>
             <h3 className="text-xl text-neutral-dark font-bold ">Why EnkaMax:
-</h3>
+            </h3>
             <ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
               <li>Discreet and expert recruitment for UHNW residences globally
-</li>
+              </li>
               <li>Tailored placements for housekeepers, nannies, governesses, and more</li>
               <li>Rigorous background checks and reference verification</li>
               <li>Flexibility for live-in, live-out, full-time, or rotational roles</li>

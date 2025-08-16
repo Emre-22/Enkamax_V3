@@ -4,10 +4,10 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
-import BulkPicture1 from "@/assets/bulkcard1.jpeg"
+import BulkPicture1 from "@/assets/fo2.jpeg"
 import BulkPicture3 from "@/assets/bulkcard3.jpeg"
 
-import FamilyOfficesBG from "@/assets/IndustryFamilyOffice.jpeg"
+import FamilyOfficesBG from "@/assets/fobg.jpeg"
 import Privatehouseholds from "@/assets/PrivateHouseholds.jpeg";
 import { BulkPictures } from "../../Components/BulkPictures";
 
@@ -15,7 +15,7 @@ export const FamilyOffices = () => {
   return <div className="">
     <Navbar/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${FamilyOfficesBG})`}} >
+            <div className="relative bg-neutral-light bg-cover bg-top  bg-no-repeat min-h-170  " style={{backgroundImage: `url(${FamilyOfficesBG})`}} >
                 <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
@@ -27,7 +27,7 @@ export const FamilyOffices = () => {
                 </div>
             </div>
           </div>
-  <div className="my-container grid grid-cols-1 rounded-4xl xl:grid-cols-2 gap-16 pt-30">
+  <div className="my-container grid grid-cols-1 rounded-4xl xl:grid-cols-2 gap-16 pt-20">
     
       <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
         <BulkPictures images={[BulkPicture1,BulkPicture3]}/>{/*<div className="relative bg-neutral-light rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />*/}</div>
@@ -51,7 +51,7 @@ export const FamilyOffices = () => {
     </div>
 
 
-    <div className="my-container py-20 gap-8 flex flex-col w-full ">
+    <div className="my-container pt-20 gap-8 flex flex-col w-full ">
       <h1 className="text-3xl text-center text-primary   font-bold">Elite Recruitment for Visionary Leaders & Private Family Offices</h1>
       <p className="text-lg text-neutral-dark font-medium  ">
         Whether you manage a Private Family Office, operate within the UHNW sector, or lead a fast-paced organisation as a CEO, our sister agency Achieve Professionals delivers bespoke recruitment solutions designed to meet your highest expectations.<br/><br/>

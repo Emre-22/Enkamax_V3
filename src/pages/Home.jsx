@@ -1,7 +1,7 @@
 import { Navbar } from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
 import { HeroSection } from "../Components/HeroSection";
-import BgImg from "@/assets/BG.jpeg"
+import BgImg from "@/assets/Castle2.jpg"
 import { Cards } from "../Components/Cards";
 import { AboutSection } from "../Components/AboutSection";
 export const Home = () =>{
@@ -11,10 +11,10 @@ export const Home = () =>{
         <main>
             <section
                 id="home"
-                className="relative bg-tertiary-foreground bg-cover bg-center bg-no-repeat overflow-x-hidden"
+                className="relative bg-tertiary-foreground bg-cover bg-left bg-no-repeat overflow-x-hidden"
                 style={{ backgroundImage: `url(${BgImg})` }}
                 >
-                <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent z-0" />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/75 to-transparent z-0" />
                 
                 <HeroSection />
             </section>

@@ -11,18 +11,7 @@ export const UnlockCareerGoals = () =>{
                         Thanks to our close relationships with leading global employers, we connect exceptional talent with exceptional environments — from private estates and yachts to luxury hotels and private family offices. Discreet, bespoke, and always candidate-focused, we accompany you every step of the way — with personalised guidance, absolute confidentiality, and the highest level of professionalism.<br/><br/>
                         If you're ready to take the next step, we're ready to guide you there.</p>
                     <div className="flex gap-16 flex-col flex-wrap lg:flex-nowrap  md:flex-row">
-                        <div className="flex flex-col w-full gap-4">
-                            <span className="flex gap-4">
-                                <Home className="text-secondary size-10"/>
-                            <h1 className="text-tertiary font-medium text-2xl">
-                                Knowledge & Guidance You Can Trust
-                            </h1>
-                            </span>
-                            <p className="text-tertiary text-wrap w-full text-xl">
-                                With deep expertise in Private Household and Luxury Hospitality recruitment, we offer more than just job placement — we provide honest, informed advice tailored to your career goals. Whether you're curious about realistic salary benchmarks or unsure which roles best match your experience, we’re here to guide you.<br/><br/>
-                                We support you in refining your CV, aligning terminology with industry standards, and ensuring you present yourself confidently and professionally in a highly competitive market. At EnkaMax, we don’t just connect people with positions — we help shape careers with precision, insight, and care.
-                            </p>
-                        </div>
+                        
                         <div className="flex flex-col w-full gap-4">
                              <span className="flex gap-4">
                                 <Home className="text-secondary size-10"/>
@@ -35,6 +24,33 @@ export const UnlockCareerGoals = () =>{
                                 Our work begins long before a vacancy opens. Through longstanding partnerships with UHNW families, private estates, luxury hospitality groups, and discreet family offices, we are the first to know when something truly special becomes available. These opportunities are rarely advertised and often entrusted exclusively to us.<br/><br/>
                                 By registering with EnkaMax, you gain access to a world that remains hidden to the public eye — roles that combine prestige, challenge, and reward in equal measure. We don’t just fill vacancies. We match unique individuals with life-changing positions that align with who they are and where they’re going.                            </p>
                         </div>
+                        
+                        
+                        
+<div className="flex flex-col w-full gap-4">
+                            <span className="flex gap-4">
+                                <Home className="text-secondary size-10"/>
+                            <h1 className="text-tertiary font-medium text-2xl">
+                                Knowledge & Guidance You Can Trust
+                            </h1>
+                            </span>
+                            <p className="text-tertiary text-wrap w-full text-xl">
+                               
+                               
+With deep expertise in Private Household and Luxury Hospitality recruitment, we offer more than just job placement — we provide honest, informed advice tailored to your career goals. Whether you're curious about realistic salary benchmarks or unsure which roles best match your experience, we’re here to guide you.<br/> <br/>
+
+We support you in refining your CV, aligning terminology with industry standards, and ensuring you present yourself confidently and professionally in a highly competitive market. Our approach is highly personalized, giving you the tools and insights you need to stand out among other candidates. We believe in long-term career building, not quick fixes, and always focus on securing positions that will truly elevate your professional journey.<br/> <br/>
+
+At EnkaMax, we don’t just connect people with positions — we help shape careers with precision, insight, and care.
+
+                               
+                                 </p>
+                        </div>
+
+
+
+
+                        
                         <div className="flex flex-col w-full gap-4">
                              <span className="flex gap-4">
                                 <Home className="text-secondary size-10"/>

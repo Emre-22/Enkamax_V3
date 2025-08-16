@@ -25,8 +25,8 @@ export const Services = () => {
   return <div className="">
     <Navbar/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-        <div className="relative  bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${ServiceBG})`}} >
-            <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
+        <div className="relative  bg-cover bg-top bg-no-repeat min-h-170  " style={{backgroundImage: `url(${ServiceBG})`}} >
+            <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/50 to-transparent z-1" />
     
             <div className="my-container flex flex-col gap-4">
                <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 

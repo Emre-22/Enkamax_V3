@@ -34,7 +34,7 @@ const Values = [
 export const About = () => {
   return <div className="">
     <Navbar/>
-      <div className="relative bg-tertiary-foreground bg-cover  min-h-170 w-auto bg-center bg-no-repeat mb-60 " 
+      <div className="relative bg-tertiary-foreground bg-cover  min-h-170 w-auto bg-top bg-no-repeat mb-30 " 
               style={{ backgroundImage: `url(${BgImg})` }}>
         <div className="absolute  min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
       <div className="relative my-container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
@@ -62,7 +62,7 @@ export const About = () => {
     <div className="my-container  flex flex-col lg:flex-row gap-8">
       <div className="w-full flex flex-col items-center">
 
-        <div className="w-full p-20 pb-40 text-neutral-dark bg-secondary ">
+        <div className="w-full p-20 pb-40 text-tertiary bg-secondary ">
           <h1 className="font-bold text-2xl pb-5">For Our Clients</h1>
           <p className="text-lg">At EnkaMax, we believe great partnerships are built on trust, transparency, and a deep understanding of your vision. We don’t just fill roles — we become a seamless extension of your team, aligning with your culture and long-term goals. Our bespoke recruitment and consulting services are designed to elevate your operations by delivering exceptional talent who fit perfectly, both professionally and personally. Whether you're building a team for a luxury estate, a private residence, or a five-star hotel — we're with you, every step of the way.</p>
         </div>
@@ -78,7 +78,7 @@ export const About = () => {
           <h1 className="font-bold text-2xl pb-5">For Candidates</h1>
           <p className="text-lg">Your next career step deserves more than just another job application. At Achieve Hospitality, we work with discretion and dedication to present you to top-tier clients who trust our recommendations. Instead of spending hours on endless applications, let us take the pressure off. Simply complete our quick form – and we’ll match your talent with truly exceptional opportunities.</p>
         </div>
-          <div className="relative w-[75%] p-10 group -translate-y-1/2 neutral-dark text-neutral-dark bg-secondary">
+          <div className="relative w-[75%] p-10 group -translate-y-1/2  text-tertiary bg-secondary">
             <h1 className="font-bold text-2xl pb-5"> A Trusted Career Partner for Exceptional Talent</h1>
             <ScrollLink to="/candidates" className="text-lg flex gap-4 font-bold underline ">Learn More <ChevronRight className="group-hover:translate-x-15 transition-all duration-600" size={30}/></ScrollLink>
 

@@ -37,7 +37,7 @@ export const Industries = () => {
   return <div className=" ">
     <Navbar/>
     <div className="relative z-15 w-full  text-tertiary  flex flex-col   gap-4">
-      <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${Pattern})`}} >
+      <div className="relative bg-neutral-light bg-cover bg-top bg-no-repeat min-h-170  " style={{backgroundImage: `url(${Pattern})`}} >
         <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
 
         <div className="my-container flex  flex-col gap-4">
