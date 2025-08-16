@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home"
 import { NotFound } from "./pages/NotFound"
 
@@ -32,7 +32,7 @@ import { Privatechefs } from "./pages/Industries/PrivateHouseHolds/PrivateChefs"
 function App() {
   return (
     <>
-      <BrowserRouter basename="/Enkamax_V3"> 
+      <HashRouter > 
 
         <Routes>
           <Route index element = {<Home />}/>
@@ -67,7 +67,7 @@ function App() {
 
           <Route path = "*" element = {<NotFound />}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
