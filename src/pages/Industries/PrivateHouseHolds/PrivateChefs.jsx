@@ -14,7 +14,7 @@ export const Privatechefs = () => {
     <Navbar/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
             <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${UHNWBG})`}} >
-                <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/100 to-transparent z-1" />
+                <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
@@ -79,7 +79,7 @@ export const Privatechefs = () => {
 
 
     <div className="relative my-container mt-20 py-20 bg-cover bg-center bg-no-repeat gap-8 flex flex-col w-full " style={{backgroundImage: `url(${PrivateChef2})`}}>
-      <div className="absolute  inset-0 bg-gradient-to-r from-black/100 to-transparent " />
+      <div className="absolute  inset-0 bg-gradient-to-r from-black/75 to-transparent " />
 
       <h1 className="text-3xl text-tertiary font-bold z-20">Your Trusted Partner in Private Chef Recruitment</h1>
       <h1 className="text-lg text-tertiary font-medium z-20">At EnkaMax, we specialise in placing exceptional culinary professionals in the most exclusive private households and residences around the world. Whether for daily gourmet dining, high-profile entertaining, or bespoke health-focused cuisine, we match skilled private chefs with discerning families and individuals who value excellence, discretion, and creativity.<br/>
