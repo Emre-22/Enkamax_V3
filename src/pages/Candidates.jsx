@@ -11,7 +11,7 @@ import Pattern from "@/assets/Pattern.webp"
 
 import { UnlockCareerGoals } from "../Components/UnlockCareerGoals";
 
-import ServiceBG from "@/assets/ServiceBG.jpeg"
+import ServiceBG from "@/assets/candidates.jpeg"
 
 import { Home } from 'lucide-react';
 import { Building2 } from 'lucide-react';

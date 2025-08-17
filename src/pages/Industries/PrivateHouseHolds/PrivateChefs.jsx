@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
 import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
-import  UHNWBG  from "@/assets/PrivateHouseHolds.jpeg"
+import  UHNWBG  from "@/assets/privatechef.png"
 import PrivateChef from "@/assets/PrivateChef.jpeg"
 import PrivateChef2 from "@/assets/chef2.jpeg"
 

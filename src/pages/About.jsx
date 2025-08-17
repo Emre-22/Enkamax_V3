@@ -34,7 +34,8 @@ const Values = [
 export const About = () => {
   return <div className="">
     <Navbar/>
-      <div className="relative bg-tertiary-foreground bg-cover  min-h-[90vh] w-auto bg-center bg-no-repeat mb-30 " 
+    <div className="h-30 w-full bg-primary"/>
+      <div className="relative bg-tertiary-foreground bg-cover  min-h-[90vh] w-auto bg-top bg-no-repeat mb-30 " 
               style={{ backgroundImage: `url(${BgImg})` }}>
         <div className="absolute  min-h-[90vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
       <div className="relative my-container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
