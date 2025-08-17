@@ -11,7 +11,7 @@ import { UnlockCareerGoals } from "./UnlockCareerGoals";
 
 export const AboutSection = () =>{
     return(
-        <section className="overflow-x-hidden">
+        <section className="overflow-x-hidden bg-white">
             <div id="about" className="py-20 my-container flex flex-col gap-16  items-center align-center ">
                 <h1 className="text-3xl font-bold  text-center lg text-primary">Bespoke Recruitment & Consulting for a World Beyond Ordinary</h1>
                 <p className="text-lg ">At EnkaMax, we don’t just fill positions — we shape exceptional environments. With deep expertise in the luxury sector, we offer bespoke recruitment and consulting services for UHNW individuals, VVIP families, and elite brands. From private estates, yachts, and jets to chalets and world-class hospitality venues, our approach is discreet, strategic, and relentlessly focused on quality. We work across time zones, cultures, and expectations — delivering excellence wherever you need us. Because true luxury begins with the right people — and the right partner.</p>

@@ -11,8 +11,8 @@ import { ScrollLink } from "../lib/ScrollLink";
 import RealEstate from "@/assets/realestate-bg.jpeg"
 import Hospitality from "@/assets/hospitality-bg.jpeg"
 import FamilyOffice from "@/assets/familyoffice.jpeg"
-import  Jet  from "@/assets/IndustryJet.jpeg"
-import  Yachting from "@/assets/Yachting.jpeg"
+import  Jet  from "@/assets/IndustryJet2.jpeg"
+import  Yachting from "@/assets/Yachting3.jpeg"
 import  Chalet from "@/assets/Chalet.jpeg"
 import  PrivateHouseHolds from "@/assets/householdestatemngmnt.jpeg"
 
@@ -157,7 +157,7 @@ export const Cards = ({animate=true}) => {
                   <img
                     src={item.img}
                     alt=""
-                    className="absolute inset-0 object-cover w-full h-full z-0 transition-all duration-300"
+                    className="absolute inset-0 object-cover brightness-125 w-full h-full z-0 transition-all duration-300"
                   />
 
                   {/* Gradient Overlay */}

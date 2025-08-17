@@ -4,7 +4,7 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
-import RealEstateBG from "@/assets/IndustryRealEstate.jpg"
+import RealEstateBG from "@/assets/Yachting.jpeg"
 import Hospitality from "@/assets/IndustryHospitality.jpeg"
 import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 
@@ -12,9 +12,11 @@ import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 export const Yachting = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-170  " style={{backgroundImage: `url(${RealEstateBG})`}} >
-                <div className="absolute min-h-170 inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
+    <div className="bg-white">
+
+    <div className="relative z-15 w-full  text-tertiary  font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[90vh]  " style={{backgroundImage: `url(${RealEstateBG})`}} >
+                <div className="absolute min-h-[90vh] h-full inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
@@ -24,7 +26,7 @@ export const Yachting = () => {
                 </div>
             </div>
           </div>
-    <div className="my-container flex flex-col gap-8 pt-30">
+    <div className="my-container  flex flex-col gap-8 pt-30">
       <h1 className="text-3xl text-primary font-bold text-center">EnkaMax Yacht Crew Recruitment<br/>
 Bespoke Excellence for the World’s Most Prestigious Vessels
 </h1>
@@ -77,6 +79,7 @@ On board, five-star service and flawless presentation are non-negotiable. The pr
 <br/>
 …EnkaMax is your trusted partner. Contact our Yacht Division today to experience recruitment as it should be – personal, precise, and anchored in excellence.</p>
       </div>
+    </div>
     </div>
     <ContactUs/>
     <Footer/>

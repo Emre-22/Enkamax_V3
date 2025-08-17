@@ -32,7 +32,7 @@ import { Privatechefs } from "./pages/Industries/PrivateHouseHolds/PrivateChefs"
 function App() {
   return (
     <>
-      <HashRouter > 
+      <HashRouter  > 
 
         <Routes>
           <Route index element = {<Home />}/>

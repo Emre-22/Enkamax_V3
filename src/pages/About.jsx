@@ -34,9 +34,9 @@ const Values = [
 export const About = () => {
   return <div className="">
     <Navbar/>
-      <div className="relative bg-tertiary-foreground bg-cover  min-h-170 w-auto bg-top bg-no-repeat mb-30 " 
+      <div className="relative bg-tertiary-foreground bg-cover  min-h-[90vh] w-auto bg-center bg-no-repeat mb-30 " 
               style={{ backgroundImage: `url(${BgImg})` }}>
-        <div className="absolute  min-h-170 inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
+        <div className="absolute  min-h-[90vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
       <div className="relative my-container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
         <h1 className="text-tertiary/90 -translate-y-30  text-center text-3xl font-bold">Enkamax: Bespoke Hospitality Recruitment for Luxury & Private Clients</h1>
         <div className="flex flex-col gap-8 w-auto rounded-[5px] bg-neutral-dark/40 backdrop-blur-2xl p-10 text-tertiary ">
