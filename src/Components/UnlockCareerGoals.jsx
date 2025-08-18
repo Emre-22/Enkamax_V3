@@ -3,7 +3,7 @@ import { ArrowRight,Home } from 'lucide-react';
 
 export const UnlockCareerGoals = () =>{
     return(
-        <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 border-t-5 border-secondary flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
+        <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 border-t-2 border-secondary flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
                 <div className="my-container  flex flex-col gap-16 p-16">
 
                     <h1 className="text-tertiary text-center font-bold text-3xl md:text-4xl">Unlock Your Long-Term Career Goals with EnkaMax</h1>

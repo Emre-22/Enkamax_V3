@@ -23,8 +23,8 @@ export const Navbar = () =>{
     },[])
 
     return (
-    <nav className={cn("fixed w-full z-50 transition-[padding,background-color] border-b-5 border-secondary duration-300 bg-primary  flex items-center",
-        isScrolled ? "py-[3vh] bg-primary shadow-xs" : "py-[5vh]",
+    <nav className={cn("fixed w-full z-50 transition-[padding,background-color] border-b-2 border-secondary duration-300 bg-primary  flex items-center",
+        isScrolled ? "py-[4vh] bg-primary shadow-xs" : "py-[6vh]",
         isMenuOpen ? "" : "" )}
     >
         <div className = "my-container mx-auto px-4 flex  items-center justify-between" >
@@ -53,7 +53,7 @@ export const Navbar = () =>{
                             <div className=" absolute  pt-5 group-hover:pointer-events-auto pointer-events-none ">
 
                             
-                            <div className=" -left-5 group-hover:opacity-100 group-hover:pointer-events-auto rounded-xl bg-primary shadow-2xl 
+                            <div className=" -left-5 group-hover:opacity-100 group-hover:pointer-events-auto rounded-xl bg-primary-background shadow-2xl 
                                         opacity-0 pointer-events-none  
                                         
                                         transition-all duration-300 z-20">
@@ -65,7 +65,7 @@ export const Navbar = () =>{
                                                         {sub.name}
                                                         <ChevronDown size={16} />
                                                     </div>
-                                                    <div className="absolute left-full top-0 mt-0  w-60 bg-primary rounded-xl shadow-lg opacity-0 group-hover/sub:opacity-100 pointer-events-none group-hover/sub:pointer-events-auto transition duration-300 z-30">
+                                                    <div className="absolute left-full top-0 mt-0  w-60 bg-primary-background rounded-xl shadow-lg opacity-0 group-hover/sub:opacity-100 pointer-events-none group-hover/sub:pointer-events-auto transition duration-300 z-30">
                                                         {sub.subMenu.map((deep, idx) => (
                                                             <ScrollLink
                                                                 key={idx}

@@ -18,7 +18,7 @@ export const Footer = () => {
                 
                 <div className="flex w-full md:border-l-2 md:border-r-2 border-secondary border-t-2 md:border-t-0 border-b-2 md:border-b-0 flex-col items-center pb-4 gap-4 ">
                     <div className="flex pl-10  w-40 flex-col gap-4">
-                    <ScrollLink to="/industries" className="text-2xl py-5 text-tertiary font-light  hover:text-neutral-mid underline underline-offset-8 decoration-secondary ">Industries</ScrollLink>
+                    <ScrollLink to="/industries" className="text-2xl py-5 text-tertiary font-light  hover:text-neutral-mid border-b-2 border-secondary ">Industries</ScrollLink>
                     {navItems[2]?.subMenu?.map((sub,subkey)=>(
                         <div key={subkey}>
                             <ScrollLink  to={sub.href} className="text-tertiary hover:text-neutral-mid hover:underline underline-offset-4 decoration-secondary font-medium">  
@@ -31,7 +31,7 @@ export const Footer = () => {
 
                 <div className="flex w-full flex-col items-center pb-4 gap-4 ">
                     <div className="flex flex-col pl-10 w-40  gap-4">
-                    <ScrollLink to="/services" className="text-2xl py-5 text-tertiary font-light  hover:text-neutral-mid underline underline-offset-8 decoration-secondary">Services</ScrollLink>
+                    <ScrollLink to="/services" className="text-2xl py-5 text-tertiary font-light  hover:text-neutral-mid border-b-2 border-secondary">Services</ScrollLink>
                     {navItems[3]?.subMenu?.map((sub,subkey)=>(
                         <div key={subkey}>
                             <ScrollLink  to={sub.href} className="text-tertiary hover:text-neutral-mid hover:underline underline-offset-4 decoration-secondary font-medium">  

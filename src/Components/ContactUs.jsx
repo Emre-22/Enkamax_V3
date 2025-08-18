@@ -6,7 +6,7 @@ export const ContactUs = () => {
     return( 
         <div className="bg-neutral-light ">
 
-    <div id="contact" className="flex  flex-col  border-t-5 border-b-5 border-secondary md:flex-row  w-full pb-8 scroll-m-80 my-40">
+    <div id="contact" className="flex  flex-col  border-t-2 border-b-2 border-secondary md:flex-row  w-full pb-8 scroll-m-80 my-40">
 
                 <div  className=" w-full flex my-container text-center md:text-center text-primary  py-16 flex-col gap-8 pb-4 ">
                     <h1 className="text-3xl md:text-4xl   font-bold">Let's talk through the details together!</h1>

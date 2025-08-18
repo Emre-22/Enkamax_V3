@@ -37,6 +37,10 @@ h1,h2,h3{
   --color-neutral-mid:var(--neutral-mid);
   --color-neutral-dark:var(--neutral-dark);
   --color-border:var(--border);
+
+  --breakpoint-3xl: 130rem;
+  --breakpoint-4xl: 170rem;
+
 }
 
 

@@ -7,8 +7,10 @@ import { AboutSection } from "../Components/AboutSection";
 export const Home = () =>{
     return <>
         <Navbar />
+        
+        <main className="relative">
+            <div className="h-30 w-full bg-primary"/>
 
-        <main className="pt-20 bg-primary">
             <section
                 id="home"
                 className="relative bg-tertiary-foreground bg-cover  bg-center bg-no-repeat overflow-x-hidden"

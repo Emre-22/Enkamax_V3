@@ -49,7 +49,7 @@ export const About = () => {
 
 
 
-    <div className="my-container flex flex-col mb-30 pt-80 lg:pt-70  gap-8"> 
+    <div className="my-container flex flex-col mb-30 pt-80 lg:pt-70  3xl:pt-45 4xl:pt-20   gap-8"> 
         <h1 className="text-3xl md:text-4xl  font-bold text-center   text-primary">Tailored Hospitality Recruitment That Embodies Your Vision</h1>
         <p className="text-lg w-full">At EnkaMax, we believe that every hospitality environment tells its own story — from the warmth of a boutique retreat to the precision of a Michelin-starred kitchen. That’s why we don’t just fill roles — we curate talent. We take the time to understand your culture, your standards, and your aspirations. With deep industry insight and an unwavering commitment to excellence, we connect you with professionals who don’t just meet expectations — they elevate them. Because your brand deserves more than a match — it deserves a legacy.</p>
     </div>

@@ -26,7 +26,7 @@ export const Contact = () => {
                      </div>
      
      
-                     <div className="border-t-5   md:border-l-5 md:border-t-0 border-secondary w-full text-center  justify-center  flex flex-col gap-4  pt-8 md:pt-0 ">
+                     <div className="border-t-2   md:border-l-5 md:border-t-0 border-secondary w-full text-center  justify-center  flex flex-col gap-4  pt-8 md:pt-0 ">
                          <div className="flex flex-col gap-8" >
                             <span>
                              <span className="text-lg md:text-2xl text-white"> Email us in confidence:  </span>

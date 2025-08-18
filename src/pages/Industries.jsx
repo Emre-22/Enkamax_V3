@@ -36,13 +36,15 @@ export const Industries = () => {
 
   return <div className=" ">
     <Navbar/>
-    <div className="relative z-15 w-full  text-tertiary  flex flex-col   gap-4">
-      <div className="relative bg-neutral-light bg-cover bg-[center_30%] bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${Pattern})`}} >
+      <div className="h-30 w-full bg-primary"/>
+
+    <div className="relative z-15 w-full  text-tertiary   flex flex-col   ">
+      <div className="relative bg-neutral-light bg-cover flex flex-col justify-center bg-[center_30%] bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${Pattern})`}} >
         <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
 
-        <div className="my-container flex  flex-col gap-4">
-           <div className="relative flex flex-col gap-4 my-container pt-40 pb-10 max-w-200  z-10"> 
-            <h1 className="text-tertiary/90 pt-30  text-center text-3xl md:text-4xl font-bold">Areas of Expertise</h1>
+        <div className="my-container flex bg-red-400 flex-col ">
+           <div className="relative flex flex-col gap-4 my-container  max-w-200  z-10"> 
+            <h1 className="text-tertiary/90  text-center text-3xl md:text-4xl font-bold">Areas of Expertise</h1>
             <p className="text-lg text-center font-medium  pb-15">At EnkaMax Recruiting & Consulting, our dedicated specialists bring deep expertise across our core divisions — Private Households & Estates, Luxury Hospitality, and Lifestyle & Retail. We combine the precision of a boutique agency with the reach and resources of a global partner, ensuring that every placement is a seamless match between talent and opportunity. Whether for a private estate, a luxury resort, or an exclusive retail brand, we deliver exceptional professionals tailored to your world.</p>
           </div>
         </div>

@@ -2,8 +2,9 @@ import { Link } from "react-router-dom"
 import { ScrollLink } from "../lib/ScrollLink";
 
 export const HeroSection = () => {
-    return <section className="relative  min-h-[50vh] z-20 flex flex-col w-full  pt-100 my-container mx-auto px-4  ">
-            <div className=" max-w-4xl -translate-y-30   ">
+    return <section className="relative    min-h-[50vh] z-20 flex flex-col w-full  justify-center my-container px-4  ">
+
+            <div className=" max-w-4xl      ">
                 <div className="space-y-6 ">
                     <h1  className="text-3xl md:text-4xl  font-bold text-tertiary fade-in-left">Precision. Discretion. Excellence. <br></br></h1>
                     <h2 style={{ animationDelay: '.1s' }} className="sm:text-2xl md:text-3xl  text-tertiary fade-in-left">Bespoke Recruiting & Consulting at Its Finest </h2>
