@@ -13,8 +13,8 @@ export const Contact = () => {
           <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
 
     <div className="relative  z-15 w-full  text-tertiary  font-medium flex flex-col   gap-4">
-            <div className="relative  flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat min-h-[50vh]  " style={{backgroundImage: `url(${ContactBG})`}} >
-                <div className="absolute min-h-[50vh] inset-0  bg-gradient-to-r from-black/75 to-transparent z-1" />
+            <div className="relative  flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat min-h-[90vh]  " style={{backgroundImage: `url(${ContactBG})`}} >
+                <div className="absolute min-h-[90vh] inset-0  bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col items-center py-20 justify-center gap-4">
                    <div className="relative  flex flex-col gap-4      z-10"> 
