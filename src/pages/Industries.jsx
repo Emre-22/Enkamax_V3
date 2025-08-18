@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 import {cardinfo} from "@/components/Cards"
 
 import { ScrollLink } from "../lib/ScrollLink";
-import ServiceBG from "@/assets/ServiceBG.jpeg"
+import ServiceBG from "@/assets/ServiceBG.webp"
 
-import Pattern from "@/assets/IndustriesBG.jpeg"
+import Pattern from "@/assets/IndustriesBG.webp"
 
 import { useState, useEffect } from "react";
 

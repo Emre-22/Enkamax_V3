@@ -1,6 +1,6 @@
 import { Navbar } from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
-import ContactBG from "@/assets/mailcontact.jpeg"
+import ContactBG from "@/assets/mailcontact.webp"
 
 import { Home } from "lucide-react";
 import { Link } from "react-router-dom";

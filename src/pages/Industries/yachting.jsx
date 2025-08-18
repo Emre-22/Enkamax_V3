@@ -4,10 +4,10 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
-import RealEstateBG from "@/assets/Yachting.jpeg"
-import Yachting2 from "@/assets/Yachting2.jpeg"
-import Yachting3 from "@/assets/Yachting3.jpeg"
-import Hospitality from "@/assets/IndustryHospitality.jpeg"
+import RealEstateBG from "@/assets/Yachting.webp"
+import Yachting2 from "@/assets/Yachting2.webp"
+import Yachting3 from "@/assets/Yachting3.webp"
+import Hospitality from "@/assets/IndustryHospitality.webp"
 import { BulkPictures } from "../../Components/BulkPictures";
 
 

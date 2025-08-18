@@ -4,8 +4,8 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
-import  UHNWBG  from "@/assets/domeststaff.jpeg"
-import Privatehouseholds from "@/assets/domeststaff2.jpeg";
+import  UHNWBG  from "@/assets/domeststaff.webp"
+import Privatehouseholds from "@/assets/domeststaff2.webp";
 
 
 export const DomesticStaff = () => {

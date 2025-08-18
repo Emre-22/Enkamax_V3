@@ -1,5 +1,5 @@
-import RealEstate from "@/assets/services.jpg"
-import LargeHouse from "@/assets/RealEstate.jpg"
+import RealEstate from "@/assets/services.webp"
+import LargeHouse from "@/assets/RealEstate.webp"
 import Pattern from "@/assets/Pattern.webp"
 import { ArrowRight,Home } from 'lucide-react';
 import { ContactUs } from "@/Components/ContactUs.jsx";

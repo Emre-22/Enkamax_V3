@@ -4,11 +4,11 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
-import BulkPicture1 from "@/assets/fo2.jpeg"
-import BulkPicture3 from "@/assets/bulkcard3.jpeg"
+import BulkPicture1 from "@/assets/fo2.webp"
+import BulkPicture3 from "@/assets/bulkcard3.webp"
 
-import FamilyOfficesBG from "@/assets/fobg.jpeg"
-import Privatehouseholds from "@/assets/PrivateHouseholds.jpeg";
+import FamilyOfficesBG from "@/assets/fobg.webp"
+import Privatehouseholds from "@/assets/PrivateHouseholds.webp";
 import { BulkPictures } from "../../Components/BulkPictures";
 
 export const FamilyOffices = () => {

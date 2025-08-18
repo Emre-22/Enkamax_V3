@@ -3,8 +3,8 @@ import { Footer } from "../../Components/Footer";
 import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
-import  Jet  from "@/assets/IndustryJet2.jpeg"
-import  Jet2  from "@/assets/IndustryJet.jpeg"
+import  Jet  from "@/assets/IndustryJet2.webp"
+import  Jet2  from "@/assets/IndustryJet.webp"
 
 
 

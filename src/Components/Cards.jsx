@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { ScrollLink } from "../lib/ScrollLink";
 
-import RealEstate from "@/assets/realestate-bg.jpeg"
-import Hospitality from "@/assets/hospitality-bg.jpeg"
-import FamilyOffice from "@/assets/familyoffice.jpeg"
-import  Jet  from "@/assets/IndustryJet2.jpeg"
-import  Yachting from "@/assets/Yachting3.jpeg"
-import  Chalet from "@/assets/Chalet.jpeg"
-import  PrivateHouseHolds from "@/assets/householdestatemngmnt.jpeg"
+import RealEstate from "@/assets/realestate-bg.webp"
+import Hospitality from "@/assets/hospitality-bg.webp"
+import FamilyOffice from "@/assets/familyoffice.webp"
+import  Jet  from "@/assets/IndustryJet2.webp"
+import  Yachting from "@/assets/Yachting3.webp"
+import  Chalet from "@/assets/Chalet.webp"
+import  PrivateHouseHolds from "@/assets/householdestatemngmnt.webp"
 
 import React, { useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from "lucide-react";

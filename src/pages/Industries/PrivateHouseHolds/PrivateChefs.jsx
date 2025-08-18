@@ -4,9 +4,9 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
-import  UHNWBG  from "@/assets/privatechef.png"
-import PrivateChef from "@/assets/ServiceBG.jpeg"
-import PrivateChef2 from "@/assets/chef2.jpeg"
+import  UHNWBG  from "@/assets/privatechef.webp"
+import PrivateChef from "@/assets/ServiceBG.webp"
+import PrivateChef2 from "@/assets/chef2.webp"
 
 export const Privatechefs = () => {
   return <div className="">

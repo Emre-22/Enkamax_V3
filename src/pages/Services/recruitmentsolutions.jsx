@@ -4,7 +4,7 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
-import RecruitmentsolutionsBG from "@/assets/Recruitmentsolutions.jpeg"
+import RecruitmentsolutionsBG from "@/assets/Recruitmentsolutions.webp"
 
 
 export const Recruitmentsolutions = () => {

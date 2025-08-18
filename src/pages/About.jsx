@@ -1,7 +1,7 @@
 import { Navbar } from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
 import { Statistics } from "@/Components/statistics.jsx"; 
-import BgImg from "@/assets/BG2.jpeg"
+import BgImg from "@/assets/BG2.webp"
 
 import { Home,ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";

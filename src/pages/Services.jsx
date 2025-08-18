@@ -8,7 +8,7 @@ import { Cards } from "../Components/Cards";
 
 import { ChevronRight} from "lucide-react";
 import { Link } from "react-router-dom";
-import ServiceBG from "@/assets/ServiceBG.jpeg"
+import ServiceBG from "@/assets/ServiceBG.webp"
 
 import { Home } from 'lucide-react';
 import { Building2 } from 'lucide-react';

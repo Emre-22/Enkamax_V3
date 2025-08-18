@@ -1,7 +1,7 @@
 import { Navbar } from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
 import { HeroSection } from "../Components/HeroSection";
-import BgImg from "@/assets/castle-3.jpeg"
+import BgImg from "@/assets/castle-3.webp"
 import { Cards } from "../Components/Cards";
 import { AboutSection } from "../Components/AboutSection";
 export const Home = () =>{
