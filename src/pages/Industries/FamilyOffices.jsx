@@ -14,14 +14,14 @@ import { BulkPictures } from "../../Components/BulkPictures";
 export const FamilyOffices = () => {
   return <div className="">
     <Navbar/>
-        <div className="h-30 w-full bg-primary"/>
+      <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
 
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center  bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${FamilyOfficesBG})`}} >
+            <div className="relative bg-neutral-light bg-cover bg-center flex flex-col justify-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${FamilyOfficesBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
-                <div className="my-container flex flex-col py-30 gap-4">
-                   <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
+                <div className="my-container flex flex-col  gap-4">
+                   <div className="relative flex flex-col gap-4 my-container items-center justify-center  max-w-200  z-10"> 
                     <h1 className="text-tertiary/90   text-center text-3xl md:text-4xl font-bold">Tailored Recruitment for Private & Multi-Family Offices</h1>
                     <p className="text-lg font-medium text-center ">Discreet, high-level talent acquisition for elite family operations.</p>
                     
@@ -31,8 +31,9 @@ export const FamilyOffices = () => {
           </div>
   <div className="my-container grid grid-cols-1 rounded-4xl xl:grid-cols-2 gap-16 pt-20">
     
-      <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
-        <BulkPictures images={[BulkPicture1,BulkPicture3]}/>{/*<div className="relative bg-neutral-light rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />*/}</div>
+      <div className="w-full min-h-[300px] py-40  xl:w-full xl:h-full   xl:max-h-none  ">
+        <BulkPictures images={[BulkPicture1,BulkPicture3]}/>
+        </div>
       <div className="flex flex-col gap-8">
         <h1 className="text-3xl  md:text-4xl  text-primary   font-bold">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
         <div className="flex flex-col md:flex-row gap-16">

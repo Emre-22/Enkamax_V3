@@ -10,14 +10,16 @@ import { ContactUs } from "@/Components/ContactUs.jsx"
 export const Contact = () => {
   return <div className="bg-primary">
     <Navbar/>
-    <div className="relative  z-15 w-full  text-tertiary pt-30 bg-primary font-medium flex flex-col   gap-4">
-            <div className="relative   bg-cover bg-center bg-no-repeat min-h-150 h-[50vh]  " style={{backgroundImage: `url(${ContactBG})`}} >
-                <div className="absolute min-h-150 h-[50vh] inset-0  bg-gradient-to-r from-black/75 to-transparent z-1" />
+          <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
+
+    <div className="relative  z-15 w-full  text-tertiary  font-medium flex flex-col   gap-4">
+            <div className="relative  flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat min-h-[50vh]  " style={{backgroundImage: `url(${ContactBG})`}} >
+                <div className="absolute min-h-[50vh] inset-0  bg-gradient-to-r from-black/75 to-transparent z-1" />
         
-                <div className="my-container flex flex-col items-center  justify-center gap-4">
-                   <div className="relative flex flex-col gap-4      z-10"> 
-                     <div className="h-[100%] max-h-[800px] w-full pt-35 md:pt-35 ">
-     <div id="contact" className="flex flex-col  md:flex-row   gap-8 scroll-m-80 mt-10">
+                <div className="my-container flex flex-col items-center py-20 justify-center gap-4">
+                   <div className="relative  flex flex-col gap-4      z-10"> 
+                     <div className=" w-full  ">
+     <div id="contact" className="flex flex-col  md:flex-row   gap-8 scroll-m-80">
      
                      <div  className=" w-full flex   flex-col gap-4 pb-4 ">
                          <h1 className="text-3xl md:text-4xl md:w-[80%] font-medium">Let’s Discuss Your Vision</h1>

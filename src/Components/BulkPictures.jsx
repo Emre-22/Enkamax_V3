@@ -2,14 +2,14 @@
 
 export const BulkPictures = ({ images }) => {
   return (
-    <div className="relative h-full w-full pb-15 flex justify-center items-center overflow-hidden">
+    <div className="relative h-full w-full pb-15 flex justify-center items-center ">
       {images.map((img, index) => {
         const isMain = index === 0;
         const translate =
           isMain
-            ? ""
+            ? "-translate-x-4"
             : index === 1
-              ? "translate-y-30 translate-x-15 md:translate-x-40"
+              ? "translate-y-30 translate-x-15 md:translate-x-25 3xl:translate-x-40"
               : "translate-y-30 -translate-x-40";
 
         const sizeClass =
@@ -20,7 +20,7 @@ export const BulkPictures = ({ images }) => {
         return (
           <div
             key={index}
-            className={`absolute ${translate} p-2 bg-tertiary shadow-lg`}
+            className={`absolute ${translate} p-1 bg-secondary shadow-lg`}
           >
             <div
               className={`${sizeClass} bg-cover bg-no-repeat bg-center`}

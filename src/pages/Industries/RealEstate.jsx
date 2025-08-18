@@ -12,14 +12,16 @@ import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 export const RealEstate = () => {
   return <div className="">
     <Navbar/>
+          <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
+
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-[center_30%] bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${RealEstateBG})`}} >
+            <div className="relative bg-neutral-light bg-cover flex flex-col justify-center bg-[center_30%] bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${RealEstateBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
-                <div className="my-container flex flex-col gap-4">
-                   <div className="relative flex flex-col gap-7 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-center text-3xl md:text-4xl font-bold">Tailored Global Property Solutions for Private & Investment Portfolios</h1>
-                    <p className="text-lg font-medium text-center ">
+                <div className="my-container flex flex-col  py-20 gap-4">
+                   <div className="relative flex flex-col gap-7  max-w-4xl   z-10"> 
+                    <h1 className="text-tertiary/90   text-left text-3xl md:text-4xl font-bold">Tailored Global Property Solutions for Private & Investment Portfolios</h1>
+                    <p className="text-lg font-medium text-left ">
                       Discreetly sourcing high-value real estate across the globe — from private residences to strategic investment opportunities.<br/><br/>
                     
                       Curated real estate services for UHNWIs, family offices, and institutional investors — from private residences to high-yield investments, we secure exclusive properties around the globe with absolute discretion and precision.</p>
@@ -27,7 +29,7 @@ export const RealEstate = () => {
                   </div>
                 </div>
             </div>
-          </div>
+      </div>
     <div className="my-container flex flex-col gap-8 pt-30">
       <h1 className="text-3xl  md:text-4xl text-primary font-bold text-center ">Global Property Solutions for the Discerning Few <br/>Exclusive Real Estate. Tailored to Your Vision.</h1>
       <div className="flex flex-col  gap-8">

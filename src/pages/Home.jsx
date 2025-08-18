@@ -9,11 +9,11 @@ export const Home = () =>{
         <Navbar />
         
         <main className="relative">
-            <div className="h-30 w-full bg-primary"/>
+      <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
 
             <section
                 id="home"
-                className="relative bg-tertiary-foreground bg-cover  bg-center bg-no-repeat overflow-x-hidden"
+                className="relative bg-tertiary-foreground bg-cover py-20  bg-center bg-no-repeat overflow-x-hidden"
                 style={{ backgroundImage: `url(${BgImg})` }}
                 >
                 <div className="absolute inset-0 bg-gradient-to-r from-black/75 to-transparent z-0" />

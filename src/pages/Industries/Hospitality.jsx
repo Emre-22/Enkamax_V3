@@ -12,14 +12,16 @@ import  UHNW  from "@/assets/PrivateHouseHolds.jpeg"
 export const Hospitality = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col pt-10   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh]  " style={{backgroundImage: `url(${HospitalityBG})`}} >
+    <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
+
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light flex flex-col justify-center py-20 bg-cover bg-center bg-no-repeat min-h-[50vh]  " style={{backgroundImage: `url(${HospitalityBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
-                   <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-center text-3xl md:text-4xl font-bold">Elite Talent for Private Estates & Hospitality | Precision. Discretion. Excellence.</h1>
-                    <h1 className="text-tertiary/90 pt-8 text-center text-3xl md:text-4xl font-bold">Trusted by UHNW Families & Iconic Brands. Your Global Partner for Discreet Placements in Private Residences, Yachts, Jets & Resorts</h1>
+                   <div className="relative flex flex-col gap-4   z-10"> 
+                    <h1 className="text-tertiary/90   text-left text-3xl md:text-4xl font-bold">Elite Talent for Private Estates & Hospitality | Precision. Discretion. Excellence.</h1>
+                    <h1 className="text-tertiary/90 pt-8 text-left text-3xl md:text-4xl font-bold">Trusted by UHNW Families & Iconic Brands. Your Global Partner for Discreet Placements in Private Residences, Yachts, Jets & Resorts</h1>
                     
                   </div>
                 </div>

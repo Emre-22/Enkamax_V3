@@ -12,13 +12,14 @@ import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 export const Chalets = () => {
   return <div className="">
     <Navbar/>
+<div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${RealEstateBG})`}} >
+            <div className="flex flex-col justify-center relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${RealEstateBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
-                   <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-left text-3xl md:text-4xl font-bold">EnkaMax Chalet & Luxury Ski Recruitment<br/>
+                   <div className="relative flex flex-col gap-4  max-w-4xl py-20  z-10"> 
+                    <h1 className="text-tertiary/90  text-left text-3xl md:text-4xl font-bold">EnkaMax Chalet & Luxury Ski Recruitment<br/>
 Tailored Excellence for the World’s Finest Mountain Retreats</h1>
                     <p className="text-lg font-medium text-left "> Whether you are staffing a privately owned alpine chalet or managing a luxury ski resort, EnkaMax specialises in placing expertly trained, highly vetted chalet staff anywhere in the world.<br/><br/>
 

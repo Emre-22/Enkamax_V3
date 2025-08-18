@@ -23,8 +23,8 @@ export const Navbar = () =>{
     },[])
 
     return (
-    <nav className={cn("fixed w-full z-50 transition-[padding,background-color] border-b-2 border-secondary duration-300 bg-primary  flex items-center",
-        isScrolled ? "py-[4vh] bg-primary shadow-xs" : "py-[6vh]",
+    <nav className={cn("fixed w-full z-50 border-b-2 border-secondary bg-primary  flex items-center",
+        isScrolled ? "py-[4vh] bg-primary shadow-xs" : "py-[4vh]",
         isMenuOpen ? "" : "" )}
     >
         <div className = "my-container mx-auto px-4 flex  items-center justify-between" >

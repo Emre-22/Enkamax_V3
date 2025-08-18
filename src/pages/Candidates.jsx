@@ -23,17 +23,20 @@ import { LampDesk } from 'lucide-react';
 import { benefits } from "../Constants/benefits";
 import { ServicesInfo } from "../Constants/servicesinfo";
 import { AreasOfExpertise } from "../Components/AreasOfExpertise";
+import { Benefits } from "../Components/Benefits";
 
 export const Candidates = () => {
   return <div className="">
     <Navbar/>
-    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${ServiceBG})`}} >
+          <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
+
+    <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col gap-4">
+        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[50vh] flex flex-col justify-center" style={{backgroundImage: `url(${ServiceBG})`}} >
             <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
     
-            <div className="my-container flex flex-col gap-4">
-               <div className="relative flex flex-col gap-4 my-container items-start pt-40 pb-10 max-w-200  z-10"> 
-                <h1 className="text-tertiary/90 pt-30  text-left text-3xl md:text-4xl font-bold">Discover Elite Careers in Global Luxury Hospitality
+            <div className="my-container flex flex-col py-2 gap-4">
+               <div className="relative flex flex-col gap-4 max-w-4xl py-20 items-start   z-10"> 
+                <h1 className="text-tertiary/90   text-left text-3xl md:text-4xl font-bold">Discover Elite Careers in Global Luxury Hospitality
 </h1>
                 <p className="text-lg font-medium text-left ">At EnkaMax, we specialise in connecting the finest hospitality talent with prestigious opportunities across the globe. From world-class five-star hotels and award-winning fine dining restaurants to private estates, luxury yachts, and exclusive alpine chalets, we place skilled professionals in roles where their expertise, dedication, and artistry truly shine.<br/><br/>
 
@@ -68,20 +71,7 @@ Ready to Elevate Your Career?<br/><br/>
 Your next role could be the one that transforms your professional journey. Explore our latest openings and discover how EnkaMax can connect you to opportunities that redefine your future in hospitality.</p><br/><br/>
       </div>
 
-      <div className="w-full min-h-110 bg-gradient-to-b from-neutral-dark to-primary/70 mb-40">
-        <h1 className="text-tertiary text-center p-8 text-3xl md:text-4xl">Your Benefits From Using Our Services</h1>
-        <div className="my-container flex flex-col md:flex-row  md:gap-16">
-          {benefits.map((item,key)=>{
-            const Icon=item.icon
-            return <div className="flex w-full flex-col mt-12 gap-4 pb-8 items-center text-tertiary" key = {key}>
-              <Icon className="text-secondary" size={40}/>
-              <h2 className="text-2xl">{item.title}</h2>
-              <p className="text-lg">{item.paragraph}</p>
-            </div>
-          })}
-        </div>  
-      
-        </div>
+      <Benefits/>
     </div>  
     <div className="mb-20">
       <UnlockCareerGoals/>

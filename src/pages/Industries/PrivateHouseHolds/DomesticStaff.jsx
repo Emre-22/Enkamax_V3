@@ -12,14 +12,15 @@ import Privatehouseholds from "@/assets/domeststaff2.jpeg";
 export const DomesticStaff = () => {
   return <div className="">
     <Navbar/>
+<div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${UHNWBG})`}} >
+            <div className="flex flex-col justify-center py-20 relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${UHNWBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
-                   <div className="relative flex flex-col gap-4 my-container items-center pt-20  pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-center text-3xl md:text-4xl font-bold">EnkaMax | Trusted Domestic Staff Agency for Discerning Clients Worldwide</h1>
-                    <p className="text-lg font-medium text-center ">Whether you're managing a busy family household, a private estate, or simply seeking support to enhance your daily life, EnkaMax connects you with carefully vetted, experienced domestic professionals who understand discretion, excellence, and service.<br/><br/>
+                   <div className="relative flex flex-col gap-8  max-w-4xl   z-10"> 
+                    <h1 className="text-tertiary/90  text-left text-3xl md:text-4xl font-bold">EnkaMax | Trusted Domestic Staff Agency for Discerning Clients Worldwide</h1>
+                    <p className="text-lg font-medium text-left ">Whether you're managing a busy family household, a private estate, or simply seeking support to enhance your daily life, EnkaMax connects you with carefully vetted, experienced domestic professionals who understand discretion, excellence, and service.<br/><br/>
 
 From housekeepers, nannies, and governesses to laundresses, butlers, and private chefs – we offer bespoke staffing solutions tailored to the unique lifestyles of high-net-worth families, private individuals, and global homeowners.<br/><br/>
 
@@ -29,7 +30,7 @@ Our mission is simple: to ensure your household runs with ease, grace, and absol
                 </div>
             </div>
           </div>
-    <div className=" my-container grid grid-cols-1 rounded-4xl xl:grid-cols-1 gap-16 pt-20">
+    <div className=" my-container grid grid-cols-1 rounded-4xl  xl:grid-cols-1 gap-16 pt-20">
         
        
           
@@ -44,10 +45,10 @@ Our mission is simple: to ensure your household runs with ease, grace, and absol
             </div>
            </div>
 
-            <div className="relative bg-neutral-light rounded-4xl bg-cover bg-center  min-h-100 bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />
+            <div className="relative bg-neutral-light rounded-4xl border-3 border-secondary bg-cover bg-center  min-h-100 bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />
             
             <div>
-            <h3 className="text-xl text-neutral-dark font-bold ">Why EnkaMax:
+            <h3 className="text-xl text-neutral-dark font-bold pb-4 ">Why EnkaMax:
             </h3>
             <ul className="list-disc pl-6 space-y-2 text-lg text-neutral-dark font-medium  ">
               <li>Discreet and expert recruitment for UHNW residences globally

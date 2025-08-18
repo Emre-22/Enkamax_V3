@@ -11,13 +11,14 @@ import  UHNWBG  from "@/assets/PrivateHouseHolds.jpeg"
 export const Householdestatemanagement = () => {
   return <div className="">
     <Navbar/>
+<div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${UHNWBG})`}} >
+            <div className="flex flex-col justify-center py-20 relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${UHNWBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
-                   <div className="relative flex flex-col gap-4 my-container  pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30   text-left text-3xl md:text-4xl font-bold">Bespoke Household & Estate Management Staffing</h1>
+                   <div className="relative flex flex-col gap-4  max-w-4xl  z-10"> 
+                    <h1 className="text-tertiary/90   text-left text-3xl md:text-4xl font-bold">Bespoke Household & Estate Management Staffing</h1>
                     <p className="text-lg font-medium text-left ">
                       At <span className="font-bold">EnkaMax</span>, we don’t just fill positions — we craft perfect matches.<br/><br/>
                       Every placement is a finely tailored arrangement, designed to meet the exacting standards of the world’s most discerning households and estates.<br/><br/>

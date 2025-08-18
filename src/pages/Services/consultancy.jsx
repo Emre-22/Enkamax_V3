@@ -10,13 +10,14 @@ import ConsultancyBG from "@/assets/consultancy.jpeg"
 export const Consultancy = () => {
   return <div className="">
     <Navbar/>
+<div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${ConsultancyBG})`}} >
+            <div className="flex flex-col justify-center py-20 relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${ConsultancyBG})`}} >
                 <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
-                <div className="my-container flex flex-col gap-4">
-                   <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-center text-3xl md:text-4xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
+                <div className="my-container items-center text-center flex flex-col gap-4">
+                   <div className="relative flex flex-col gap-4     z-10"> 
+                    <h1 className="text-tertiary/90  text-3xl md:text-4xl font-bold">Leveraging our team’s exceptional industry expertise, we craft tailored strategies to address your most specific business challenges</h1>
                     
                   </div>
                 </div>

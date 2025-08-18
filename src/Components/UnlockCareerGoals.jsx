@@ -4,7 +4,7 @@ import { ArrowRight,Home } from 'lucide-react';
 export const UnlockCareerGoals = () =>{
     return(
         <div id="services" style={{backgroundImage: `url(${Pattern})`}} className="w-full scroll-m-40 border-t-2 border-secondary flex bg-cover bg-center bg-no-repeat  max-h-auto  ">
-                <div className="my-container  flex flex-col gap-16 p-16">
+                <div className="my-container  flex flex-col gap-16 p-5 xl:p-16">
 
                     <h1 className="text-tertiary text-center font-bold text-3xl md:text-4xl">Unlock Your Long-Term Career Goals with EnkaMax</h1>
                     <p className="text-tertiary text-wrap w-full text-xl ">At EnkaMax, we understand that your next career move is about more than just a job — it’s about building a future that reflects your ambition, values, and expertise. As a trusted consultancy for UHNW households and the luxury hospitality sector, we offer you access to exclusive opportunities that are rarely advertised publicly.<br/><br/>
@@ -14,7 +14,7 @@ export const UnlockCareerGoals = () =>{
                         
                         <div className="flex flex-col w-full gap-4">
                              <span className="flex gap-4">
-                                <Home className="text-secondary size-10"/>
+                                <Home className="text-secondary shrink-0 size-10"/>
                                 <h1 className="text-tertiary font-medium text-2xl">
                                     Access to Exclusive Opportunities
                                 </h1>
@@ -29,7 +29,7 @@ export const UnlockCareerGoals = () =>{
                         
 <div className="flex flex-col w-full gap-4">
                             <span className="flex gap-4">
-                                <Home className="text-secondary size-10"/>
+                                <Home className="text-secondary shrink-0 size-10"/>
                             <h1 className="text-tertiary font-medium text-2xl">
                                 Knowledge & Guidance You Can Trust
                             </h1>
@@ -53,7 +53,7 @@ At EnkaMax, we don’t just connect people with positions — we help shape care
                         
                         <div className="flex flex-col w-full gap-4">
                              <span className="flex gap-4">
-                                <Home className="text-secondary size-10"/>
+                                <Home className="text-secondary shrink-0 size-10"/>
                                 <h1 className="text-tertiary font-medium text-2xl">
                                     Secure the Salary You Deserve
                                 </h1>

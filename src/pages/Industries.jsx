@@ -35,44 +35,45 @@ export const Industries = () => {
   }, []);
 
   return <div className=" ">
-    <Navbar/>
-      <div className="h-30 w-full bg-primary"/>
+      <Navbar/> 
+
+      <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
 
     <div className="relative z-15 w-full  text-tertiary   flex flex-col   ">
-      <div className="relative bg-neutral-light bg-cover flex flex-col justify-center bg-[center_30%] bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${Pattern})`}} >
+      <div className="relative bg-neutral-light bg-cover py-20 flex flex-col justify-center bg-[center_30%] bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${Pattern})`}} >
         <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
 
-        <div className="my-container flex bg-red-400 flex-col ">
-           <div className="relative flex flex-col gap-4 my-container  max-w-200  z-10"> 
-            <h1 className="text-tertiary/90  text-center text-3xl md:text-4xl font-bold">Areas of Expertise</h1>
-            <p className="text-lg text-center font-medium  pb-15">At EnkaMax Recruiting & Consulting, our dedicated specialists bring deep expertise across our core divisions — Private Households & Estates, Luxury Hospitality, and Lifestyle & Retail. We combine the precision of a boutique agency with the reach and resources of a global partner, ensuring that every placement is a seamless match between talent and opportunity. Whether for a private estate, a luxury resort, or an exclusive retail brand, we deliver exceptional professionals tailored to your world.</p>
+        <div className="my-container flex  justify-center flex-col ">
+           <div className="relative flex flex-col gap-4  max-w-4xl   z-10"> 
+            <h1 className="text-tertiary/90  text-left text-3xl lg:text-4xl font-bold">Areas of Expertise</h1>
+            <p className="text-lg text-left font-medium  ">At EnkaMax Recruiting & Consulting, our dedicated specialists bring deep expertise across our core divisions — Private Households & Estates, Luxury Hospitality, and Lifestyle & Retail. We combine the precision of a boutique agency with the reach and resources of a global partner, ensuring that every placement is a seamless match between talent and opportunity. Whether for a private estate, a luxury resort, or an exclusive retail brand, we deliver exceptional professionals tailored to your world.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div className="container">
+    <div className="lg:container p-5">
         
-        <div  className=" grid grid-cols-1  pt-30">
+        <div  className=" grid grid-cols-1  pt-20">
         {cardinfo.map((item, key)=>{
           const Icon = item.icon
-          return <div  key={key} className={cn("flex group  py-8 md:p-0  ",
-              key%2==1 ? "md:flex-row-reverse":""
+          return <div  key={key} className={cn("flex group  py-8 lg:p-0  ",
+              key%2==1 ? "lg:flex-row-reverse":""
             )}>
               <ScrollLink to={item.href} 
-              className={cn(`flex group  border-r-2 border-l-2 w-full flex-col md:flex-row ${key % 2 !== 0 ? "md:flex-row-reverse border-l-primary" : "border-r-primary"}
-              md:saturate-0 hover:saturate-100  border-transparent  transition-all  duration-300`,isResizing?"transition-none":"")}>
+              className={cn(`flex group  border-r-2 border-l-2 w-full flex-col lg:flex-row ${key % 2 !== 0 ? "lg:flex-row-reverse border-l-primary" : "border-r-primary"}
+              lg:saturate-0 hover:saturate-100  border-transparent  transition-all  duration-300`,isResizing?"transition-none":"")}>
 
-              <div className={cn(key%2==1 ? "mask-l-from-75% to-100% md:-translate-x-1/2 transition-all  md:group-hover:translate-x-0":"mask-r-from-75% to-100% md:translate-x-1/2 transition-all  md:group-hover:translate-x-0",
+              <div className={cn(key%2==1 ? "mask-l-from-75% to-100% lg:-translate-x-1/2 transition-all  lg:group-hover:translate-x-0":"mask-r-from-75% to-100% lg:translate-x-1/2 transition-all  lg:group-hover:translate-x-0",
                  "relative  bg-cover duration-600 min-h-100 w-full bg-center bg-no-repeat ",isResizing?"transition-none":"")} style={{ backgroundImage: `url(${item.img})` }}></div>
 
-              <div className={cn(key%2==1 ? "md:translate-x-1/2 transition-all  md:group-hover:translate-x-0":"md:-translate-x-1/2 transition-all group-hover:translate-x-0",
+              <div className={cn(key%2==1 ? "lg:translate-x-1/2 transition-all  lg:group-hover:translate-x-0":"lg:-translate-x-1/2 transition-all group-hover:translate-x-0",
                 " relative shadow-center text-tertiary-foreground   duration-600 bg-secondary/50 backdrop-blur-[200px] min-h-100 w-full   ",isResizing?"transition-none":"" )}>
-                <div className={cn("text-2xl font-medium flex items-center",key%2==0?"  md:flex-row-reverse":"")}>
-                  <Icon className="relative md:pl-0 pl-4  md:w-20 md:m-4 z-4 transition-colors duration-300  text-neutral-dark group-hover:text-primary" size={40} />
+                <div className={cn("text-2xl font-medium flex items-center",key%2==0?"  lg:flex-row-reverse":"")}>
+                  <Icon className="relative lg:pl-0 pl-4 shrink-0  lg:w-20 lg:m-4 z-4 transition-colors duration-300  text-neutral-dark group-hover:text-primary" size={40} />
                   <h1 className={cn("text-2xl p-10 font-medium text-")}>{item.title}</h1> 
                 </div>
-                <p className=" p-10 text-lg py-5">{item.paragraph} </p>
+                <p className=" p-5 lg:p-10 text-lg py-5">{item.paragraph} </p>
               </div>
             </ScrollLink>
          </div>

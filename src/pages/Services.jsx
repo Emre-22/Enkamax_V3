@@ -20,22 +20,25 @@ import { LampDesk } from 'lucide-react';
 import { benefits } from "../Constants/benefits";
 import { ServicesInfo } from "../Constants/servicesinfo";
 import { AreasOfExpertise } from "../Components/AreasOfExpertise";
+import { Benefits } from "../Components/Benefits";
 
 export const Services = () => {
   return <div className="">
     <Navbar/>
+          <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
+
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${ServiceBG})`}} >
+        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[50vh] flex flex-col items-center justify-center  " style={{backgroundImage: `url(${ServiceBG})`}} >
             <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/50 to-transparent z-1" />
     
-            <div className="my-container flex flex-col gap-4">
-               <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                <h1 className="text-tertiary/90 pt-30 text-center text-3xl md:text-4xl font-bold">EnkaMax – Redefining Elite Recruitment
+            <div className="my-container flex flex-col gap-4 py-20">
+               <div className="relative flex flex-col gap-4 my-container items-center   z-10"> 
+                <h1 className="text-tertiary/90  text-center text-3xl md:text-4xl font-bold">EnkaMax – Redefining Elite Recruitment
 </h1>
                 <p className="text-lg font-medium text-center ">Because the right talent doesn’t just fill a role – it transforms it.</p>
-                <ScrollLink to="/contact"  className="border-1 border-hover-secondary   rounded-3xl hover:shadow-center hover:bg-secondary transition-colors duration-300">
+                <a href="mailto:info@enkamax.com"  className="border-1 border-hover-secondary   rounded-3xl hover:shadow-center hover:bg-secondary transition-colors duration-300">
                                     <div className="text-tertiary  p-7 py-2 text-center font-bold" >Lets Talk</div>
-                </ScrollLink>
+                </a>
               </div>
             </div>
         </div>
@@ -78,20 +81,7 @@ At EnkaMax, we believe your success is measured by the people you trust to repre
                 );
               })}
             </div>
-      <div className="w-full min-h-110 bg-gradient-to-b from-neutral-dark to-primary/70 mb-20">
-        <h1 className="text-tertiary text-center p-8 text-3xl md:text-4xl">Your Benefits From Using Our Services</h1>
-        <div className="my-container flex flex-col md:flex-row  md:gap-16">
-          {benefits.map((item,key)=>{
-            const Icon=item.icon
-            return <div className="flex w-full flex-col mt-12 gap-4 pb-8 items-center text-tertiary" key = {key}>
-              <Icon className="text-secondary" size={40}/>
-              <h2 className="text-center text-2xl">{item.title}</h2>
-              <p className="text-lg text-center ">{item.paragraph}</p>
-            </div>
-          })}
-        </div>  
-      
-        </div>
+            <Benefits/>
     </div>  
     <AreasOfExpertise/>
     <Cards animate={false}/>
