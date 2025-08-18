@@ -6,9 +6,6 @@ import { ContactUs } from "../../Components/ContactUs";
 import  Jet  from "@/assets/IndustryJet2.jpeg"
 import  Jet2  from "@/assets/IndustryJet.jpeg"
 
-import RealEstateBG from "@/assets/IndustryRealEstate.jpg"
-import Hospitality from "@/assets/IndustryHospitality.jpeg"
-import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 
 
 export const Privatejets = () => {

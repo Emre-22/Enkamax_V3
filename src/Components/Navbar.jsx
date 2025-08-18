@@ -1,8 +1,6 @@
 
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
-import EnkamaxLogo from "@/assets/EnkamaxLogoOptimized3.svg"; 
-import PrivateHouseholds from "@/assets/PrivateHouseholds.jpeg"; 
 import { Menu,X,ChevronDown } from "lucide-react";
 import { ScrollLink } from "../lib/ScrollLink";
 

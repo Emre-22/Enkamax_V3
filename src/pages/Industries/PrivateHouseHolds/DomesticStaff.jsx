@@ -4,7 +4,6 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
-import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 import  UHNWBG  from "@/assets/domeststaff.jpeg"
 import Privatehouseholds from "@/assets/domeststaff2.jpeg";
 

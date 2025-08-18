@@ -8,7 +8,6 @@ import RealEstateBG from "@/assets/Yachting.jpeg"
 import Yachting2 from "@/assets/Yachting2.jpeg"
 import Yachting3 from "@/assets/Yachting3.jpeg"
 import Hospitality from "@/assets/IndustryHospitality.jpeg"
-import FamilyOffice from "@/assets/IndustryFamilyOffice.jpeg"
 import { BulkPictures } from "../../Components/BulkPictures";
 
 
