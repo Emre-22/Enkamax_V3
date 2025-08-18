@@ -79,7 +79,7 @@ export const Privatechefs = () => {
 </div>
 
 
-    <div className="relative my-container mt-20 py-20 bg-cover bg-center bg-no-repeat gap-8 flex flex-col w-full " style={{backgroundImage: `url(${PrivateChef2})`}}>
+    <div className="relative my-container mt-20 py-20 border-3 border-secondary bg-cover bg-center bg-no-repeat gap-8 flex flex-col w-full " style={{backgroundImage: `url(${PrivateChef2})`}}>
       <div className="absolute  inset-0 bg-gradient-to-r from-black/75 to-transparent " />
 
       <h1 className="text-3xl md:text-4xl  text-tertiary font-bold z-20">Your Trusted Partner in Private Chef Recruitment</h1>
@@ -99,7 +99,7 @@ export const Privatechefs = () => {
           </p>
 
         </div>
-        <div className="relative   py-20 md:py-40 w-full h-full gap-8 flex bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${PrivateChef})`}}/>
+        <div className="relative  border-3 border-secondary py-20 md:py-40 w-full h-full gap-8 flex bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${PrivateChef})`}}/>
           
     </div>
     <ContactUs/>
