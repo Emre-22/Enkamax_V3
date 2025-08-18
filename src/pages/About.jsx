@@ -36,10 +36,10 @@ export const About = () => {
     <Navbar/>
     
     <div className="h-30 w-full bg-primary"/>
-      <div className="relative bg-tertiary-foreground bg-cover  min-h-[50vh] w-auto bg-[center_10%] bg-no-repeat mb-30 " 
+      <div className="relative bg-tertiary-foreground bg-cover flex flex-col items-center justify-center  min-h-[50vh] w-auto bg-[center_10%] bg-no-repeat  " 
               style={{ backgroundImage: `url(${BgImg})` }}>
         <div className="absolute  min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
-      <div className="relative my-container pt-40 pb-10 translate-y-60 max-w-200  z-10"> 
+      <div className="relative my-container  translate-y-60 max-w-200  z-10"> 
         <h1 className="text-tertiary/90 -translate-y-30  text-center text-3xl md:text-4xl font-bold">Enkamax: Bespoke Hospitality Recruitment for Luxury & Private Clients</h1>
         <div className="flex flex-col gap-8 w-auto rounded-[5px] bg-neutral-dark/40 backdrop-blur-2xl p-10 text-tertiary ">
           <p className=" text-lg">At EnkaMax, we specialize in sourcing exceptional hospitality professionals for the world’s most prestigious hotels, private estates, and fine-dining establishments. We understand the intricacies and expectations of luxury service — discretion, excellence, and cultural fit. Whether you're searching for executive chefs, general managers, or front-of-house specialists, our tailored recruitment solutions ensure you find the perfect match to elevate your guest experience.</p>
@@ -49,8 +49,8 @@ export const About = () => {
 
 
 
-    <div className="my-container flex flex-col mb-30 pt-20 gap-8"> 
-        <h1 className="text-3xl md:text-4xl md:text-4xl font-bold text-center   text-primary">Tailored Hospitality Recruitment That Embodies Your Vision</h1>
+    <div className="my-container flex flex-col mb-30 pt-80 lg:pt-70  gap-8"> 
+        <h1 className="text-3xl md:text-4xl  font-bold text-center   text-primary">Tailored Hospitality Recruitment That Embodies Your Vision</h1>
         <p className="text-lg w-full">At EnkaMax, we believe that every hospitality environment tells its own story — from the warmth of a boutique retreat to the precision of a Michelin-starred kitchen. That’s why we don’t just fill roles — we curate talent. We take the time to understand your culture, your standards, and your aspirations. With deep industry insight and an unwavering commitment to excellence, we connect you with professionals who don’t just meet expectations — they elevate them. Because your brand deserves more than a match — it deserves a legacy.</p>
     </div>
     <Statistics/>    
