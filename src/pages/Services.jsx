@@ -25,12 +25,12 @@ export const Services = () => {
   return <div className="">
     <Navbar/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[90vh] " style={{backgroundImage: `url(${ServiceBG})`}} >
-            <div className="absolute min-h-[90vh] inset-0 bg-gradient-to-r from-black/50 to-transparent z-1" />
+        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${ServiceBG})`}} >
+            <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/50 to-transparent z-1" />
     
             <div className="my-container flex flex-col gap-4">
                <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                <h1 className="text-tertiary/90 pt-30 text-center text-2xl md:text-3xl font-bold">EnkaMax – Redefining Elite Recruitment
+                <h1 className="text-tertiary/90 pt-30 text-center text-3xl md:text-4xl font-bold">EnkaMax – Redefining Elite Recruitment
 </h1>
                 <p className="text-lg font-medium text-center ">Because the right talent doesn’t just fill a role – it transforms it.</p>
                 <ScrollLink to="/contact"  className="border-1 border-hover-secondary   rounded-3xl hover:shadow-center hover:bg-secondary transition-colors duration-300">
@@ -41,7 +41,7 @@ export const Services = () => {
         </div>
     </div>
     <div className="">
-      <h1 className="text-3xl text-primary  mt-20 font-bold mb-10 text-center">EnkaMax – Where Recruitment Becomes a Signature Experience</h1>
+      <h1 className="text-3xl  md:text-4xl text-primary  mt-20 font-bold mb-10 text-center">EnkaMax – Where Recruitment Becomes a Signature Experience</h1>
             
             
 
@@ -79,7 +79,7 @@ At EnkaMax, we believe your success is measured by the people you trust to repre
               })}
             </div>
       <div className="w-full min-h-110 bg-gradient-to-b from-neutral-dark to-primary/70 mb-20">
-        <h1 className="text-tertiary text-center p-8 text-3xl">Your Benefits From Using Our Services</h1>
+        <h1 className="text-tertiary text-center p-8 text-3xl md:text-4xl">Your Benefits From Using Our Services</h1>
         <div className="my-container flex flex-col md:flex-row  md:gap-16">
           {benefits.map((item,key)=>{
             const Icon=item.icon

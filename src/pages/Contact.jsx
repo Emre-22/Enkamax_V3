@@ -20,7 +20,7 @@ export const Contact = () => {
      <div id="contact" className="flex flex-col  md:flex-row   gap-8 scroll-m-80 mt-10">
      
                      <div  className=" w-full flex   flex-col gap-4 pb-4 ">
-                         <h1 className="text-3xl md:w-[80%] font-medium">Let’s Discuss Your Vision</h1>
+                         <h1 className="text-3xl md:text-4xl md:text-4xl md:w-[80%] font-medium">Let’s Discuss Your Vision</h1>
                          <p className="text-xl md:w-[80%] text-white font-medium">At EnkaMax, every conversation begins with understanding your aspirations. Whether you have questions, ideas, or specific requirements, we are here to listen and craft tailored solutions that exceed expectations.</p>
      
                      </div>
@@ -33,6 +33,8 @@ export const Contact = () => {
                              <span className="text-lg md:text-2xl text-white font-medium">info@enkamax.com </span>
                             </span>
                              <h1 className="text-lg md:text-2xl text-white">Discretion Guaranteed – Excellence Delivered</h1>
+                            <div className="flex w-full  justify-center "><a href="mailto:info@enkamax.com" ><h1 className="   bg-secondary transition-colors duration-300 font-medium hover:text-primary border-hover-secondary border-2 rounded-xl  p-2">Send an email now</h1></a></div>
+
                          </div>
                      </div>
                      

@@ -115,7 +115,7 @@ export const Cards = ({animate=true}) => {
   };
 
   return (
-    <div className="relative w-full bg-neutral-light px-5 py-20 md:px-20">
+    <div className="relative w-full border-t-5 border-b-5 border-secondary bg-neutral-light px-5 py-20 md:px-20">
       {/* Scroll Buttons */}
       <button
         onClick={() => scroll("left")}

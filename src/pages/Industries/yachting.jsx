@@ -14,20 +14,20 @@ export const Yachting = () => {
     <Navbar/>
     <div className="bg-white">
 
-    <div className="relative z-15 w-full  text-tertiary  font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[90vh]  " style={{backgroundImage: `url(${RealEstateBG})`}} >
-                <div className="absolute min-h-[90vh] h-full inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
+    <div className="relative z-15 w-full  text-tertiary pt-10  font-medium flex flex-col   gap-4">
+            <div className="relative bg-neutral-light bg-cover bg-center bg-no-repeat min-h-[50vh]  " style={{backgroundImage: `url(${RealEstateBG})`}} >
+                <div className="absolute min-h-[50vh] h-full inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
                 <div className="my-container flex flex-col gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-center text-2xl md:text-3xl font-bold">If you’re seeking distinguished charter or private yacht recruitment services, EnkaMax is your trusted partner — connecting world-class crew with the most prestigious vessels, ensuring service excellence on every voyage.</h1>
+                    <h1 className="text-tertiary/90 pt-30  text-center text-3xl md:text-4xl font-bold">If you’re seeking distinguished charter or private yacht recruitment services, EnkaMax is your trusted partner — connecting world-class crew with the most prestigious vessels, ensuring service excellence on every voyage.</h1>
                     
                   </div>
                 </div>
             </div>
           </div>
     <div className="my-container  flex flex-col gap-8 pt-30">
-      <h1 className="text-3xl text-primary font-bold text-center">EnkaMax Yacht Crew Recruitment<br/>
+      <h1 className="text-3xl  md:text-4xl text-primary font-bold text-center">EnkaMax Yacht Crew Recruitment<br/>
 Bespoke Excellence for the World’s Most Prestigious Vessels
 </h1>
       <div className="flex flex-col md:flex-row  gap-16">

@@ -24,8 +24,8 @@ export const Navbar = () =>{
 
     return (
     <nav className={cn("fixed w-full z-50 transition-[padding,background-color] border-b-5 border-secondary duration-300 bg-primary  flex items-center",
-        isScrolled ? "py-8 bg-primary/80 shadow-xs" : "py-15",
-        isMenuOpen ? "" : "backdrop-blur-md" )}
+        isScrolled ? "py-[3vh] bg-primary shadow-xs" : "py-[5vh]",
+        isMenuOpen ? "" : "" )}
     >
         <div className = "my-container mx-auto px-4 flex  items-center justify-between" >
             <ScrollLink to = "/">

@@ -14,13 +14,15 @@ import { BulkPictures } from "../../Components/BulkPictures";
 export const FamilyOffices = () => {
   return <div className="">
     <Navbar/>
+        <div className="h-30 w-full bg-primary"/>
+
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-            <div className="relative bg-neutral-light bg-cover bg-center  bg-no-repeat min-h-[90vh] " style={{backgroundImage: `url(${FamilyOfficesBG})`}} >
-                <div className="absolute min-h-[90vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
+            <div className="relative bg-neutral-light bg-cover bg-center  bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${FamilyOfficesBG})`}} >
+                <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
         
-                <div className="my-container flex flex-col gap-4">
+                <div className="my-container flex flex-col py-30 gap-4">
                    <div className="relative flex flex-col gap-4 my-container items-center pt-40 pb-10 max-w-200  z-10"> 
-                    <h1 className="text-tertiary/90 pt-30  text-center text-2xl md:text-3xl font-bold">Tailored Recruitment for Private & Multi-Family Offices</h1>
+                    <h1 className="text-tertiary/90   text-center text-3xl md:text-4xl font-bold">Tailored Recruitment for Private & Multi-Family Offices</h1>
                     <p className="text-lg font-medium text-center ">Discreet, high-level talent acquisition for elite family operations.</p>
                     
                   </div>
@@ -32,7 +34,7 @@ export const FamilyOffices = () => {
       <div className="w-full min-h-[300px] xl:w-full xl:h-full max-h-[400px]  xl:max-h-none  ">
         <BulkPictures images={[BulkPicture1,BulkPicture3]}/>{/*<div className="relative bg-neutral-light rounded-4xl bg-cover bg-center bg-no-repeat w-full h-full " style={{backgroundImage: `url(${Privatehouseholds})`}} />*/}</div>
       <div className="flex flex-col gap-8">
-        <h1 className="text-3xl  text-primary   font-bold">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
+        <h1 className="text-3xl  md:text-4xl  text-primary   font-bold">Discreet Talent Solutions for Private Family Offices & UHNW Leadership</h1>
         <div className="flex flex-col md:flex-row gap-16">
           <p className="text-lg text-neutral-dark font-medium ">At EnkaMax, we’ve proudly earned the trust of the world’s most discerning clients by placing exceptional talent in Private Households, Family Offices, and across the global UHNW community. Today, we extend our bespoke recruitment expertise to support CEOs, founders, and high-level executives in both private and corporate spheres — always with absolute discretion and precision.</p>
         </div>
@@ -52,7 +54,7 @@ export const FamilyOffices = () => {
 
 
     <div className="my-container pt-20 gap-8 flex flex-col w-full ">
-      <h1 className="text-3xl text-center text-primary   font-bold">Elite Recruitment for Visionary Leaders & Private Family Offices</h1>
+      <h1 className="text-3xl  md:text-4xl text-center text-primary   font-bold">Elite Recruitment for Visionary Leaders & Private Family Offices</h1>
       <p className="text-lg text-neutral-dark font-medium  ">
         Whether you manage a Private Family Office, operate within the UHNW sector, or lead a fast-paced organisation as a CEO, our sister agency Achieve Professionals delivers bespoke recruitment solutions designed to meet your highest expectations.<br/><br/>
 

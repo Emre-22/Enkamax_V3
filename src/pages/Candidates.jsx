@@ -28,12 +28,12 @@ export const Candidates = () => {
   return <div className="">
     <Navbar/>
     <div className="relative z-15 w-full  text-tertiary font-medium flex flex-col   gap-4">
-        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[90vh] " style={{backgroundImage: `url(${ServiceBG})`}} >
-            <div className="absolute min-h-[90vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
+        <div className="relative  bg-cover bg-center bg-no-repeat min-h-[50vh] " style={{backgroundImage: `url(${ServiceBG})`}} >
+            <div className="absolute min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
     
             <div className="my-container flex flex-col gap-4">
                <div className="relative flex flex-col gap-4 my-container items-start pt-40 pb-10 max-w-200  z-10"> 
-                <h1 className="text-tertiary/90 pt-30  text-left text-2xl md:text-3xl font-bold">Discover Elite Careers in Global Luxury Hospitality
+                <h1 className="text-tertiary/90 pt-30  text-left text-3xl md:text-4xl font-bold">Discover Elite Careers in Global Luxury Hospitality
 </h1>
                 <p className="text-lg font-medium text-left ">At EnkaMax, we specialise in connecting the finest hospitality talent with prestigious opportunities across the globe. From world-class five-star hotels and award-winning fine dining restaurants to private estates, luxury yachts, and exclusive alpine chalets, we place skilled professionals in roles where their expertise, dedication, and artistry truly shine.<br/><br/>
 
@@ -46,7 +46,7 @@ Our network extends to some of the most distinguished properties and private res
         </div>
       </div>
     <div className="">
-      <h1 className="text-3xl text-primary mt-20 mb-10  font-bold text-center">Take the Next Step in Your Hospitality Career with EnkaMax
+      <h1 className="text-3xl md:text-4xl text-primary mt-20 mb-10  font-bold text-center">Take the Next Step in Your Hospitality Career with EnkaMax
 </h1>
      
 
@@ -69,7 +69,7 @@ Your next role could be the one that transforms your professional journey. Explo
       </div>
 
       <div className="w-full min-h-110 bg-gradient-to-b from-neutral-dark to-primary/70 mb-40">
-        <h1 className="text-tertiary text-center p-8 text-3xl">Your Benefits From Using Our Services</h1>
+        <h1 className="text-tertiary text-center p-8 text-3xl md:text-4xl">Your Benefits From Using Our Services</h1>
         <div className="my-container flex flex-col md:flex-row  md:gap-16">
           {benefits.map((item,key)=>{
             const Icon=item.icon
