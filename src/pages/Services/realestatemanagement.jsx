@@ -4,8 +4,8 @@ import { Contact, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
-import RealestatemanagementBG from "@/assets/realestatemanagement.jpeg"
-import remngt from "@/assets/remngt.jpeg"
+import RealestatemanagementBG from "@/assets/realestatemanagement.webp"
+import remngt from "@/assets/remngt.webp"
 
 
 export const Realestatemanagement = () => {

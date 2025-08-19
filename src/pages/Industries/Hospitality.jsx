@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
 import HospitalityBG from "@/assets/IndustryHospitality.webp"
-import Hospt2 from "@/assets/Hospt2.jpeg"
+import Hospt2 from "@/assets/Hospt2.webp"
 import  UHNW  from "@/assets/PrivateHouseHolds.webp"
 
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
 import  UHNWBG  from "@/assets/PrivateHouseHolds.webp"
-import  hshld  from "@/assets/householdesttmng2.jpeg"
+import  hshld  from "@/assets/householdesttmng2.webp"
 
 
 export const Householdestatemanagement = () => {
