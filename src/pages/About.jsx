@@ -3,7 +3,7 @@ import { Footer } from "../Components/Footer";
 import { Statistics } from "@/Components/statistics.jsx"; 
 import BgImg from "@/assets/BG3.webp"
 
-import { Home,ChevronRight } from "lucide-react";
+import { Home,ChevronRight,BookMarked,Puzzle,Handshake } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import { ContactUs } from "@/Components/ContactUs.jsx"
@@ -14,19 +14,19 @@ const Values = [
   {
     title:"Committed to Every Step of the Journey",
     paragraph:"At EnkaMax, commitment isn’t just a value — it’s the foundation of everything we do. We invest deeply in the partnerships we build, the candidates we represent, and the teams we support. Recruitment is a shared journey, and we believe success comes when all sides are equally dedicated. That’s why we honour the trust and commitment shown by our clients and candidates — and return it with unwavering focus, care, and professionalism.",
-    icon:Home
+    icon:BookMarked
     
   },
   {
     title:"Bespoke Solutions, Exceptional Results",
     paragraph:"At EnkaMax, we know that true excellence lies in the details — and that no two clients are the same. That’s why we don’t offer generic solutions. Every recruitment journey with us is tailored from the ground up to reflect your unique needs, preferences, and vision. Our experienced team works with precision and passion, crafting bespoke strategies that align perfectly with your culture, standards, and long-term goals. Because when it comes to recruiting for the world’s most discerning clients, one size simply doesn’t fit all.",
-    icon:ChevronRight
+    icon:Puzzle
   
   },
   {
     title:"Built on Trust: Transparency at Every Step",
     paragraph:"At EnkaMax, transparency is the foundation of everything we do. We believe that open and honest communication is key to building lasting relationships — with our clients, our candidates, and our team. From the first conversation to the final placement, we make sure everyone is informed, aligned, and respected. With clear processes and shared expectations, we create confidence and clarity — every step of the way.",
-    icon:Home
+    icon:Handshake
   
   }
 ]

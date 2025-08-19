@@ -1,5 +1,5 @@
 import Pattern from "@/assets/Pattern.webp"
-import { ArrowRight,Home } from 'lucide-react';
+import { ArrowRight,Home,DoorClosedLocked,BrainCircuit,BanknoteArrowUp } from 'lucide-react';
 
 export const UnlockCareerGoals = () =>{
     return(
@@ -14,7 +14,7 @@ export const UnlockCareerGoals = () =>{
                         
                         <div className="flex flex-col w-full gap-4">
                              <span className="flex gap-4">
-                                <Home className="text-secondary shrink-0 size-10"/>
+                                <DoorClosedLocked  className="text-secondary shrink-0 size-10"/>
                                 <h1 className="text-tertiary font-medium text-2xl">
                                     Access to Exclusive Opportunities
                                 </h1>
@@ -29,7 +29,7 @@ export const UnlockCareerGoals = () =>{
                         
 <div className="flex flex-col w-full gap-4">
                             <span className="flex gap-4">
-                                <Home className="text-secondary shrink-0 size-10"/>
+                                <BrainCircuit className="text-secondary shrink-0 size-10"/>
                             <h1 className="text-tertiary font-medium text-2xl">
                                 Knowledge & Guidance You Can Trust
                             </h1>
@@ -53,7 +53,7 @@ At EnkaMax, we don’t just connect people with positions — we help shape care
                         
                         <div className="flex flex-col w-full gap-4">
                              <span className="flex gap-4">
-                                <Home className="text-secondary shrink-0 size-10"/>
+                                <BanknoteArrowUp  className="text-secondary shrink-0 size-10"/>
                                 <h1 className="text-tertiary font-medium text-2xl">
                                     Secure the Salary You Deserve
                                 </h1>

@@ -1,8 +1,9 @@
-import { Building2 } from 'lucide-react';
+import { Building2, Lamp, Plane } from 'lucide-react';
 import { HandPlatter } from 'lucide-react';
 import { Gem } from 'lucide-react';
 import { TreePalm } from 'lucide-react';
 import { LampDesk } from 'lucide-react';
+import { ChevronLeft, ChevronRight,Ship } from "lucide-react";
 
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -17,7 +18,6 @@ import  Chalet from "@/assets/Chalet.webp"
 import  PrivateHouseHolds from "@/assets/householdestatemngmnt.webp"
 
 import React, { useRef, useState } from 'react';
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 {"Industries"}
 export const cardinfo =[ 
@@ -60,7 +60,7 @@ export const cardinfo =[
         title:"Yachting",
         paragraph:"From serene sails to luxury charters, we source elite yacht crew who deliver seamless service on every sea. Whether for private ownership or charter experiences, our hand-picked professionals ensure your journey is nothing short of exceptional.",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
-        icon:LampDesk,
+        icon:Ship,
         img:Yachting,
         href:"/Industries/yachting",
     },
@@ -68,7 +68,7 @@ export const cardinfo =[
         title:"Chalet/Villa",
         paragraph:"Whether you're staffing a private mountain retreat or a luxury villa under the sun, we provide exceptional, hand-picked professionals who transform your property into an unforgettable experience. From seasoned chalet hosts to discreet villa teams — we deliver excellence, wherever your home may be.",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
-        icon:LampDesk,
+        icon:Lamp,
         img:Chalet,
         href:"/Industries/chalets",
     },
@@ -76,7 +76,7 @@ export const cardinfo =[
         title:"Private Jets",
         paragraph:"Discretion, precision, and professionalism define every crew member we place. Whether for short-haul or global travel, we deliver highly experienced, polished candidates who understand the unique standards of private aviation. From flight attendants to full crew staffing, we ensure your jet is serviced by individuals who embody trust, safety, and seamless luxury.",
         paragraph2:"We provide you the best hospitality provide you the best hospitality with best teamsWe provide you the best hospitality with best teams  provide  best teams provide you the best hospitality with best teams",
-        icon:LampDesk,
+        icon:Plane,
         img:Jet,
         href:"/Industries/privatejets",
     } 

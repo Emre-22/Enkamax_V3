@@ -1,10 +1,10 @@
-import { HandPlatter, Building2, Gem } from "lucide-react"
+import { HandPlatter, Building2, Gem,UserRoundSearch } from "lucide-react"
 
 export const ServicesInfo = [
   {
     name: "Recruitment Solutions",
     to: "/services/recruitmentsolutions",
-    icon: HandPlatter,
+    icon: UserRoundSearch,
     paragraph:"EnkaMax is an international recruitment and consulting firm specialising in Private Households of Ultra-High-Net-Worth Individuals and Luxury Hospitality. We provide tailored staffing solutions that meet the highest standards of skill, discretion, and professionalism. With a trusted global network and a rigorous vetting process, we ensure every placement integrates seamlessly into the most prestigious and confidential environments."
     
   },
