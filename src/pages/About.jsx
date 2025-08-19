@@ -1,7 +1,7 @@
 import { Navbar } from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
 import { Statistics } from "@/Components/statistics.jsx"; 
-import BgImg from "@/assets/BG2.webp"
+import BgImg from "@/assets/BG3.jpeg"
 
 import { Home,ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ export const About = () => {
     <Navbar/>
     
       <div className="h-[calc(56.391px+8vh)]  w-full bg-primary"/>
-      <div className="relative bg-tertiary-foreground bg-cover py-20 flex flex-col items-center justify-center  min-h-[50vh] w-auto bg-[center_10%] bg-no-repeat  " 
+      <div className="relative bg-tertiary-foreground bg-cover py-20 flex flex-col items-center justify-center  min-h-[50vh] w-auto bg-[center_25%] bg-no-repeat  " 
               style={{ backgroundImage: `url(${BgImg})` }}>
         <div className="absolute  min-h-[50vh] inset-0 bg-gradient-to-r from-black/75 to-transparent z-1" />
       <div className="relative my-container  translate-y-60 max-w-200  z-10"> 

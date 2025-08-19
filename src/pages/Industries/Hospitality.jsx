@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { ContactUs } from "../../Components/ContactUs";
 
 import HospitalityBG from "@/assets/IndustryHospitality.webp"
+import Hospt2 from "@/assets/Hospt2.jpeg"
 import  UHNW  from "@/assets/PrivateHouseHolds.webp"
 
 
@@ -26,13 +27,15 @@ export const Hospitality = () => {
                 </div>
             </div>
           </div>
+          
     <div className="my-container flex flex-col gap-8 pt-30">
       <h1 className="text-3xl md:text-4xl  text-center text-primary   font-bold">Expert Hospitality Recruitment for Luxury Establishments</h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-neutral-dark font-medium">At EnkaMax, we specialise in connecting world-class talent with prestigious hospitality environments — from five-star hotels and fine dining establishments to exclusive private members clubs, superyachts, and alpine chalets. Whether you're looking to hire exceptional professionals or take the next step in your luxury hospitality career, we ensure the perfect match.
           Explore the sectors below to discover more — and let us help you open the door to excellence.</p>
+    <div className="relative  py-40 mt-20 border-3 border-secondary bg-cover bg-center bg-no-repeat gap-8 flex flex-col w-full " style={{backgroundImage: `url(${Hospt2})`}}/>
       </div>
-      <h1 className="text-3xl  md:text-4xl text-center text-primary pt-30  font-bold">Solving Your Recruitment Challenges with Precision and Purpose</h1>
+      <h1 className="text-3xl  md:text-4xl text-center text-primary pt-20  font-bold">Solving Your Recruitment Challenges with Precision and Purpose</h1>
             <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-neutral-dark font-medium">At EnkaMax, we transform your hiring hurdles into seamless success stories. Our exclusive network of thoroughly pre-vetted professionals isn’t just extensive—it’s activated. We know who’s ready to make a move, and more importantly, what it takes to motivate that move.<br/><br/>
 

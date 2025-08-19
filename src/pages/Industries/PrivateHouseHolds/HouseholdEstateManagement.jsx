@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { ContactUs } from "../../../Components/ContactUs";
 
 import  UHNWBG  from "@/assets/PrivateHouseHolds.webp"
+import  hshld  from "@/assets/householdesttmng2.jpeg"
 
 
 export const Householdestatemanagement = () => {
@@ -88,7 +89,11 @@ export const Householdestatemanagement = () => {
           At EnkaMax, we don’t just place talent — we craft careers that redefine what’s possible in private estate management.<br/>
         </p>
       </div>
-      <h1 className="text-3xl  md:text-4xl text-primary mt-20 text-center font-bold">
+
+        <div className="relative  py-40 mt-10 border-3 border-secondary bg-cover bg-[center_30%] bg-no-repeat gap-8 flex flex-col w-full " style={{backgroundImage: `url(${hshld})`}}/>
+
+
+      <h1 className="text-3xl  md:text-4xl text-primary mt-10 text-center font-bold">
 Why Choose a Career in Private Service?<br/>Step Into a World Few Ever Experience      </h1>
       <div className="flex flex-col md:flex-row  gap-16">
         <p className="text-lg text-neutral-dark font-medium">
