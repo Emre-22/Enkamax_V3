@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     historyApiFallback: true
   },
-  base: "/Enkamax_V3",
+  base: "./",
   
   resolve:{
     alias:{
