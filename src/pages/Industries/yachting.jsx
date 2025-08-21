@@ -11,6 +11,11 @@ import Hospitality from "@/assets/IndustryHospitality.webp"
 import { BulkPictures } from "../../Components/BulkPictures";
 
 
+const images = [
+  Yachting3,
+  Yachting2, 
+];
+
 export const Yachting = () => {
   return <div className="">
     <Navbar/>
@@ -67,8 +72,36 @@ export const Yachting = () => {
 
           On board, five-star service and flawless presentation are non-negotiable. The professionals we place are not only experts in their roles but adept at delivering exceptional guest experiences, seamlessly blending formality, warmth, and adaptability – even under the demanding conditions of long hours and constant movement.<br/><br/>
           </p>         
-         <div className="w-full min-h-[300px] min-w-[500px] py-50  xl:w-full xl:h-full   xl:max-h-none  ">
-          <BulkPictures images={[Yachting3,Yachting2]}/>
+         <div className="w-full min-w-0   mt-20 2xl:mt-0 2xl:ml-40 3xl:ml-0 md:min-w-[500px] 3xl:min-w-[900px]  py-25 md:py-50 3xl:py-30  xl:w-full xl:h-full   xl:max-h-none  ">
+           <div className="relative h-full w-full pb-15 flex justify-center items-center ">
+              
+              {images.map((img, index) => {
+                const isMain = index === 0;
+                const translate =
+                  isMain
+                    ? "-translate-x-4 3xl:translate-y-8"
+                    : index === 1
+                      ? "translate-y-30  translate-x-20 md:translate-x-60 lg:translate-x-70 2xl:translate-x-45 md:translate-y-50 md:translate-x-50 2xl:translate-y-50 3xl:translate-x-40 3xl:translate-y-55"
+                      : "translate-y-30 -translate-x-40";
+
+                const sizeClass =
+                  isMain
+                    ? "lg:h-[500px] lg:w-[700px]  2xl:h-[30vw] h-[50vw] 2xl:w-[30vw] w-[70vw] min-w-[200px] min-h-[200px] max-w-[400px] max-h-[400px] 3xl:max-h-[400px] 3xl: max-w-[1000px] max-h-[500px] "
+                    : "h-[15vw] w-[30vw] min-w-[120px] min-h-[120px] max-w-[270px] max-h-[270px] 2xl:max-h-[200px] 3xl:max-h-[100px]";
+
+                return (
+                  <div
+                    key={index}
+                    className={`absolute ${translate} p-1 bg-secondary shadow-lg`}
+                  >
+                    <div
+                      className={`${sizeClass} bg-cover bg-no-repeat bg-center`}
+                      style={{ backgroundImage: `url(${img})` }}
+                    />
+                  </div>
+                );
+              })}
+            </div>
         </div>
         </div>
           <p className="text-lg text-neutral-dark font-medium">
